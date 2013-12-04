@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Cli", "Nircbot.Cli\Nircbot.Cli.csproj", "{A82D150E-B9D6-4517-98EA-462FA227469D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Core", "Nircbot.Core\Nircbot.Core.csproj", "{6883875C-ECA5-4F87-BCAF-2E56AF1467A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Common", "Nircbot.Common\Nircbot.Common.csproj", "{5317C190-6311-4837-AE91-6F8CA0BFF575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules", "Nircbot.Modules\Nircbot.Modules.csproj", "{4DE4693F-E428-4FD8-B1CC-96608498DD69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A82D150E-B9D6-4517-98EA-462FA227469D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82D150E-B9D6-4517-98EA-462FA227469D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82D150E-B9D6-4517-98EA-462FA227469D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82D150E-B9D6-4517-98EA-462FA227469D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6883875C-ECA5-4F87-BCAF-2E56AF1467A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6883875C-ECA5-4F87-BCAF-2E56AF1467A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6883875C-ECA5-4F87-BCAF-2E56AF1467A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6883875C-ECA5-4F87-BCAF-2E56AF1467A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5317C190-6311-4837-AE91-6F8CA0BFF575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5317C190-6311-4837-AE91-6F8CA0BFF575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5317C190-6311-4837-AE91-6F8CA0BFF575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5317C190-6311-4837-AE91-6F8CA0BFF575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE4693F-E428-4FD8-B1CC-96608498DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE4693F-E428-4FD8-B1CC-96608498DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE4693F-E428-4FD8-B1CC-96608498DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE4693F-E428-4FD8-B1CC-96608498DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

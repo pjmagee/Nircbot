@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6883875C-ECA5-4F87-BCAF-2E56AF1467A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nircbot.Core</RootNamespace>
+    <AssemblyName>Nircbot.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="IrcDotNet">
+      <HintPath>..\packages\IrcDotNet.0.4.1\lib\net40\IrcDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.3.0.1.10\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bot.cs" />
+    <Compile Include="Connections\IChannel.cs" />
+    <Compile Include="Connections\IIdentity.cs" />
+    <Compile Include="Connections\INetwork.cs" />
+    <Compile Include="Connections\IServer.cs" />
+    <Compile Include="Entities\Channel.cs" />
+    <Compile Include="Entities\Identity.cs" />
+    <Compile Include="Entities\Network.cs" />
+    <Compile Include="Entities\Server.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Infrastructure\Context.cs" />
+    <Compile Include="Infrastructure\DropCreateDatabaseAlwaysStrategy.cs" />
+    <Compile Include="Infrastructure\NetworkConfiguration.cs" />
+    <Compile Include="Irc\AbstractIrcClient.cs" />
+    <Compile Include="Irc\DefaultIrcClient.cs" />
+    <Compile Include="Irc\FakeIrcClient.cs" />
+    <Compile Include="Irc\IIrcClient.cs" />
+    <Compile Include="Irc\IIrcClientFactory.cs" />
+    <Compile Include="Irc\Messages\IRequest.cs" />
+    <Compile Include="Irc\Messages\IResponse.cs" />
+    <Compile Include="Irc\Messages\MessageFormat.cs" />
+    <Compile Include="Irc\Messages\MessageType.cs" />
+    <Compile Include="Irc\Messages\Request.cs" />
+    <Compile Include="Irc\Messages\Response.cs" />
+    <Compile Include="Module\AccessLevel.cs" />
+    <Compile Include="Module\BaseModule.cs" />
+    <Compile Include="Module\Command.cs" />
+    <Compile Include="Module\CommandEvent.cs" />
+    <Compile Include="Module\IModule.cs" />
+    <Compile Include="Module\IModuleFactory.cs" />
+    <Compile Include="Module\ScheduledTask.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DefaultUserService.cs" />
+    <Compile Include="Services\IUserService.cs" />
+    <Compile Include="Services\UserService.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
