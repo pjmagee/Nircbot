@@ -93,7 +93,11 @@ namespace Nircbot.Modules
         /// </returns>
         public override IEnumerable<Command> RegisterCommands()
         {
-            yield return new Command(DiceRegex, this.OnRoll) { LevelRequired = AccessLevel.None };
+            yield return new Command(DiceRegex, this.OnRoll)
+                             {
+                                 LevelRequired = AccessLevel.None,
+                                 Description = "Rolls a die"
+                             };
         }
 
         #endregion

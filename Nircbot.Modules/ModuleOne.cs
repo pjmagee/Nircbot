@@ -85,11 +85,18 @@ namespace Nircbot.Modules
         /// </returns>
         public override IEnumerable<Command> RegisterCommands()
         {
-            var helpCommand = new Command("!help", this.HandleHelp) { Accepts = MessageType.Public | MessageType.Private, LevelRequired = AccessLevel.Guest };
+            yield return new Command("!help", this.HandleHelp)
+                             {
+                                 Accepts = MessageType.Both, 
+                                 LevelRequired = AccessLevel.Guest,
+                                 Description = "Provides information about how to use the bot.",
+                             };
 
-            var youtubeCommand = new Command(youTubeRegex, this.HandleYoutubeLink) { LevelRequired = AccessLevel.None };
-
-            return new[] { helpCommand, youtubeCommand };
+            yield return new Command(youTubeRegex, this.HandleYoutubeLink)
+                             {
+                                 LevelRequired = AccessLevel.None,
+                                 Description = "Identifies Youtube videos and outputs information about them."
+                             };
         }
 
         /// <summary>

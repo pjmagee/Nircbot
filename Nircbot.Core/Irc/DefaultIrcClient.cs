@@ -142,31 +142,31 @@ namespace Nircbot.Core.Irc
         /// <summary>
         /// Bans the specified user.
         /// </summary>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="reason">
-        /// The reason.
-        /// </param>
+        /// <param name="channel">The channel.</param>
+        /// <param name="user">The user.</param>
+        /// <param name="reason">The reason.</param>
         public override void Ban(string channel, string user, string reason = null)
         {
             IrcChannel ircChannel = this.GetChannelByName(channel);
 
             if (ircChannel != null)
             {
-                // todo: ban user
+                try
+                {
+                    IrcChannelUser ircChannelUser = ircChannel.Users.First(channelUser => channelUser.User.NickName.Equals(user, StringComparison.OrdinalIgnoreCase));
+                    ircChannel.SetModes("+b", ircChannelUser.User.HostName);
+                }
+                catch (Exception e)
+                {
+                    Trace.TraceError(e.Message);
+                }                
             }
         }
 
         /// <summary>
         /// Connects the specified network.
         /// </summary>
-        /// <param name="network">
-        /// The network.
-        /// </param>
+        /// <param name="network">The network.</param>
         public override void Connect(INetwork network)
         {
             this.network = network;
@@ -176,19 +176,24 @@ namespace Nircbot.Core.Irc
         /// <summary>
         /// Connects the specified server.
         /// </summary>
-        /// <param name="server">
-        /// The server.
-        /// </param>
+        /// <param name="server">The server.</param>
         public override void Connect(IServer server)
         {
             this.server = server;
+            Connect();
+        }
 
+        /// <summary>
+        /// Connects the client.
+        /// </summary>
+        private void Connect()
+        {
             this.ircClient.Connected += this.OnIrcClientOnConnected;
             this.ircClient.ChannelListReceived += this.IrcClientOnChannelListReceived;
             this.ircClient.Registered += this.IrcClientOnRegistered;
             this.ircClient.RawMessageReceived += this.IrcClientOnRawMessageReceived;
             this.ircClient.RawMessageSent += this.IrcClientOnRawMessageSent;
-            this.ircClient.Connect(server.Address, server.Port.GetValueOrDefault(6667), server.Ssl, this.GetRegistration(this.network));
+            this.ircClient.Connect(this.server.Address, this.server.Port.GetValueOrDefault(6667), this.server.Ssl, this.GetRegistration(this.network));
             this.ircClient.Disconnected += this.IrcClientOnDisconnected;
         }
 
@@ -205,18 +210,24 @@ namespace Nircbot.Core.Irc
         /// <summary>
         /// Gets the users in the channel.
         /// </summary>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
+        /// <param name="channel">The channel.</param>
         /// <returns>
-        /// The <see cref="IEnumerable{User}"/>.
+        /// The <see cref="IEnumerable{User}" />.
         /// </returns>
         public override IEnumerable<User> GetUsersInChannel(string channel)
         {
-            var ircChannel = this.ircClient.Channels.FirstOrDefault(c => c.Name.Equals(channel, StringComparison.OrdinalIgnoreCase));
-            
-            return from channelUser in ircChannel.Users 
-                   select this.userService.GetUserByHost(channelUser.User.HostName);
+            try
+            {
+                var ircChannel = this.ircClient.Channels.FirstOrDefault(c => c.Name.Equals(channel, StringComparison.OrdinalIgnoreCase));
+                
+                return from channelUser in ircChannel.Users select this.userService.GetUserByHost(channelUser.User.HostName);
+            }
+            catch (Exception e)
+            {
+                Trace.TraceError(e.Message);
+            }
+
+            return Enumerable.Empty<User>();
         }
 
         /// <summary>

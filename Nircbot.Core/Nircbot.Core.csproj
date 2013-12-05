@@ -76,7 +76,7 @@
     <Compile Include="Module\AccessLevel.cs" />
     <Compile Include="Module\BaseModule.cs" />
     <Compile Include="Module\Command.cs" />
-    <Compile Include="Module\CommandEvent.cs" />
+    <Compile Include="Module\CommandHandler.cs" />
     <Compile Include="Module\IModule.cs" />
     <Compile Include="Module\IModuleFactory.cs" />
     <Compile Include="Module\ScheduledTask.cs" />

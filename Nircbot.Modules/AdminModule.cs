@@ -84,11 +84,22 @@ namespace Nircbot.Modules
         /// </returns>
         public override IEnumerable<Command> RegisterCommands()
         {
-            var join = new Command("!join", this.JoinChannel) { LevelRequired = AccessLevel.None, Accepts = MessageType.Both };
+            var join = new Command("!join", this.JoinChannel)
+                           {
+                               Description = "Commands the bot to join a channel on the network.",
+                               LevelRequired = AccessLevel.None,
+                               Accepts = MessageType.Both
+                           };
+
             join.CreateArgument("channel");
             join.CreateArgument("key");
 
-            var admins = new Command("!admins", this.ListAdmins) { LevelRequired = AccessLevel.None, Accepts = MessageType.Both };
+            var admins = new Command("!admins", this.ListAdmins)
+                             {
+                                 LevelRequired = AccessLevel.None, 
+                                 Accepts = MessageType.Both,
+                                 Description = "Lists information about the admins of the bot",
+                             };
             
             return new[] { join, admins };
         }

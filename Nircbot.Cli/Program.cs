@@ -51,9 +51,7 @@ namespace Nircbot.Cli
         /// <summary>
         /// The main.
         /// </summary>
-        /// <param name="args">
-        /// The args.
-        /// </param>
+        /// <param name="args">The args.</param>
         public static void Main(string[] args)
         {
             // This is our composition root.
@@ -69,17 +67,25 @@ namespace Nircbot.Cli
                 kernel.Bind<IIrcClient>().To<DefaultIrcClient>();
                 kernel.Bind<IIrcClientFactory>().ToFactory();
 
-                kernel.Bind<IModule>().To<DiceModule>()
-                    .WithPropertyValue("Name", "Dice Module");
+                kernel.Bind<IModule>()
+                    .To<ModuleOne>()
+                    .WithPropertyValue("Name", "ModuleOne")
+                    .WithPropertyValue("Description", "The first module ever created");
 
-                kernel.Bind<IModule>().To<ModuleOne>()
-                    .WithPropertyValue("Name", "ModuleOne");
+                kernel.Bind<IModule>()
+                    .To<DiceModule>()
+                    .WithPropertyValue("Name", "Dice Module")
+                    .WithPropertyValue("Description", "Module for rolling a dice");
+                
+                kernel.Bind<IModule>()
+                    .To<RubyModule>()
+                    .WithPropertyValue("Name", "Ruby Module")
+                    .WithPropertyValue("Description", "Supports executing ruby scripts");
 
-                kernel.Bind<IModule>().To<RubyModule>()
-                    .WithPropertyValue("Name", "Ruby Module");
-
-                kernel.Bind<IModule>().To<AdminModule>()
-                    .WithPropertyValue("Name", "Admin Module");
+                kernel.Bind<IModule>()
+                    .To<AdminModule>()
+                    .WithPropertyValue("Name", "Admin Module")
+                    .WithPropertyValue("Description", "Administers the bot");
 
                 kernel.Bind<IModuleFactory>().ToFactory();
 

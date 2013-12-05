@@ -69,7 +69,7 @@ namespace Nircbot.Modules
         /// <summary>
         /// The iron ruby path.
         /// </summary>
-        private static readonly string ironRubyPath = ConfigurationManager.AppSettings.Get("Iron.Ruby.Path");
+        private static readonly string IronRubyPath = ConfigurationManager.AppSettings.Get("Iron.Ruby.Path");
 
         #endregion
 
@@ -144,12 +144,8 @@ namespace Nircbot.Modules
         /// <summary>
         /// Called when [notice].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="notice">
-        /// The notice.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="notice">The notice.</param>
         public override void OnNotice(User user, string notice)
         {
             foreach (var module in this.instancedModules)
@@ -168,12 +164,8 @@ namespace Nircbot.Modules
         /// <summary>
         /// Called when [private message].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="message">
-        /// The message.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="message">The message.</param>
         public override void OnPrivateMessage(User user, string message)
         {
             foreach (var module in this.instancedModules)
@@ -192,15 +184,9 @@ namespace Nircbot.Modules
         /// <summary>
         /// Called when [public message].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
-        /// <param name="message">
-        /// The message.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
+        /// <param name="message">The message.</param>
         public override void OnPublicMessage(User user, string channel, string message)
         {
             foreach (var module in this.instancedModules)
@@ -219,12 +205,8 @@ namespace Nircbot.Modules
         /// <summary>
         /// Called when [user joined].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
         public override void OnUserJoined(User user, string channel)
         {
             foreach (var module in this.instancedModules)
@@ -243,15 +225,9 @@ namespace Nircbot.Modules
         /// <summary>
         /// Called when [user kicked].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
-        /// <param name="message">
-        /// The message.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
+        /// <param name="message">The message.</param>
         public override void OnUserKicked(User user, string channel, string message)
         {
             foreach (var module in this.instancedModules)
@@ -270,12 +246,8 @@ namespace Nircbot.Modules
         /// <summary>
         /// Called when [user left].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
         public override void OnUserLeft(User user, string channel)
         {
             foreach (var module in this.instancedModules)
@@ -299,20 +271,23 @@ namespace Nircbot.Modules
         /// </returns>
         public override IEnumerable<Command> RegisterCommands()
         {
-            yield return new Command("!irb", (user, s, type, format, message, arguments) => this.InteractiveRuby(user, s, type, format, message, arguments))
+            yield return new Command("!irb", this.InteractiveRuby)
             {
+                Description = "Provides a piped interactive ruby session for a user.",
                 Accepts = MessageType.Both, 
                 LevelRequired = AccessLevel.None
             };
 
-            yield return new Command("!reload", () => this.InitializeScripts())
+            yield return new Command("!reload", this.InitializeScripts)
             {
+                Description = "Reloads all the currently loaded scripts.",
                 Accepts = MessageType.Both, 
                 LevelRequired = AccessLevel.None
             };
 
-            yield return new Command("!refresh", () => this.RefreshScripts())
+            yield return new Command("!refresh", this.RefreshScripts)
             {
+                Description = "Loads any new scripts that are not currently loaded",
                 Accepts = MessageType.Both, 
                 LevelRequired = AccessLevel.None
             };
@@ -326,13 +301,13 @@ namespace Nircbot.Modules
         /// Creates the process.
         /// </summary>
         /// <returns>
-        /// The <see cref="Process"/>.
+        /// The <see cref="Process" />.
         /// </returns>
         private static Process CreateProcess()
         {
             var ironRuby = new Process
             {
-                StartInfo = new ProcessStartInfo(ironRubyPath)
+                StartInfo = new ProcessStartInfo(IronRubyPath)
                 {
                     RedirectStandardInput = true, 
                     RedirectStandardOutput = true, 
@@ -349,22 +324,12 @@ namespace Nircbot.Modules
         /// <summary>
         /// Adds the user to session.
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="ironRuby">
-        /// The iron ruby.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="ironRuby">The iron ruby.</param>
         private void AddUserToSession(User user, Process ironRuby)
         {
             var item = new CacheItem(user.Nick, ironRuby);
-
-            var policy = new CacheItemPolicy
-                             {
-                                 SlidingExpiration = TimeSpan.FromMinutes(5), 
-                                 RemovedCallback = this.RemovedCallback
-                             };
-
+            var policy = new CacheItemPolicy { SlidingExpiration = TimeSpan.FromMinutes(5), RemovedCallback = this.RemovedCallback };
             this.interactiveSessions.Add(item, policy);
         }
 
@@ -380,11 +345,8 @@ namespace Nircbot.Modules
             if (!this.interactiveSessions.Contains(user.Nick))
             {
                 var ironRuby = CreateProcess();
-
                 this.AddUserToSession(user, ironRuby);
-
                 ironRuby.Start();
-
                 this.ReadFromSession(ironRuby, user, channel);
             }
         }
@@ -395,31 +357,25 @@ namespace Nircbot.Modules
         private void InitializeScripts()
         {
             this.LoadAndExecuteScripts();
-
             this.SetGlobalVariables();
-
-            this.InstanceModules();
-
-            // Lets see wtf happends here.
             this.InstanceModules();
         }
 
         /// <summary>
         /// Checks if an already loaded instance has the same name as an item
         /// </summary>
-        /// <param name="instance">
-        /// The instance.
-        /// </param>
-        /// <param name="item">
-        /// The item.
-        /// </param>
+        /// <param name="instance">The instance.</param>
+        /// <param name="item">The item.</param>
         /// <returns>
         /// Returns true if the instance with a class name is the same as the name of the item to be instanced otherwise false.
         /// </returns>
+        /// <exception cref="System.Exception">Instance provided is not known.</exception>
         private bool InstanceLoaded(dynamic instance, dynamic item)
         {
-            if(!this.instancedModules.Contains(instance))
-                throw new Exception("Instance provided is not known.");
+            if (!this.instancedModules.Contains(instance))
+            {
+                throw new Exception("Instance provided is not a known instance.");
+            }
 
             try
             {
@@ -428,6 +384,7 @@ namespace Nircbot.Modules
             catch (Exception e)
             {
                 Trace.TraceError(e.Message);
+                Trace.TraceError(e.StackTrace);
                 throw;
             }
         }
@@ -520,15 +477,9 @@ namespace Nircbot.Modules
         /// <summary>
         /// Reads from session.
         /// </summary>
-        /// <param name="irb">
-        /// The irb.
-        /// </param>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
+        /// <param name="irb">The irb.</param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
         private void ReadFromSession(Process irb, User user, string channel)
         {
             // Read all standard output
@@ -562,22 +513,29 @@ namespace Nircbot.Modules
         /// </summary>
         private void RefreshScripts()
         {
-            var files = Directory.GetFiles(this.ScriptsDirectory).Select(f => new FileInfo(f)).ToList();
-
-            var baseModuleFile = files.First(f => f.Name.Equals(ModuleFileName, StringComparison.OrdinalIgnoreCase));
-
-            foreach (var script in files.Except(files.Concat(new[] { baseModuleFile })))
+            try
             {
-                this.engine.ExecuteFile(script.FullName);
+                var files = Directory.GetFiles(this.ScriptsDirectory).Select(f => new FileInfo(f)).ToList();
+
+                var baseModuleFile = files.First(f => f.Name.Equals(ModuleFileName, StringComparison.OrdinalIgnoreCase));
+
+                foreach (var script in files.Except(files.Concat(new[] { baseModuleFile })))
+                {
+                    this.engine.ExecuteFile(script.FullName);
+                }
+
+                this.InstanceModules();
+            }
+            catch (Exception e)
+            {
+                Trace.TraceError(e.Message);
             }
         }
 
         /// <summary>
         /// Removes the session.
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
+        /// <param name="user">The user.</param>
         private void RemoveSession(User user)
         {
             if (this.interactiveSessions.Contains(user.Nick))
@@ -589,9 +547,7 @@ namespace Nircbot.Modules
         /// <summary>
         /// Removeds the callback.
         /// </summary>
-        /// <param name="arguments">
-        /// The arguments.
-        /// </param>
+        /// <param name="arguments">The arguments.</param>
         private void RemovedCallback(CacheEntryRemovedArguments arguments)
         {  
             // Lets kill the process before removing it from our in-memory cache
@@ -623,12 +579,8 @@ namespace Nircbot.Modules
         /// <summary>
         /// Writes to session.
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="message">
-        /// The message.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="message">The message.</param>
         private void WriteToSession(User user, string message)
         {
             var process = this.interactiveSessions[user.Nick] as Process;
