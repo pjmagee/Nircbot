@@ -11,6 +11,7 @@
     <AssemblyName>Nircbot.Cli</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -131,10 +131,27 @@
       <Project>{6883875c-eca5-4f87-bcaf-2e56af1467a0}</Project>
       <Name>Nircbot.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Nircbot.Modules.Admin\Nircbot.Modules.Admin.csproj">
+      <Project>{5708122E-D567-4E92-B01B-A1605600F907}</Project>
+      <Name>Nircbot.Modules.Admin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nircbot.Modules.Ruby\Nircbot.Modules.Ruby.csproj">
+      <Project>{6CD3E542-11F9-4153-A604-80CC5F3D37C3}</Project>
+      <Name>Nircbot.Modules.Ruby</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Nircbot.Modules\Nircbot.Modules.csproj">
       <Project>{4de4693f-e428-4fd8-b1cc-96608498dd69}</Project>
       <Name>Nircbot.Modules</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="%40Database\Database.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="%40Database\Database_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,14 +1,17 @@
 ﻿
 class BotModule
 	
+	include Nircbot::Core::Module
+	include System::Collections::Generic
 	include System::Diagnostics
-
-	attr_accessor :name
-	attr_accessor :description
 	
+	attr_accessor :name
+	attr_accessor :description	
+	attr_accessor :commands
 	attr_reader :client
-
+	
 	def initialize(client)
+		@commands = List.of(Command).new
 		@client = client		
 		Trace.trace_information "I am #{self.class.name}"
 	end
@@ -32,6 +35,14 @@ class BotModule
 	def on_user_left(user, channel)
 
 	end
+	
+	def register_commands
+		@commands
+	end
+	
+	def send_response(response)
+		@client.send_response(response)		
+	end	
 
 end
 

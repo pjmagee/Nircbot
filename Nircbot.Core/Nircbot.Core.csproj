@@ -61,6 +61,7 @@
     <Compile Include="Entities\User.cs" />
     <Compile Include="Infrastructure\Context.cs" />
     <Compile Include="Infrastructure\DropCreateDatabaseAlwaysStrategy.cs" />
+    <Compile Include="Infrastructure\FakeContext.cs" />
     <Compile Include="Infrastructure\NetworkConfiguration.cs" />
     <Compile Include="Irc\AbstractIrcClient.cs" />
     <Compile Include="Irc\DefaultIrcClient.cs" />

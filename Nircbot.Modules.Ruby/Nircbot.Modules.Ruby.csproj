@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4DE4693F-E428-4FD8-B1CC-96608498DD69}</ProjectGuid>
+    <ProjectGuid>{6CD3E542-11F9-4153-A604-80CC5F3D37C3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Nircbot.Modules</RootNamespace>
-    <AssemblyName>Nircbot.Modules</AssemblyName>
+    <RootNamespace>Nircbot.Modules.Ruby</RootNamespace>
+    <AssemblyName>Nircbot.Modules.Ruby</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -68,21 +68,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DiceModule.cs" />
-    <Compile Include="ModuleOne.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeatherModule.cs" />
+    <Compile Include="RubyModule.cs">
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Scripts\botmodule.rb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\echo.rb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Scripts\response.rb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Nircbot.Common\Nircbot.Common.csproj">
-      <Project>{5317c190-6311-4837-ae91-6f8ca0bff575}</Project>
-      <Name>Nircbot.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Nircbot.Core\Nircbot.Core.csproj">
-      <Project>{6883875c-eca5-4f87-bcaf-2e56af1467a0}</Project>
+      <Project>{6883875C-ECA5-4F87-BCAF-2E56AF1467A0}</Project>
       <Name>Nircbot.Core</Name>
     </ProjectReference>
   </ItemGroup>

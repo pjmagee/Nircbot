@@ -20,7 +20,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Nircbot.Modules
+namespace Nircbot.Modules.Ruby
 {
     #region
 
@@ -100,11 +100,9 @@ namespace Nircbot.Modules
         #region Constructors and Destructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="RubyModule"/> class.
+        /// Initializes a new instance of the <see cref="RubyModule" /> class.
         /// </summary>
-        /// <param name="ircClient">
-        /// The irc client.
-        /// </param>
+        /// <param name="ircClient">The irc client.</param>
         public RubyModule(IIrcClient ircClient) : base(ircClient)
         {
             this.engine = Ruby.CreateEngine();
@@ -400,23 +398,18 @@ namespace Nircbot.Modules
                 
                 foreach (var item in this.engine.Runtime.Globals.GetItems())
                 {
-                    bool alreadyInstanced = !this.instancedModules.Any(instance => this.InstanceLoaded(instance, item.Value));
-
-                    if (alreadyInstanced)
+                    if (this.IsAlreadyInstanced(item.Value))
                     {
-                        Trace.TraceInformation("Item {0} was already found instanced", (object) item.Value.name.ToString());
+                        Trace.TraceInformation("Item {0} was already found instanced", (object) item.Value.ToString());
+                        continue;
                     }
-                    else
+
+                    dynamic instance;
+
+                    if (this.TryInstanceModule(item.Value, botModule, out instance))
                     {
-                        bool isChild = (item.Value < botModule) == true;
-
-                        if (isChild)
-                        {
-                            dynamic instance = item.Value.@new(this.IrcClient);
-                            this.instancedModules.Add(instance);
-
-                            Trace.TraceInformation("Loaded Ruby Module: {0}", (object)instance.ToString());
-                        }
+                        this.instancedModules.Add(instance);
+                        Trace.TraceInformation("Loaded Ruby Module: {0}", (object)instance.ToString());
                     }
                 }
             }
@@ -425,6 +418,47 @@ namespace Nircbot.Modules
                 Trace.TraceError(e.Message);
                 Trace.TraceError(e.StackTrace);
             }
+        }
+
+        /// <summary>
+        /// Tries to create an instance of the dynamic item from the given dynamic module.
+        /// </summary>
+        /// <param name="item">The item.</param>
+        /// <param name="botModule">The bot Module.</param>
+        /// <param name="instance">The instance.</param>
+        /// <returns>
+        /// True if an instance was created, otherwise false.
+        /// </returns>
+        private bool TryInstanceModule(dynamic module, dynamic botModule, out dynamic instance)
+        {
+            instance = null;
+
+            try
+            {
+                bool isChild = (module < botModule) == true;
+
+                if (isChild)
+                {
+                    instance = module.@new(this.IrcClient);
+                    return true;
+                }
+            }
+            catch (Exception e)
+            {
+                Trace.TraceError(e.Message);
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// Determines whether a module [is already instanced] from [the specified item].
+        /// </summary>
+        /// <param name="item">The item.</param>
+        /// <returns>True if instanced otherwise false.</returns>
+        private bool IsAlreadyInstanced(dynamic item)
+        {
+            return this.instancedModules.Any(instance => this.InstanceLoaded(instance, item));
         }
 
         /// <summary>

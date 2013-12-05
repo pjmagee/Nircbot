@@ -131,7 +131,7 @@ namespace Nircbot.Modules
             response.Targets = new[] { channel ?? user.Nick };
             response.Message = "This is a verbose message on the help command.";
 
-            this.IrcClient.SendResponse(response);
+            this.SendResponse(response);
         }
 
         /// <summary>
@@ -151,7 +151,7 @@ namespace Nircbot.Modules
             response.Targets = new[] { channel ?? user.Nick };
             response.Message = string.Format("{0}", arguments.Select(kv => kv.Key));
 
-            this.IrcClient.SendResponse(response);
+            this.SendResponse(response);
         }
 
         /// <summary>
@@ -162,8 +162,8 @@ namespace Nircbot.Modules
             var message = string.Format("{0} {1} is running on thread {2}.", this.GetType().Name, this.GetHashCode(), Thread.CurrentThread.ManagedThreadId);
             var targets = new[] { "Peej" };
 
-            var repsonse = new Response(message, targets, MessageFormat.Message, MessageType.Private);
-            this.IrcClient.SendResponse(repsonse);
+            var response = new Response(message, targets, MessageFormat.Message, MessageType.Private);
+            this.SendResponse(response);
         }
 
         #endregion

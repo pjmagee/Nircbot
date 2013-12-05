@@ -74,10 +74,10 @@ namespace Nircbot.Core.Module
         /// Initializes a new instance of the <see cref="Command" /> class.
         /// </summary>
         /// <param name="trigger">The trigger.</param>
-        /// <param name="commahdHandler">The commahd handler.</param>
-        public Command(string trigger, CommandHandler commahdHandler) : this()
+        /// <param name="commandHandler">The commahd handler.</param>
+        public Command(string trigger, CommandHandler commandHandler) : this()
         {
-            this.CommandHandler = commahdHandler;
+            this.CommandHandler = commandHandler;
             this.Trigger = trigger;
         }
 
@@ -99,7 +99,7 @@ namespace Nircbot.Core.Module
         /// <param name="trigger">The trigger.</param>
         /// <param name="knownArguments">The knownArguments.</param>
         /// <param name="commandHandler">The command handler.</param>
-        public Command(string trigger, IDictionary<string, string[]> knownArguments, CommandHandler commandHandler)
+        public Command(string trigger, IDictionary<string, string[]> knownArguments, CommandHandler commandHandler) : this()
         {
             this.Trigger = trigger;
             this.CommandHandler = commandHandler;
@@ -123,7 +123,7 @@ namespace Nircbot.Core.Module
         /// </summary>
         /// <param name="regex">The regex.</param>
         /// <param name="commandHandler">The command handler.</param>
-        public Command(Regex regex, CommandHandler commandHandler)
+        public Command(Regex regex, CommandHandler commandHandler) : this()
         {
             this.CommandHandler = commandHandler;
             this.Trigger = regex.ToString();
@@ -135,7 +135,7 @@ namespace Nircbot.Core.Module
         /// </summary>
         /// <param name="regex">The regex.</param>
         /// <param name="perform">The perform.</param>
-        public Command(Regex regex, Action perform)
+        public Command(Regex regex, Action perform) : this()
         {
             this.Trigger = regex.ToString();
             this.Perform = perform;

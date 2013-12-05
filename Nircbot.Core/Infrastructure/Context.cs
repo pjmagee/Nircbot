@@ -31,14 +31,6 @@ namespace Nircbot.Core.Infrastructure
     #endregion
 
     /// <summary>
-    /// The fake context.
-    /// </summary>
-    public class FakeContext : DbContext
-    {
-        
-    }
-
-    /// <summary>
     /// The context.
     /// </summary>
     public class Context : DbContext

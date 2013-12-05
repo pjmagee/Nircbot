@@ -20,7 +20,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Nircbot.Modules
+namespace Nircbot.Modules.Admin
 {
     #region
 
@@ -53,23 +53,19 @@ namespace Nircbot.Modules
         #region Constructors and Destructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="AdminModule"/> class.
+        /// Initializes a new instance of the <see cref="AdminModule" /> class.
         /// </summary>
-        /// <param name="ircClient">
-        /// The irc client.
-        /// </param>
-        /// <param name="userService">
-        /// The user service.
-        /// </param>
-        /// <exception cref="System.ArgumentNullException">
-        /// userService
-        /// </exception>
+        /// <param name="ircClient">The irc client.</param>
+        /// <param name="userService">The user service.</param>
+        /// <exception cref="System.ArgumentNullException">userService</exception>
         public AdminModule(IIrcClient ircClient, IUserService userService) : base(ircClient)
         {
             if (userService == null)
             {
                 throw new ArgumentNullException("userService");
             }
+
+            this.userService = userService;
         }
 
         #endregion

@@ -38,6 +38,8 @@ namespace Nircbot.Cli
     using Nircbot.Core.Module;
     using Nircbot.Core.Services;
     using Nircbot.Modules;
+    using Nircbot.Modules.Admin;
+    using Nircbot.Modules.Ruby;
 
     #endregion
 

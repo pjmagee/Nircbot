@@ -31,7 +31,6 @@ namespace Nircbot.Core.Infrastructure
 
     #endregion
 
-
     /// <summary>
     /// The drop create database always strategy.
     /// </summary>

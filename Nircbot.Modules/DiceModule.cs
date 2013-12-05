@@ -129,13 +129,13 @@ namespace Nircbot.Modules
 
                     var response = new Response(string.Join(", ", results), new [] { channel ?? user.Nick }, MessageFormat.Message, MessageType.Both);
                     response.MessageType = MessageType.Both;
-                    this.IrcClient.SendResponse(response);
+                    this.SendResponse(response);
                 }
                 else
                 {
                     var response = new Response(string.Join(", ", this.random.Next(1, 6)), new[] { channel ?? user.Nick }, MessageFormat.Message, MessageType.Both);
                     response.MessageType = MessageType.Both;
-                    this.IrcClient.SendResponse(response);
+                    this.SendResponse(response);
                 }
             }
         }
