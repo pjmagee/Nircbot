@@ -46,6 +46,7 @@ namespace Nircbot.Core.Infrastructure
             this.Configuration.ProxyCreationEnabled = true;
             this.Configuration.ValidateOnSaveEnabled = true;
             this.Configuration.AutoDetectChangesEnabled = true;
+            this.Configuration.UseDatabaseNullSemantics = true;
         }
 
         #endregion

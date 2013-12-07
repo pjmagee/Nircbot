@@ -29,7 +29,7 @@ namespace Nircbot.Common.Extensions
     #endregion
 
     /// <summary>
-    /// Integer Extensions
+    /// The integer extensions
     /// </summary>
     public static class IntegerExtensions
     {

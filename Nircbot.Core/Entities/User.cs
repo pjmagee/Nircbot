@@ -46,25 +46,19 @@ namespace Nircbot.Core.Entities
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="User"/> class.
+        /// Initializes a new instance of the <see cref="User" /> class.
         /// </summary>
-        /// <param name="accessLevel">
-        /// The access level.
-        /// </param>
+        /// <param name="accessLevel">The access level.</param>
         public User(AccessLevel accessLevel = AccessLevel.None)
         {
             this.AccessLevel = accessLevel;
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="User"/> class.
+        /// Initializes a new instance of the <see cref="User" /> class.
         /// </summary>
-        /// <param name="nick">
-        /// The nick.
-        /// </param>
-        /// <param name="host">
-        /// The host.
-        /// </param>
+        /// <param name="nick">The nick.</param>
+        /// <param name="host">The host.</param>
         public User(string nick, string host) : this()
         {
             this.Nick = nick;
@@ -72,34 +66,22 @@ namespace Nircbot.Core.Entities
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="User"/> class.
+        /// Initializes a new instance of the <see cref="User" /> class.
         /// </summary>
-        /// <param name="nick">
-        /// The nick.
-        /// </param>
-        /// <param name="host">
-        /// The host.
-        /// </param>
-        /// <param name="email">
-        /// The email.
-        /// </param>
+        /// <param name="nick">The nick.</param>
+        /// <param name="host">The host.</param>
+        /// <param name="email">The email.</param>
         public User(string nick, string host, string email) : this(nick, host)
         {
             this.Email = email;
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="User"/> class.
+        /// Initializes a new instance of the <see cref="User" /> class.
         /// </summary>
-        /// <param name="nick">
-        /// The nick.
-        /// </param>
-        /// <param name="host">
-        /// The host.
-        /// </param>
-        /// <param name="accessLevel">
-        /// The access level.
-        /// </param>
+        /// <param name="nick">The nick.</param>
+        /// <param name="host">The host.</param>
+        /// <param name="accessLevel">The access level.</param>
         public User(string nick, string host, AccessLevel accessLevel) : this(accessLevel)
         {
             this.Nick = nick;
@@ -107,20 +89,12 @@ namespace Nircbot.Core.Entities
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="User"/> class.
+        /// Initializes a new instance of the <see cref="User" /> class.
         /// </summary>
-        /// <param name="nick">
-        /// The nick.
-        /// </param>
-        /// <param name="host">
-        /// The host.
-        /// </param>
-        /// <param name="email">
-        /// The email.
-        /// </param>
-        /// <param name="accessLevel">
-        /// The access level.
-        /// </param>
+        /// <param name="nick">The nick.</param>
+        /// <param name="host">The host.</param>
+        /// <param name="email">The email.</param>
+        /// <param name="accessLevel">The access level.</param>
          public User(string nick, string host, string email, AccessLevel accessLevel) : this(nick, host, email)
          {
              this.AccessLevel = accessLevel;
@@ -136,7 +110,7 @@ namespace Nircbot.Core.Entities
         /// <value>
         /// The access level.
         /// </value>
-        public virtual AccessLevel AccessLevel { get; set; }
+        public AccessLevel AccessLevel { get; set; }
 
         /// <summary>
         /// Gets or sets the email.

@@ -9,13 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Core", "Nircbot.Cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Common", "Nircbot.Common\Nircbot.Common.csproj", "{5317C190-6311-4837-AE91-6F8CA0BFF575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules", "Nircbot.Modules\Nircbot.Modules.csproj", "{4DE4693F-E428-4FD8-B1CC-96608498DD69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.ModuleInfo", "Nircbot.Modules\Nircbot.Modules.ModuleInfo.csproj", "{4DE4693F-E428-4FD8-B1CC-96608498DD69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.Admin", "Nircbot.Modules.Admin\Nircbot.Modules.Admin.csproj", "{5708122E-D567-4E92-B01B-A1605600F907}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.Ruby", "Nircbot.Modules.Ruby\Nircbot.Modules.Ruby.csproj", "{6CD3E542-11F9-4153-A604-80CC5F3D37C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.Weather", "Nircbot.Modules.Weather\Nircbot.Modules.Weather.csproj", "{473BDB22-888B-43F3-B29A-84D32CA3E8C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.Dice", "Nircbot.Modules.Dice\Nircbot.Modules.Dice.csproj", "{DE312583-1034-4073-933D-39CA19B41A9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{473BDB22-888B-43F3-B29A-84D32CA3E8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{473BDB22-888B-43F3-B29A-84D32CA3E8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{473BDB22-888B-43F3-B29A-84D32CA3E8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE312583-1034-4073-933D-39CA19B41A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE312583-1034-4073-933D-39CA19B41A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE312583-1034-4073-933D-39CA19B41A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE312583-1034-4073-933D-39CA19B41A9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

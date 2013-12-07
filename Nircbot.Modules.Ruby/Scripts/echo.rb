@@ -1,7 +1,5 @@
 ﻿class Echo < BotModule
 
-	include Nircbot::Core::Irc::Messages
-
 	def on_private_message(user, message)
 			
 		response = Response.new				

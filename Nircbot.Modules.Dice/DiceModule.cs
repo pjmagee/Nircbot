@@ -20,7 +20,7 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Nircbot.Modules
+namespace Nircbot.Modules.Dice
 {
     #region
 
@@ -71,11 +71,9 @@ namespace Nircbot.Modules
         #region Constructors and Destructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="DiceModule"/> class.
+        /// Initializes a new instance of the <see cref="DiceModule" /> class.
         /// </summary>
-        /// <param name="ircClient">
-        /// The irc client.
-        /// </param>
+        /// <param name="ircClient">The irc client.</param>
         public DiceModule(IIrcClient ircClient) : base(ircClient)
         {
             

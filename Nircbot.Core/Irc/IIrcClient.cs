@@ -26,10 +26,12 @@ namespace Nircbot.Core.Irc
 
     using System;
     using System.Collections.Generic;
+    using System.Security.Cryptography.X509Certificates;
 
     using Nircbot.Core.Connections;
     using Nircbot.Core.Entities;
     using Nircbot.Core.Irc.Messages;
+    using Nircbot.Core.Module;
 
     #endregion
 
@@ -81,6 +83,14 @@ namespace Nircbot.Core.Irc
         /// The reason.
         /// </param>
         void Ban(string channel, string user, string reason = null);
+
+        /// <summary>
+        /// Gets the modules.
+        /// </summary>
+        /// <value>
+        /// The modules.
+        /// </value>
+        IEnumerable<IModule> Modules { get; } 
 
         /// <summary>
         /// Connects the specified network.

@@ -24,6 +24,7 @@ namespace Nircbot.Core
 {
     #region
 
+    using System;
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Linq;
@@ -31,6 +32,7 @@ namespace Nircbot.Core
     using Nircbot.Core.Entities;
     using Nircbot.Core.Infrastructure;
     using Nircbot.Core.Irc;
+    using System.Data.Entity;
 
     #endregion
 
@@ -71,6 +73,18 @@ namespace Nircbot.Core
         /// </param>
         public Bot(Context context, IIrcClientFactory ircClientFactory) : this()
         {
+            Database.SetInitializer(new DropCreateDatabaseAlwaysStrategy());
+
+            if (context == null)
+            {
+                throw new ArgumentNullException("context");
+            }
+
+            if (ircClientFactory == null)
+            {
+                throw new ArgumentNullException("ircClientFactory");
+            }
+
             this.context = context;
             this.ircClientFactory = ircClientFactory;
         }

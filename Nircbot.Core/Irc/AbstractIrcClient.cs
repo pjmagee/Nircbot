@@ -46,7 +46,6 @@ namespace Nircbot.Core.Irc
         /// The modules
         /// </summary>
         private readonly IEnumerable<IModule> modules;
-        
 
         /// <summary>
         /// The network
@@ -106,7 +105,10 @@ namespace Nircbot.Core.Irc
         /// <value>
         /// The modules.
         /// </value>
-        protected IEnumerable<IModule> Modules { get { return this.modules; } }
+        public IEnumerable<IModule> Modules
+        {
+            get { return this.modules; }
+        }
 
         #endregion
 

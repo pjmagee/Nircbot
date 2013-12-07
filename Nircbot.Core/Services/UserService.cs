@@ -79,7 +79,7 @@ namespace Nircbot.Core.Services
         /// Lists the admins.
         /// </summary>
         /// <returns>
-        /// The <see cref="IEnumerable"/>.
+        /// The <see cref="IEnumerable{User}"/>.
         /// </returns>
         public IEnumerable<User> ListAdmins()
         {

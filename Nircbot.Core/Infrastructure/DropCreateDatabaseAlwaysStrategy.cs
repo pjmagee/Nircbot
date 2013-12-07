@@ -46,25 +46,14 @@ namespace Nircbot.Core.Infrastructure
         /// </param>
         protected override void Seed(Context context)
         {
-            User user =
-                context.Users.Add(
-                    new User(
-                        "Peej", 
-                        "patrick.ma@cpc2-croy20-2-0-cust274.croy.cable.virginm.net", 
-                        "patrick.magee@live.co.uk", 
-                        AccessLevel.Root));
+            context.Users.Add(new User("Peej", "patrick.ma@cpc2-croy20-2-0-cust274.croy.cable.virginm.net", "patrick.magee@live.co.uk", AccessLevel.Root));
 
-            Identity identity =
-                context.Identities.Add(new Identity("NircBot", "Nircbot", "NircBot", "NircBot", "NircBot"));
+            Identity identity = context.Identities.Add(new Identity("NircBot", "Nircbot", "NircBot", "NircBot", "NircBot"));
             Server server = context.Servers.Add(new Server("irc.freenode.net"));
             Network network = context.Networks.Add(new Network("Freenode"));
-
-            // Channel bottersChannel = context.Channels.Add(new Channel("#botters"));
             Channel bottersTestChannel = context.Channels.Add(new Channel("#botters-test"));
 
             network.Servers.Add(server);
-
-            // network.Channels.Add(bottersChannel);
             network.Channels.Add(bottersTestChannel);
             network.Identity = identity;
             identity.Network = network;

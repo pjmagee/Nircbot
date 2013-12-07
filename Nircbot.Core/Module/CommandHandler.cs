@@ -31,7 +31,7 @@ namespace Nircbot.Core.Module
     /// A command handling delegate. Called when a command is received.
     /// </summary>
     /// <param name="user">The user.</param>
-    /// <param name="chanel">The chanel.</param>
+    /// <param name="channel">The channel.</param>
     /// <param name="messageType">Type of the message.</param>
     /// <param name="messageFormat">The message format.</param>
     /// <param name="message">The message.</param>

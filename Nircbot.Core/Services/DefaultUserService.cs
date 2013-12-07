@@ -36,7 +36,7 @@ namespace Nircbot.Core.Services
 
     /// <summary>
     /// The default user service to use with our backing database.
-    /// Using Entity Framwork DbContext
+    /// Using Entity Framework DbContext
     /// </summary>
     public class DefaultUserService : IUserService
     {
@@ -84,7 +84,7 @@ namespace Nircbot.Core.Services
         /// Lists the admins.
         /// </summary>
         /// <returns>
-        /// The <see cref="IEnumerable"/>.
+        /// The <see cref="IEnumerable{User}"/>.
         /// </returns>
         public IEnumerable<User> ListAdmins()
         {

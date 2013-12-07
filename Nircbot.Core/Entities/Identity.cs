@@ -98,7 +98,7 @@ namespace Nircbot.Core.Entities
         /// <value>
         /// The network.
         /// </value>
-        public Network Network { get; set; }
+        public virtual Network Network { get; set; }
 
         /// <summary>
         /// Gets or sets the network identifier.

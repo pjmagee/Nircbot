@@ -73,14 +73,10 @@ namespace Nircbot.Core.Module
         #region Constructors and Destructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BaseModule"/> class.
+        /// Initializes a new instance of the <see cref="BaseModule" /> class.
         /// </summary>
-        /// <param name="ircClient">
-        /// The irc client.
-        /// </param>
-        /// <exception cref="System.ArgumentNullException">
-        /// ircClient
-        /// </exception>
+        /// <param name="ircClient">The irc client.</param>
+        /// <exception cref="System.ArgumentNullException">ircClient</exception>
         protected BaseModule(IIrcClient ircClient)
         {
             if (ircClient == null)
@@ -157,12 +153,8 @@ namespace Nircbot.Core.Module
         /// <summary>
         /// Called when [notice].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="notice">
-        /// The notice.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="notice">The notice.</param>
         public virtual void OnNotice(User user, string notice)
         {
         }
@@ -170,12 +162,8 @@ namespace Nircbot.Core.Module
         /// <summary>
         /// Called when [private message].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="message">
-        /// The message.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="message">The message.</param>
         public virtual void OnPrivateMessage(User user, string message)
         {
         }
@@ -183,29 +171,18 @@ namespace Nircbot.Core.Module
         /// <summary>
         /// Called when [public message].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
-        /// <param name="message">
-        /// The message.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
+        /// <param name="message">The message.</param>
         public virtual void OnPublicMessage(User user, string channel, string message)
         {
         }
 
-
         /// <summary>
         /// Called when [user joined].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
         public virtual void OnUserJoined(User user, string channel)
         {
         }
@@ -213,15 +190,9 @@ namespace Nircbot.Core.Module
         /// <summary>
         /// Called when [user kicked].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
-        /// <param name="message">
-        /// The message.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
+        /// <param name="message">The message.</param>
         public virtual void OnUserKicked(User user, string channel, string message)
         {
         }
@@ -229,12 +200,8 @@ namespace Nircbot.Core.Module
         /// <summary>
         /// Called when [user left].
         /// </summary>
-        /// <param name="user">
-        /// The user.
-        /// </param>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
         public virtual void OnUserLeft(User user, string channel)
         {
         }
@@ -242,9 +209,7 @@ namespace Nircbot.Core.Module
         /// <summary>
         /// Processes the specified request.
         /// </summary>
-        /// <param name="request">
-        /// The request.
-        /// </param>
+        /// <param name="request">The request.</param>
         public void Process(Request request)
         {
             this.commands.ForEach(command => command.Process(request));
@@ -277,8 +242,8 @@ namespace Nircbot.Core.Module
         /// </summary>
         public void Start()
         {
-            this.InitialiseCommands();
-            this.InitialiseTasks();
+            this.InitializeCommands();
+            this.InitializeTasks();
         }
 
         /// <summary>
@@ -317,11 +282,9 @@ namespace Nircbot.Core.Module
         /// <summary>
         /// Gets the users in channel.
         /// </summary>
-        /// <param name="channel">
-        /// The channel.
-        /// </param>
+        /// <param name="channel">The channel.</param>
         /// <returns>
-        /// The <see cref="IEnumerable{User}"/>.
+        /// The <see cref="IEnumerable{User}" />.
         /// </returns>
         protected IEnumerable<User> GetUsersInChannel(string channel)
         {
@@ -331,18 +294,16 @@ namespace Nircbot.Core.Module
         /// <summary>
         /// Sends the response.
         /// </summary>
-        /// <param name="response">
-        /// The response.
-        /// </param>
+        /// <param name="response">The response.</param>
         protected void SendResponse(IResponse response)
         {
             this.ircClient.SendResponse(response);
         }
 
         /// <summary>
-        /// Initialises the commands.
+        /// Initializes the commands.
         /// </summary>
-        private void InitialiseCommands()
+        private void InitializeCommands()
         {
             this.commands = new List<Command>(this.RegisterCommands());
 
@@ -357,9 +318,9 @@ namespace Nircbot.Core.Module
         }
 
         /// <summary>
-        /// The initialise tasks.
+        /// The initialize tasks.
         /// </summary>
-        private void InitialiseTasks()
+        private void InitializeTasks()
         {
             this.scheduledTasks = new List<ScheduledTask>(this.RegisterTasks());
 

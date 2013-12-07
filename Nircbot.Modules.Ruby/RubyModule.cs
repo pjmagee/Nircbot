@@ -90,11 +90,6 @@ namespace Nircbot.Modules.Ruby
         /// </summary>
         private readonly ObjectCache interactiveSessions = MemoryCache.Default;
 
-        /// <summary>
-        /// The loaded script files.
-        /// </summary>
-        private readonly List<string> loadedFiles = new List<string>();
-
         #endregion
 
         #region Constructors and Destructors
@@ -106,7 +101,7 @@ namespace Nircbot.Modules.Ruby
         public RubyModule(IIrcClient ircClient) : base(ircClient)
         {
             this.engine = Ruby.CreateEngine();
-
+            
             try
             {
                 this.InitializeScripts();
@@ -127,7 +122,7 @@ namespace Nircbot.Modules.Ruby
         /// <value>
         /// The scripts directory.
         /// </value>
-        private string ScriptsDirectory
+        private static string ScriptsDirectory
         {
             get
             {
@@ -272,13 +267,15 @@ namespace Nircbot.Modules.Ruby
             yield return new Command("!irb", this.InteractiveRuby)
             {
                 Description = "Provides a piped interactive ruby session for a user.",
+                Examples = new [] { "!irb --start", "!irb --stop" },
                 Accepts = MessageType.Both, 
                 LevelRequired = AccessLevel.None
             };
 
-            yield return new Command("!reload", this.InitializeScripts)
+            yield return new Command("!reload", this.ReloadScripts)
             {
                 Description = "Reloads all the currently loaded scripts.",
+                Examples = new [] {"!reload" },
                 Accepts = MessageType.Both, 
                 LevelRequired = AccessLevel.None
             };
@@ -286,6 +283,7 @@ namespace Nircbot.Modules.Ruby
             yield return new Command("!refresh", this.RefreshScripts)
             {
                 Description = "Loads any new scripts that are not currently loaded",
+                Examples = new [] { "!refresh"},
                 Accepts = MessageType.Both, 
                 LevelRequired = AccessLevel.None
             };
@@ -336,9 +334,7 @@ namespace Nircbot.Modules.Ruby
         /// </summary>
         /// <param name="user">The user.</param>
         /// <param name="channel">The channel.</param>
-        /// <param name="messageType">Type of the message.</param>
-        /// <param name="message">The message.</param>
-        private void CreateSession(User user, string channel, MessageType messageType, string message)
+        private void CreateSession(User user, string channel)
         {
             if (!this.interactiveSessions.Contains(user.Nick))
             {
@@ -347,6 +343,15 @@ namespace Nircbot.Modules.Ruby
                 ironRuby.Start();
                 this.ReadFromSession(ironRuby, user, channel);
             }
+        }
+
+        /// <summary>
+        /// Reloads the scripts.
+        /// </summary>
+        private void ReloadScripts()
+        {
+            this.ClearInstancedModules();
+            this.InitializeScripts();
         }
 
         /// <summary>
@@ -388,7 +393,15 @@ namespace Nircbot.Modules.Ruby
         }
 
         /// <summary>
-        /// Creates instances of the instancedModules.
+        /// Clears the instanced modules.
+        /// </summary>
+        private void ClearInstancedModules()
+        {
+            this.instancedModules.Clear();
+        }
+
+        /// <summary>
+        /// Creates instances of the  Modules.
         /// </summary>
         private void InstanceModules()
         {
@@ -398,25 +411,37 @@ namespace Nircbot.Modules.Ruby
                 
                 foreach (var item in this.engine.Runtime.Globals.GetItems())
                 {
-                    if (this.IsAlreadyInstanced(item.Value))
-                    {
-                        Trace.TraceInformation("Item {0} was already found instanced", (object) item.Value.ToString());
-                        continue;
-                    }
-
-                    dynamic instance;
-
-                    if (this.TryInstanceModule(item.Value, botModule, out instance))
-                    {
-                        this.instancedModules.Add(instance);
-                        Trace.TraceInformation("Loaded Ruby Module: {0}", (object)instance.ToString());
-                    }
+                    dynamic variable = item.Value;
+                    this.CreateInstance(variable, botModule);
                 }
             }
             catch (Exception e)
             {
                 Trace.TraceError(e.Message);
                 Trace.TraceError(e.StackTrace);
+            }
+        }
+
+        /// <summary>
+        /// Creates the instance.
+        /// </summary>
+        /// <param name="variable">The variable.</param>
+        /// <param name="botModule">The bot module.</param>
+        private void CreateInstance(dynamic variable, dynamic botModule)
+        {
+            if (this.IsAlreadyInstanced(variable))
+            {
+                Trace.TraceInformation("Item {0} was already found instanced", (object)variable.ToString());
+            }
+            else
+            {
+                dynamic instance;
+
+                if (this.TryInstanceModule(variable, botModule, out instance))
+                {
+                    this.instancedModules.Add(instance);
+                    Trace.TraceInformation("Loaded Ruby Module: {0}", (object)instance.ToString());
+                }
             }
         }
 
@@ -462,7 +487,7 @@ namespace Nircbot.Modules.Ruby
         }
 
         /// <summary>
-        /// Interactives the ruby.
+        /// Interactive ruby.
         /// </summary>
         /// <param name="user">The user.</param>
         /// <param name="channel">The channel.</param>
@@ -476,7 +501,7 @@ namespace Nircbot.Modules.Ruby
 
             if (args.ContainsKey("start"))
             {
-                this.CreateSession(user, channel, messageType, message);
+                this.CreateSession(user, channel);
             }
             else if (args.ContainsKey("stop"))
             {
@@ -493,7 +518,7 @@ namespace Nircbot.Modules.Ruby
         /// </summary>
         private void LoadAndExecuteScripts()
         {
-            var files = Directory.GetFiles(this.ScriptsDirectory).Select(f => new FileInfo(f)).ToList();
+            var files = Directory.GetFiles(ScriptsDirectory).Select(f => new FileInfo(f)).ToList();
 
             var baseModuleFile = files.First(f => f.Name.Equals(ModuleFileName, StringComparison.OrdinalIgnoreCase));
 
@@ -523,7 +548,7 @@ namespace Nircbot.Modules.Ruby
                 {
                     string line = irb.StandardError.ReadLine();
                     var response = new Response(line, new[] { channel ?? user.Nick }, MessageFormat.Message, MessageType.Both);
-                    this.IrcClient.SendResponse(response);
+                    this.SendResponse(response);
                 }
             });
 
@@ -534,7 +559,7 @@ namespace Nircbot.Modules.Ruby
                 {
                     string line = irb.StandardOutput.ReadLine();
                     var response = new Response(line, new[] { channel ?? user.Nick }, MessageFormat.Message, MessageType.Both);
-                    this.IrcClient.SendResponse(response);
+                    this.SendResponse(response);
                 }
             });
         }
@@ -549,7 +574,7 @@ namespace Nircbot.Modules.Ruby
         {
             try
             {
-                var files = Directory.GetFiles(this.ScriptsDirectory).Select(f => new FileInfo(f)).ToList();
+                var files = Directory.GetFiles(ScriptsDirectory).Select(f => new FileInfo(f)).ToList();
 
                 var baseModuleFile = files.First(f => f.Name.Equals(ModuleFileName, StringComparison.OrdinalIgnoreCase));
 

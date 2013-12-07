@@ -51,7 +51,6 @@ namespace Nircbot.Core.Module
         /// The regex
         /// </summary>
         private readonly Regex regex;
-        private string p;
 
         #endregion
 
@@ -74,7 +73,7 @@ namespace Nircbot.Core.Module
         /// Initializes a new instance of the <see cref="Command" /> class.
         /// </summary>
         /// <param name="trigger">The trigger.</param>
-        /// <param name="commandHandler">The commahd handler.</param>
+        /// <param name="commandHandler">The command handler.</param>
         public Command(string trigger, CommandHandler commandHandler) : this()
         {
             this.CommandHandler = commandHandler;
@@ -139,7 +138,7 @@ namespace Nircbot.Core.Module
         {
             this.Trigger = regex.ToString();
             this.Perform = perform;
-            this.regex = new Regex(Trigger, RegexOptions.Compiled);
+            this.regex = new Regex(this.Trigger, RegexOptions.Compiled);
         }
 
         #endregion
@@ -175,6 +174,11 @@ namespace Nircbot.Core.Module
         /// The description.
         /// </value>
         public string Description { get; set; }
+
+        /// <summary>
+        /// Gets or sets the examples.
+        /// </summary>
+        public IEnumerable<string> Examples { get; set; } 
 
         /// <summary>
         /// Gets or sets the command handler handler.
@@ -310,7 +314,7 @@ namespace Nircbot.Core.Module
         }
 
         /// <summary>
-        /// Parses the messsage to produce any known arguments.
+        /// Parses the message to produce any known arguments.
         /// </summary>
         /// <param name="message">The message.</param>
         /// <returns>

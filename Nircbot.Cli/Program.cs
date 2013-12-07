@@ -25,7 +25,6 @@ namespace Nircbot.Cli
     #region
 
     using System;
-    using System.Data.Entity;
     using System.Diagnostics;
 
     using Ninject;
@@ -33,12 +32,12 @@ namespace Nircbot.Cli
 
     using Nircbot.Common.Logging;
     using Nircbot.Core;
-    using Nircbot.Core.Infrastructure;
     using Nircbot.Core.Irc;
     using Nircbot.Core.Module;
     using Nircbot.Core.Services;
     using Nircbot.Modules;
     using Nircbot.Modules.Admin;
+    using Nircbot.Modules.Dice;
     using Nircbot.Modules.Ruby;
 
     #endregion
@@ -70,34 +69,30 @@ namespace Nircbot.Cli
                 kernel.Bind<IIrcClientFactory>().ToFactory();
 
                 kernel.Bind<IModule>()
-                    .To<ModuleOne>()
-                    .WithPropertyValue("Name", "ModuleOne")
-                    .WithPropertyValue("Description", "The first module ever created");
+                    .To<ModuleInfoModule>()
+                    .WithPropertyValue("Name", "InfoModule")
+                    .WithPropertyValue("Description", "Module that provides information about modules.");
 
                 kernel.Bind<IModule>()
                     .To<DiceModule>()
                     .WithPropertyValue("Name", "Dice Module")
-                    .WithPropertyValue("Description", "Module for rolling a dice");
+                    .WithPropertyValue("Description", "Module for rolling a dice.");
                 
                 kernel.Bind<IModule>()
                     .To<RubyModule>()
                     .WithPropertyValue("Name", "Ruby Module")
-                    .WithPropertyValue("Description", "Supports executing ruby scripts");
+                    .WithPropertyValue("Description", "Supports executing ruby scripts and an interactive ruby session.");
 
                 kernel.Bind<IModule>()
                     .To<AdminModule>()
                     .WithPropertyValue("Name", "Admin Module")
-                    .WithPropertyValue("Description", "Administers the bot");
+                    .WithPropertyValue("Description", "Administers the bot.");
 
                 kernel.Bind<IModuleFactory>().ToFactory();
 
-                kernel.Bind<Bot>().ToSelf();
+                kernel.Bind<Bot>().ToSelf().InSingletonScope();
 
-                Database.SetInitializer(new DropCreateDatabaseAlwaysStrategy());
-
-                Bot nircbot = kernel.Get<Bot>();
-
-                Trace.TraceInformation("Starting bot");
+                var nircbot = kernel.Get<Bot>();
                 nircbot.Start();
 
                 Console.Read();

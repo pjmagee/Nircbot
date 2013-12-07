@@ -1,17 +1,17 @@
-﻿
-class BotModule
+﻿class BotModule
 	
 	include Nircbot::Core::Module
+	include Nircbot::Core::Irc::Messages
 	include System::Collections::Generic
 	include System::Diagnostics
 	
 	attr_accessor :name
 	attr_accessor :description	
-	attr_accessor :commands
+	#attr_accessor :commands
 	attr_reader :client
 	
 	def initialize(client)
-		@commands = List.of(Command).new
+		#@commands = List.of(Command).new
 		@client = client		
 		Trace.trace_information "I am #{self.class.name}"
 	end
@@ -37,7 +37,7 @@ class BotModule
 	end
 	
 	def register_commands
-		@commands
+		#@commands
 	end
 	
 	def send_response(response)

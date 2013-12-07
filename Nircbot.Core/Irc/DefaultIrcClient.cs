@@ -508,7 +508,9 @@ namespace Nircbot.Core.Irc
 
             Trace.TraceInformation("Adding {0} to cache", ircUser.NickName);
 
-            CacheItem item = new CacheItem(ircUser.NickName ?? ircUser.NickName, new User { AccessLevel = AccessLevel.Guest, Host = ircUser.HostName, Nick = ircUser.NickName, Email = string.Empty, Id = Guid.Empty });
+            // todo: set back guest user access level.
+
+            CacheItem item = new CacheItem(ircUser.NickName ?? ircUser.NickName, new User { AccessLevel = AccessLevel.Root, Host = ircUser.HostName, Nick = ircUser.NickName, Email = string.Empty, Id = Guid.Empty });
             this.cache.Add(item, new CacheItemPolicy { Priority = CacheItemPriority.Default, SlidingExpiration = TimeSpan.FromMinutes(30), RemovedCallback = this.OnRemoved });
             return this.cache[ircUser.NickName] as User;
 
@@ -885,7 +887,7 @@ namespace Nircbot.Core.Irc
         /// </summary>
         private void UnwireEvents()
         {
-            Trace.TraceInformation("Unwireing events.");
+            Trace.TraceInformation("Unwiring events.");
 
             this.ircClient.ChannelListReceived -= this.IrcClientOnChannelListReceived;
             this.ircClient.LocalUser.JoinedChannel -= this.LocalUserOnJoinedChannel;

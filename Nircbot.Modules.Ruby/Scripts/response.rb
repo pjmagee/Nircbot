@@ -8,24 +8,25 @@
 	attr_accessor :message_type
 	attr_accessor :message_format
 	attr_accessor :targets
-
-	@message_type = MessageType
-	@message_format = MessageFormat
-	@message = ""
-	@targets = List.of(String)
+	
+	@targets = System::Collections::Generic::List.of(String).new
 	
 	def initialize(message, targets, message_format, message_type)
+		@targets = targets
 		@message = message
 		@message_type = message_type
 		@message_format = message_format
-	end
-	
+	end	
 	
 	def initialize
-		@message = ""
+		@message = nil
 		@message_type = MessageType.Public
 		@message_format = MessageFormat.Message
-		@targets = List.of(String).new
+		@targets = System::Collections::Generic::List.of(String).new
+	end
+	
+	def targets
+		@targets
 	end
 
 end

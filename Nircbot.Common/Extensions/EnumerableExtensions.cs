@@ -26,6 +26,7 @@ namespace Nircbot.Common.Extensions
 
     using System;
     using System.Collections.Generic;
+    using System.Linq;
 
     #endregion
 
@@ -39,15 +40,9 @@ namespace Nircbot.Common.Extensions
         /// <summary>
         /// The do.
         /// </summary>
-        /// <typeparam name="T">
-        /// The type
-        /// </typeparam>
-        /// <param name="enumerable">
-        /// The enumerable.
-        /// </param>
-        /// <param name="action">
-        /// The action. T being the item, int being the index
-        /// </param>
+        /// <typeparam name="T">The type</typeparam>
+        /// <param name="enumerable">The enumerable.</param>
+        /// <param name="action">The action. T being the item, int being the index</param>
         public static void Do<T>(this IEnumerable<T> enumerable, Action<T, int> action)
         {
             int i = 0;
@@ -57,6 +52,19 @@ namespace Nircbot.Common.Extensions
                 action(item, i);
                 i++;
             }
+        }
+
+        /// <summary>
+        /// Checks if there are any elements.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="enumerable">The enumerable.</param>
+        /// <returns>
+        /// True if none, otherwise false.
+        /// </returns>
+        public static bool None<T>(this IEnumerable<T> enumerable)
+        {
+            return !enumerable.Any();
         }
 
         #endregion
