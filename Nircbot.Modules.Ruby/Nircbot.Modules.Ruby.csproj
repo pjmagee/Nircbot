@@ -108,15 +108,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Scripts\botmodule.rb">
+    <Content Include="Scripts\botmodule.rb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Scripts\echo.rb">
+    </Content>
+    <Content Include="Scripts\echo.rb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Scripts\response.rb">
+    </Content>
+    <Content Include="Scripts\response.rb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Nircbot.Core\Nircbot.Core.csproj">
