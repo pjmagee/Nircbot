@@ -72,7 +72,10 @@ namespace Nircbot.Modules.UrbanDictionary
                              {
                                  Description = "Returns the first result of a term from UrbanDictionary",
                                  Accepts = MessageType.Both,
-                                 Examples = new [] { "!urban superman" },
+                                 Examples = new[]
+                                                {
+                                                    "!urban [search term]  i.e !urban Patrick Magee or !urban Superman",
+                                                },
                                  LevelRequired = AccessLevel.None
                              };
         }

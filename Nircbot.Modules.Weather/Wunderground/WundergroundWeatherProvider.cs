@@ -94,7 +94,8 @@ namespace Nircbot.Modules.Weather.Wunderground
         /// Initializes a new instance of the <see cref="WundergroundWeatherProvider" /> class.
         /// </summary>
         /// <param name="apiKey">The API key.</param>
-        public WundergroundWeatherProvider(string apiKey) : base(apiKey)
+        public WundergroundWeatherProvider(string apiKey)
+            : base(apiKey)
         {
             this.features = new List<string>();
             this.settings = new List<string>();
@@ -153,7 +154,14 @@ namespace Nircbot.Modules.Weather.Wunderground
         {
             try
             {
-                var response = new Response(string.Empty, targets, messageFormat, messageType);
+                var conditions = "{0}. {1}. {2}, feels like {2}, wind chill {3}.".FormatWith(
+                    currentObservation.DisplayLocation.Full,
+                    currentObservation.ObservationTime,
+                    currentObservation.Temperature,
+                    currentObservation.FeelsLike,
+                    currentObservation.Wind);
+
+                var response = new Response(conditions, targets, messageFormat, messageType);
 
                 return new[] { response };
             }
@@ -237,7 +245,7 @@ namespace Nircbot.Modules.Weather.Wunderground
         /// <param name="query">The query.</param>
         private void AddQuery(string query)
         {
-            this.query += "{0}/{1}".FormatWith("/", query);
+            this.query += "/{0}".FormatWith(query);
         }
 
         /// <summary>
@@ -278,6 +286,8 @@ namespace Nircbot.Modules.Weather.Wunderground
                 {
                     responses.AddRange(CreateForecastResponses(receivers, messageFormat, messageType, wundergroundResponse.Forecast));
                 }
+
+                return responses;
             }
             catch (Exception e)
             {
@@ -294,32 +304,14 @@ namespace Nircbot.Modules.Weather.Wunderground
         /// <returns>
         /// The response from Wunderground.
         /// </returns>
-       private IWundergroundResponse ExecuteRequest()
-       {
+        private IWundergroundResponse ExecuteRequest()
+        {
             try
             {
                 var url = Url.FormatWith(this.ApiKey, string.Join("/", this.features), string.Join("/", this.settings), this.query);
+                var response = this.GetOrCacheResponse(url);
 
-                if (this.cache.Contains(url))
-                {
-                    return this.cache[url] as IWundergroundResponse;
-                }
-
-                using (var client = new WebClient())
-                {
-                    var json = client.DownloadString(url);
-
-                    var serializer = new DataContractJsonSerializer(typeof(WundergroundResponse));
-
-                    var wundergroundResponse = serializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(json))) as IWundergroundResponse;
-
-                    CacheItem item = new CacheItem(url, wundergroundResponse);
-                    CacheItemPolicy policy = new CacheItemPolicy { SlidingExpiration = TimeSpan.FromMinutes(30), RemovedCallback = this.RemovedCallback };
-
-                    this.cache.Add(item, policy);
-                }
-
-                return this.cache[url] as IWundergroundResponse;
+                return response;
             }
             catch (Exception e)
             {
@@ -328,7 +320,47 @@ namespace Nircbot.Modules.Weather.Wunderground
             }
 
             return default(IWundergroundResponse);
-       }
+        }
+
+        /// <summary>
+        /// Gets a cached response or retrieves new results from Wunderground.
+        /// </summary>
+        /// <param name="url">The URL.</param>
+        /// <returns></returns>
+        private IWundergroundResponse GetOrCacheResponse(string url)
+        {
+            if (this.cache.Contains(url))
+            {
+                return this.cache[url] as IWundergroundResponse;
+            }
+
+            using (var client = new WebClient())
+            {
+                var json = client.DownloadString(url);
+
+                var serializer = new DataContractJsonSerializer(typeof(WundergroundResponse));
+
+                var wundergroundResponse = serializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(json))) as IWundergroundResponse;
+
+                CacheItem item = new CacheItem(url, wundergroundResponse);
+                CacheItemPolicy policy = new CacheItemPolicy { SlidingExpiration = TimeSpan.FromMinutes(30), RemovedCallback = this.RemovedCallback };
+                this.cache.Add(item, policy);
+            }
+
+            this.ClearRequest();
+
+            return cache[url] as IWundergroundResponse;
+        }
+
+        /// <summary>
+        /// Clears the request.
+        /// </summary>
+        private void ClearRequest()
+        {
+            this.features.Clear();
+            this.settings.Clear();
+            this.query = string.Empty;
+        }
 
         /// <summary>
         /// Parses the arguments.

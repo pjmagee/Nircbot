@@ -68,6 +68,11 @@ namespace Nircbot.Modules.UrlShortener
         /// <param name="providers">The providers.</param>
         public UrlShortenerModule(IIrcClient ircClient, IEnumerable<IUrlShortenerProvider> providers) : base(ircClient)
         {
+            if (providers == null)
+            {
+                throw new ArgumentNullException("providers");
+            }
+
             this.providers = providers;
         }
 
@@ -135,6 +140,17 @@ namespace Nircbot.Modules.UrlShortener
         }
 
         /// <summary>
+        /// Creates the key used to cache a result from a provider and a url.
+        /// </summary>
+        /// <param name="url">The URL.</param>
+        /// <param name="provider">The provider.</param>
+        /// <returns></returns>
+        private string CreateKey(string url, IUrlShortenerProvider provider)
+        {
+            return "{0}:{1}".FormatWith(url, provider.Trigger);
+        }
+
+        /// <summary>
         /// The get short url.
         /// </summary>
         /// <param name="url">The url.</param>
@@ -145,15 +161,16 @@ namespace Nircbot.Modules.UrlShortener
         private string GetShortUrl(string url, IUrlShortenerProvider provider)
         {
             string shortUrl;
+            string key = this.CreateKey(url, provider);
 
-            if (this.cache.Contains(url))
+            if (this.cache.Contains(key))
             {
-                shortUrl = this.cache[url] as string;
+                shortUrl = this.cache[key] as string;
             }
             else
             {
                 shortUrl = provider.Shorten(url);
-                var item = new CacheItem(url, shortUrl);
+                var item = new CacheItem(key, shortUrl);
                 var policy = new CacheItemPolicy() { SlidingExpiration = TimeSpan.FromDays(1d) };
                 this.cache.Add(item, policy);
             }

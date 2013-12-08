@@ -70,8 +70,19 @@ namespace Nircbot.Modules
                                        {
                                            Description = "Lists the commands of a given module.",
                                            LevelRequired = AccessLevel.None,
-                                           Accepts = MessageType.Both
+                                           Accepts = MessageType.Both,
+                                           Examples = new[]
+                                                          {
+                                                              "!module --module info",
+                                                              "!module --module info --dice --weather",
+                                                              "!module --dice"
+                                                          }
                                        };
+
+            foreach (var module in this.IrcClient.Modules)
+            {
+                listCommands.CreateArgument(module.Name, null);
+            }
 
 
             listModules.CreateArgument("name");
@@ -92,11 +103,9 @@ namespace Nircbot.Modules
         {
             var targets = new[] { user.Nick };
 
-            string name = null;
-
-            if (arguments.TryGetValue("name", out name))
+            foreach (var key in arguments.Keys)
             {
-                var module = this.IrcClient.Modules.FirstOrDefault(m => UserHasAccess(user, m) && m.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+                var module = this.IrcClient.Modules.FirstOrDefault(m => UserHasAccess(user, m) && m.Name.Equals(key, StringComparison.OrdinalIgnoreCase));
 
                 if (module != null)
                 {
@@ -139,12 +148,15 @@ namespace Nircbot.Modules
 
             if (arguments.ContainsKey("list"))
             {
-                // For each module where the module has a command that is accessible by this user
+                #region Send all Module descriptions 
+
                 foreach (var module in this.IrcClient.Modules.Where(m => m.Commands.Any(c => c.LevelRequired <= user.AccessLevel)))
                 {
                     var moduleInfoResponse = new Response("{0}: {1}".FormatWith(module.Name, module.Description), targets, MessageFormat.Notice, messageType);
                     this.SendResponse(moduleInfoResponse);
                 }
+
+                #endregion
 
                 this.GetMoreInformation(messageType, targets);
             }
@@ -154,9 +166,20 @@ namespace Nircbot.Modules
                 // For each module where the module has a command that is accessible by this user
                 foreach (var module in this.IrcClient.Modules.Where(m => m.Commands.Any(c => c.LevelRequired <= user.AccessLevel)))
                 {
+                    #region Module Description 
+
                     var response = new Response("{0}: {1}".FormatWith(module.Name, module.Description), targets, MessageFormat.Notice, messageType);
                     this.SendResponse(response);
-                    this.SendCommandUsageExamples(module, targets, messageType, messageFormat);
+
+                    #endregion
+
+                    #region Usage Examples
+
+                    response.Message = "Usage Examples: ";
+                    this.SendResponse(response);
+                    this.SendCommandUsageExamples(module, targets, messageType, MessageFormat.Notice);
+
+                    #endregion
                 }
             }
         }
@@ -170,7 +193,8 @@ namespace Nircbot.Modules
         /// <param name="messageFormat">The message format.</param>
         private void SendCommandUsageExamples(IModule module, IEnumerable<string> targets, MessageType messageType, MessageFormat messageFormat)
         {
-            var response = new Response(string.Empty, targets, messageFormat, messageType);
+            var response = new Response("{0} command usage examples: ".FormatWith(module.Name), targets, messageFormat, messageType);
+            this.SendResponse(response);
 
             foreach (var command in module.Commands)
             {
@@ -191,10 +215,13 @@ namespace Nircbot.Modules
         /// <param name="targets">The targets.</param>
         private void SendModuleCommands(User user, MessageType messageType, IModule module, string[] targets)
         {
+            var response = new Response("{0} has the following commands: ".FormatWith(module.Name), targets, MessageFormat.Notice, messageType);
+            this.SendResponse(response);
+
             // For each possible command where the command is accessible
             foreach (var command in module.Commands.Where(c => c.LevelRequired <= user.AccessLevel))
             {
-                var response = new Response("{0}: {1}".FormatWith(command.Trigger, command.Description), targets, MessageFormat.Notice, messageType);
+                response = new Response("{0}: {1}".FormatWith(command.Trigger, command.Description), targets, MessageFormat.Notice, messageType);
                 this.SendResponse(response);
 
                 response.Message = string.Empty;
@@ -205,6 +232,8 @@ namespace Nircbot.Modules
                 }
 
                 this.SendResponse(response);
+
+                this.SendCommandUsageExamples(module, targets, messageType, MessageFormat.Notice);
             }
         }
 
@@ -216,13 +245,9 @@ namespace Nircbot.Modules
         private void GetMoreInformation(MessageType messageType, IEnumerable<string> targets)
         {
             var response = new Response("For more information: ", targets, MessageFormat.Notice, messageType);
+            
             var command = this.Commands.FirstOrDefault(c => c.Trigger.Equals("!module", StringComparison.OrdinalIgnoreCase));
-            response.Message += "Use command {0}".FormatWith(command.Trigger);
-
-            foreach (var argument in command.KnownArguments)
-            {
-                response.Message += "{0}{1} {2}".FormatWith(command.ArgumentSplitter, argument.Key, argument.Value);
-            }
+            response.Message += "Use the command {0} followed by argument --module name to receive more information about that module.".FormatWith(command.Trigger);
 
             this.SendResponse(response);
         }
