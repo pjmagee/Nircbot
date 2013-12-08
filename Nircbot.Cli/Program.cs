@@ -43,6 +43,13 @@ namespace Nircbot.Cli
     using Nircbot.Modules.Ruby.Services;
     using Nircbot.Modules.UrbanDictionary;
     using Nircbot.Modules.UrbanDictionary.Service;
+    using Nircbot.Modules.UrlShortener;
+    using Nircbot.Modules.UrlShortener.Services;
+    using Nircbot.Modules.UrlShortener.Services.Google;
+    using Nircbot.Modules.UrlShortener.Services.Tinyurl;
+    using Nircbot.Modules.Weather;
+    using Nircbot.Modules.Weather.Service;
+    using Nircbot.Modules.Weather.Wunderground;
 
     #endregion
 
@@ -73,9 +80,12 @@ namespace Nircbot.Cli
 
                 kernel.Bind<IUrbanService>()
                     .To<UrbanService>()
+                    .InSingletonScope()
                     .WithConstructorArgument("apiKey", ConfigurationManager.AppSettings.Get("Mashape.Api.Key"));
 
                 kernel.Bind<IIrbService>().To<IrbService>();
+
+                #region Bot Modules
 
                 kernel.Bind<IModule>()
                     .To<UrbanDictionaryModule>()
@@ -102,10 +112,50 @@ namespace Nircbot.Cli
                     .WithPropertyValue("Name", "Admin")
                     .WithPropertyValue("Description", "Administers the bot.");
 
+                kernel.Bind<IModule>()
+                    .To<WeatherModule>()
+                    .WithPropertyValue("Name", "Weather")
+                    .WithPropertyValue("Description", "Provides all your detailed weather information.");
+
+                kernel.Bind<IModule>()
+                    .To<UrlShortenerModule>()
+                    .WithPropertyValue("Name", "Shortener")
+                    .WithPropertyValue("Description", "Shorten those long urls.");
+
+                #endregion
+
+                #region Url Providers 
+
+                kernel.Bind<IUrlShortenerProvider>()
+                    .To<GoogleUrlShortner>()
+                    .InSingletonScope()
+                    .WithConstructorArgument("trigger", "google")
+                    .WithConstructorArgument("apiKey", ConfigurationManager.AppSettings.Get("Google.Api.Key"));
+
+                kernel.Bind<IUrlShortenerProvider>()
+                    .To<TinyUrlShortener>()
+                    .InSingletonScope()
+                    .WithConstructorArgument("trigger", "tinyurl");
+
+                #endregion
+
+                #region Weather Providers
+
+                kernel.Bind<IWeatherProvider>()
+                    .To<WundergroundWeatherProvider>()
+                    .InSingletonScope()
+                    .WithConstructorArgument("apiKey", ConfigurationManager.AppSettings.Get("Wunderground.Api.Key"));
+
+                #endregion
+
+                #region Factories
+
                 kernel.Bind<IIrbServiceFactory>().ToFactory();
                 kernel.Bind<IModuleFactory>().ToFactory();
                 kernel.Bind<IIrcClientFactory>().ToFactory();
-                
+
+                #endregion
+
                 kernel.Bind<Bot>().ToSelf().InSingletonScope();
 
                 var nircbot = kernel.Get<Bot>();

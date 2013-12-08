@@ -1,0 +1,3073 @@
+PostCode,Latitude,Longitude,Country,Constituency
+AB1,57.101478,-2.242852,Scotland,Aberdeen South
+AB10,57.148235,-2.096648,Scotland,Aberdeen North
+AB11,57.1459,-2.095221,Scotland,Aberdeen North
+AB12,57.127862,-2.095521,Scotland,Aberdeen South
+AB13,57.098062,-2.239132,Scotland,Aberdeen South
+AB14,57.099805,-2.269893,Scotland,Aberdeen South
+AB15,57.144351,-2.129705,Scotland,Aberdeen South
+AB154BW,57.145288,-2.135442,Scotland,Aberdeen South
+AB16,57.153449,-2.147753,Scotland,Aberdeen North
+AB2,57.209457,-2.188585,Scotland,Gordon
+AB21,57.260381,-2.156371,Scotland,Gordon
+AB22,57.17639,-2.124657,Scotland,Gordon
+AB23,57.185056,-2.096248,Scotland,Gordon
+AB24,57.168009,-2.092616,Scotland,Aberdeen North
+AB25,57.159652,-2.117955,Scotland,Aberdeen North
+AB3,56.833839,-2.46442,Scotland,West Aberdeenshire and Kincardine
+AB30,56.833948,-2.464241,Scotland,West Aberdeenshire and Kincardine
+AB31,57.079191,-2.34904,Scotland,West Aberdeenshire and Kincardine
+AB32,57.156965,-2.290031,Scotland,West Aberdeenshire and Kincardine
+AB33,57.23133,-2.699584,S13002502,S99999999
+AB34,57.100194,-2.642179,S13002503,S99999999
+AB35,57.006635,-3.396426,S13002503,S99999999
+AB36,57.196094,-3.03875,S13002503,S99999999
+AB37,57.406565,-3.363925,Scotland,Moray
+AB38,57.526825,-3.210086,Scotland,Moray
+AB39,56.964789,-2.207902,Scotland,West Aberdeenshire and Kincardine
+AB4,57.324911,-2.000981,Scotland,Gordon
+AB41,57.3251,-2.000715,Scotland,Gordon
+AB42,57.422801,-1.912321,Scotland,Banff and Buchan
+AB43,57.691226,-2.005857,Scotland,Banff and Buchan
+AB44,57.667761,-2.48241,Scotland,Banff and Buchan
+AB45,57.66459,-2.521053,Scotland,Banff and Buchan
+AB5,57.334836,-2.31957,Scotland,Gordon
+AB51,57.335239,-2.31979,Scotland,Gordon
+AB52,57.344395,-2.540001,Scotland,Gordon
+AB53,57.537832,-2.460147,Scotland,Banff and Buchan
+AB54,57.431215,-2.745897,S13002502,S99999999
+AB55,57.540522,-2.949906,Scotland,Moray
+AB56,57.671885,-2.963331,Scotland,Moray
+AB9,57.144169,-2.103644,Scotland,Aberdeen South
+AB99,57.111344,-2.093993,Scotland,Aberdeen South
+AL1,51.749085,-0.341337,England,St Albans
+AL10,51.764308,-0.226194,England,Welwyn Hatfield
+AL2,51.721103,-0.312364,England,St Albans
+AL3,51.740922,-0.354252,England,St Albans
+AL4,51.740198,-0.305859,England,St Albans
+AL5,51.811211,-0.33501,England,Hitchin and Harpenden
+AL6,51.81548,-0.179007,England,North East Hertfordshire
+AL7,51.804482,-0.195898,England,Welwyn Hatfield
+AL8,51.802057,-0.207192,England,Welwyn Hatfield
+AL9,51.764308,-0.226194,England,Welwyn Hatfield
+B1,52.476663,-1.903536,England,Birmingham
+B10,52.470075,-1.876302,England,Birmingham
+B11,52.459542,-1.871416,England,Birmingham
+B12,52.470112,-1.877788,England,Birmingham
+B13,52.431747,-1.882204,England,Birmingham
+B14,52.421541,-1.888819,England,Birmingham
+B15,52.475503,-1.914565,England,Birmingham
+B16,52.481583,-1.933372,England,Birmingham
+B17,52.456316,-1.962165,England,Birmingham
+B18,52.488103,-1.938104,England,Birmingham
+B19,52.496531,-1.915953,England,Birmingham
+B2,52.495956,-1.894214,England,Birmingham
+B20,52.519547,-1.932813,England,Birmingham
+B21,52.508789,-1.958702,England,Birmingham
+B22,52.411728,-1.928831,England,Birmingham
+B23,52.524853,-1.840686,England,Birmingham
+B24,52.529341,-1.829098,England,Birmingham
+B25,52.462582,-1.817597,England,Birmingham
+B26,52.462173,-1.814449,England,Birmingham
+B27,52.449439,-1.823772,England,Birmingham
+B28,52.434363,-1.85022,England,Birmingham
+B29,52.435895,-1.950238,England,Birmingham
+B3,52.476663,-1.903536,England,Birmingham
+B30,52.415164,-1.931884,England,Birmingham
+B31,52.434178,-1.979364,England,Birmingham
+B32,52.461787,-2.012776,England,Birmingham
+B33,52.479774,-1.781997,England,Birmingham
+B34,52.491102,-1.814091,England,Birmingham
+B35,52.519739,-1.800103,England,Birmingham
+B36,52.502481,-1.771513,England,Meriden
+B37,52.482166,-1.750739,England,Meriden
+B38,52.407269,-1.915961,England,Birmingham
+B4,52.482608,-1.896425,England,Birmingham
+B40,52.450038,-1.723331,England,Meriden
+B42,52.517603,-1.902945,England,Birmingham
+B43,52.536599,-1.945673,England,West Bromwich East
+B44,52.541744,-1.869303,England,Birmingham
+B45,52.403604,-2.046992,England,Bromsgrove
+B46,52.49963,-1.709497,England,North Warwickshire
+B47,52.396399,-1.882797,England,Bromsgrove
+B48,52.371611,-1.959343,England,Bromsgrove
+B49,52.213992,-1.870046,England,Stratford-on-Avon
+B5,52.47739,-1.902474,England,Birmingham
+B50,52.165264,-1.854808,England,Stratford-on-Avon
+B6,52.495956,-1.894214,England,Birmingham
+B60,52.340375,-2.050652,England,Bromsgrove
+B61,52.319236,-2.056717,England,Bromsgrove
+B62,52.448704,-2.027883,England,Halesowen and Rowley Regis
+B63,52.446304,-2.06996,England,Halesowen and Rowley Regis
+B64,52.470962,-2.085677,England,Halesowen and Rowley Regis
+B65,52.476126,-2.048071,England,Halesowen and Rowley Regis
+B66,52.496576,-1.972972,England,Warley
+B67,52.47962,-1.971466,England,Warley
+B68,52.466344,-1.982337,England,Warley
+B69,52.494365,-2.025143,England,Warley
+B7,52.491373,-1.886036,England,Birmingham
+B70,52.526955,-2.017188,England,West Bromwich East
+B71,52.533805,-1.987161,England,West Bromwich East
+B72,52.561789,-1.825786,England,Sutton Coldfield
+B73,52.544092,-1.855657,England,Birmingham
+B74,52.563513,-1.882501,England,Sutton Coldfield
+B75,52.582657,-1.827593,England,Sutton Coldfield
+B76,52.527037,-1.727225,England,North Warwickshire
+B77,52.628865,-1.687132,England,Tamworth
+B78,52.613432,-1.631652,England,North Warwickshire
+B79,52.654344,-1.674474,England,Tamworth
+B8,52.482644,-1.861542,England,Birmingham
+B80,52.274004,-1.889011,England,Stratford-on-Avon
+B9,52.475369,-1.884605,England,Birmingham
+B90,52.403153,-1.845989,England,Solihull
+B91,52.416672,-1.781778,England,Solihull
+B92,52.4253,-1.702177,England,Meriden
+B93,52.390124,-1.717916,England,Meriden
+B94,52.342008,-1.812397,England,Stratford-on-Avon
+B95,52.295919,-1.778236,England,Stratford-on-Avon
+B96,52.259071,-1.937572,England,Redditch
+B97,52.307405,-1.942755,England,Redditch
+B98,52.293479,-1.891646,England,Redditch
+B99,52.495956,-1.894214,England,Birmingham
+BA1,51.378862,-2.355562,England,Bath
+BA10,51.11228,-2.453866,England,Somerton and Frome
+BA11,51.23163,-2.321198,England,Somerton and Frome
+BA12,51.20948,-2.179722,England,South West Wiltshire
+BA13,51.257578,-2.196648,England,South West Wiltshire
+BA14,51.317332,-2.214825,England,South West Wiltshire
+BA15,51.347494,-2.249211,England,Chippenham
+BA16,51.130744,-2.734725,England,Wells
+BA2,51.336647,-2.481028,England,North East Somerset
+BA20,50.941541,-2.639066,England,Yeovil
+BA21,50.946322,-2.638007,England,Yeovil
+BA22,51.070388,-2.520379,England,Somerton and Frome
+BA3,51.336647,-2.481028,England,North East Somerset
+BA4,51.174745,-2.62439,England,Wells
+BA5,51.216187,-2.663923,England,Wells
+BA6,51.149951,-2.715914,England,Wells
+BA7,51.089829,-2.514115,England,Somerton and Frome
+BA8,51.027366,-2.461192,England,Somerton and Frome
+BA9,51.057357,-2.409923,England,Somerton and Frome
+BB0,53.753453,-2.464233,England,Blackburn
+BB1,53.749203,-2.482186,England,Blackburn
+BB10,53.79652,-2.242955,England,Burnley
+BB11,53.790878,-2.241632,England,Burnley
+BB12,53.796652,-2.248937,England,Burnley
+BB18,53.916438,-2.187091,England,Pendle
+BB2,53.749834,-2.486136,England,Blackburn
+BB3,53.709595,-2.481308,England,Rossendale and Darwen
+BB4,53.702009,-2.284443,England,Rossendale and Darwen
+BB5,53.753532,-2.369037,England,Hyndburn
+BB6,53.784403,-2.406204,England,Hyndburn
+BB7,53.874504,-2.393844,England,Ribble Valley
+BB8,53.85653,-2.17197,England,Pendle
+BB9,53.832902,-2.215557,England,Pendle
+BB94,53.915246,-2.138033,England,Pendle
+BD1,53.796265,-1.750764,England,Bradford West
+BD10,53.843662,-1.735498,England,Bradford East
+BD11,53.755945,-1.659517,England,Morley and Outwood
+BD12,53.756723,-1.766742,England,Bradford South
+BD13,53.770247,-1.842404,England,Bradford South
+BD14,53.781763,-1.818368,England,Bradford West
+BD15,53.823713,-1.861087,England,Shipley
+BD16,53.845791,-1.83595,England,Shipley
+BD17,53.850234,-1.771725,England,Shipley
+BD18,53.82832,-1.761695,England,Shipley
+BD19,53.723737,-1.724368,England,Batley and Spen
+BD2,53.809635,-1.757428,England,Bradford East
+BD20,53.913737,-1.939069,England,Keighley
+BD21,53.865203,-1.910628,England,Keighley
+BD22,53.888087,-2.037391,England,Skipton and Ripon
+BD23,53.957718,-2.025887,England,Skipton and Ripon
+BD24,54.065366,-2.286449,England,Skipton and Ripon
+BD3,53.799006,-1.730055,England,Bradford East
+BD4,53.77452,-1.70953,England,Bradford South
+BD5,53.79056,-1.75646,England,Bradford West
+BD6,53.76432,-1.763317,England,Bradford South
+BD7,53.79131,-1.758171,England,Bradford West
+BD8,53.804358,-1.806397,England,Bradford West
+BD9,53.813342,-1.783346,England,Bradford West
+BD97,53.850512,-1.837422,England,Shipley
+BD98,53.838396,-1.780588,England,Shipley
+BD99,53.792492,-1.784167,England,Bradford South
+BH1,50.727903,-1.86358,England,Bournemouth East
+BH10,50.745848,-1.904773,England,Bournemouth West
+BH11,50.758192,-1.924384,England,Bournemouth West
+BH12,50.724143,-1.909039,England,Poole
+BH13,50.721093,-1.906537,England,Poole
+BH14,50.729119,-1.940922,England,Poole
+BH15,50.715563,-1.985656,England,Poole
+BH16,50.726255,-2.018663,England,Poole
+BH17,50.746667,-1.973925,England,Mid Dorset and North Poole
+BH18,50.746667,-1.973925,England,Mid Dorset and North Poole
+BH19,50.609388,-1.95919,England,South Dorset
+BH2,50.716109,-1.875654,England,Bournemouth West
+BH20,50.696577,-2.106393,England,Mid Dorset and North Poole
+BH21,50.797998,-1.985007,England,Mid Dorset and North Poole
+BH22,50.808894,-1.893135,England,Christchurch
+BH23,50.733461,-1.77669,England,Christchurch
+BH24,50.846138,-1.791152,England,New Forest West
+BH25,50.756444,-1.636146,England,New Forest West
+BH3,50.732555,-1.874166,England,Bournemouth West
+BH31,50.881454,-1.88319,England,North Dorset
+BH4,50.721926,-1.902399,England,Bournemouth West
+BH5,50.72244,-1.845732,England,Bournemouth East
+BH6,50.728292,-1.792058,England,Bournemouth East
+BH7,50.727426,-1.835685,England,Bournemouth East
+BH8,50.755807,-1.855589,England,Bournemouth East
+BH9,50.739862,-1.87861,England,Bournemouth West
+BL0,53.647759,-2.312382,England,Bury North
+BL1,53.579558,-2.432887,England,Bolton North East
+BL11,53.572027,-2.425139,England,Bolton South East
+BL2,53.578992,-2.420195,England,Bolton North East
+BL3,53.555371,-2.374223,England,Bolton South East
+BL4,53.549386,-2.409518,England,Bolton South East
+BL5,53.550173,-2.469279,England,Bolton South East
+BL6,53.57983,-2.50359,England,Bolton West
+BL7,53.640584,-2.395291,England,Rossendale and Darwen
+BL78,53.554961,-2.403488,England,Bolton South East
+BL8,53.597452,-2.305392,England,Bury North
+BL9,53.5928,-2.296505,England,Bury North
+BN1,50.826334,-0.140818,England,Brighton
+BN10,50.794994,-0.018085,England,Brighton
+BN11,50.814126,-0.370957,England,Worthing West
+BN12,50.813243,-0.407923,England,Worthing West
+BN13,50.818737,-0.393441,England,Worthing West
+BN14,50.839075,-0.393779,England,East Worthing and Shoreham
+BN15,50.832227,-0.333192,England,East Worthing and Shoreham
+BN16,50.817404,-0.487451,England,Arundel and South Downs
+BN17,50.808905,-0.541135,England,Bognor Regis and Littlehampton
+BN18,50.858577,-0.568955,England,Arundel and South Downs
+BN2,50.820705,-0.119561,England,Brighton
+BN20,50.752022,0.206694,England,Lewes
+BN21,50.769352,0.278764,England,Eastbourne
+BN22,50.79334,0.263938,England,Eastbourne
+BN23,50.794227,0.332152,England,Eastbourne
+BN24,50.819491,0.314981,England,Bexhill and Battle
+BN25,50.772013,0.104224,England,Lewes
+BN26,50.820598,0.244073,England,Lewes
+BN27,50.861773,0.258015,England,Wealden
+BN3,50.825314,-0.157571,England,Hove
+BN4,50.830788,-0.209373,England,Hove
+BN41,50.832073,-0.207548,England,Hove
+BN42,50.833749,-0.232535,England,East Worthing and Shoreham
+BN43,50.835437,-0.27316,England,East Worthing and Shoreham
+BN44,50.905654,-0.331126,England,Arundel and South Downs
+BN45,50.892706,-0.207525,England,Arundel and South Downs
+BN5,50.916222,-0.264595,England,Arundel and South Downs
+BN50,50.826334,-0.140818,England,Brighton
+BN51,50.804823,-0.058672,England,Brighton
+BN52,50.834409,-0.168063,England,Hove
+BN6,50.924222,-0.142184,England,Arundel and South Downs
+BN7,50.87246,0.009007,England,Lewes
+BN8,50.909803,0.169197,England,Wealden
+BN88,50.823141,-0.132923,England,Brighton
+BN9,50.798332,0.052047,England,Lewes
+BN99,50.814126,-0.370957,England,Worthing West
+BR1,51.406271,0.015177,England,Bromley and Chislehurst
+BR2,51.407775,-0.003321,England,Beckenham
+BR3,51.407682,-0.032385,England,Lewisham West and Penge
+BR4,51.380973,-0.011615,England,Beckenham
+BR5,51.38637,0.06475,England,Orpington
+BR6,51.374644,0.093075,England,Orpington
+BR7,51.416161,0.067961,England,Bromley and Chislehurst
+BR8,51.366941,0.05425,England,Orpington
+BS0,51.458434,-2.574179,England,Bristol West
+BS1,51.449521,-2.57837,England,Bristol West
+BS10,51.491366,-2.594917,England,Bristol North West
+BS11,51.495206,-2.682361,England,Bristol North West
+BS12,51.539259,-2.54597,England,Filton and Bradley Stoke
+BS13,51.409831,-2.601765,England,Bristol South
+BS14,51.420737,-2.58038,England,Bristol South
+BS15,51.46133,-2.505743,England,Kingswood
+BS16,51.478466,-2.526524,England,Bristol East
+BS17,51.512403,-2.496956,England,Filton and Bradley Stoke
+BS18,51.410912,-2.497839,England,North East Somerset
+BS19,51.43484,-2.753491,England,North Somerset
+BS2,51.455578,-2.580879,England,Bristol West
+BS20,51.480579,-2.68652,England,North Somerset
+BS21,51.428143,-2.846847,England,North Somerset
+BS22,51.355229,-2.933119,England,Weston-Super-Mare
+BS23,51.347002,-2.977176,England,Weston-Super-Mare
+BS24,51.314307,-2.949836,England,Weston-Super-Mare
+BS25,51.313551,-2.831736,England,Weston-Super-Mare
+BS26,51.287584,-2.821186,England,Wells
+BS27,51.275447,-2.777416,England,Wells
+BS28,51.227374,-2.810833,England,Wells
+BS29,51.327199,-2.865452,England,Weston-Super-Mare
+BS3,51.445511,-2.592738,England,Bristol South
+BS30,51.448122,-2.464269,England,Kingswood
+BS31,51.41119,-2.497899,England,North East Somerset
+BS32,51.533495,-2.570582,England,Filton and Bradley Stoke
+BS34,51.533987,-2.571093,England,Filton and Bradley Stoke
+BS35,51.611805,-2.513364,England,Thornbury and Yate
+BS36,51.512366,-2.497187,England,Filton and Bradley Stoke
+BS37,51.539592,-2.413927,England,Thornbury and Yate
+BS39,51.373182,-2.550255,England,North East Somerset
+BS4,51.427669,-2.575059,England,Bristol South
+BS40,51.358086,-2.786469,England,Weston-Super-Mare
+BS41,51.438713,-2.601526,England,Bristol South
+BS48,51.43484,-2.753491,England,North Somerset
+BS49,51.391471,-2.824582,England,North Somerset
+BS5,51.456162,-2.568049,England,Bristol West
+BS6,51.470021,-2.592955,England,Bristol West
+BS7,51.488825,-2.583462,England,Bristol North West
+BS77,51.438713,-2.601526,England,Bristol South
+BS8,51.455328,-2.614065,England,Bristol West
+BS80,51.343877,-2.957009,England,Weston-Super-Mare
+BS9,51.494073,-2.619137,England,Bristol North West
+BS98,51.459754,-2.588964,England,Bristol West
+BS99,51.458434,-2.574179,England,Bristol West
+BT1,54.602714,-5.922503,Northern Ireland,
+BT10,54.565662,-5.974007,Northern Ireland,
+BT11,54.584852,-5.979846,Northern Ireland,
+BT12,54.598618,-5.936747,Northern Ireland,
+BT13,54.605594,-5.933284,Northern Ireland,
+BT14,54.607766,-5.937337,Northern Ireland,
+BT15,54.604479,-5.928465,Northern Ireland,
+BT16,54.593464,-5.813143,Northern Ireland,
+BT17,54.552394,-6.002319,Northern Ireland,
+BT18,54.646501,-5.817919,Northern Ireland,
+BT19,54.645547,-5.690442,Northern Ireland,
+BT2,54.595588,-5.935059,Northern Ireland,
+BT20,54.659622,-5.670905,Northern Ireland,
+BT21,54.642345,-5.537104,Northern Ireland,
+BT22,54.456297,-5.487201,Northern Ireland,
+BT23,54.593157,-5.69494,Northern Ireland,
+BT24,54.460355,-5.831599,Northern Ireland,
+BT25,54.41497,-6.152016,Northern Ireland,
+BT26,54.466375,-6.083513,Northern Ireland,
+BT27,54.513484,-6.042099,Northern Ireland,
+BT28,54.509924,-6.044771,Northern Ireland,
+BT29,54.624417,-6.215635,Northern Ireland,
+BT3,54.611676,-5.916442,Northern Ireland,
+BT30,54.328596,-5.71839,Northern Ireland,
+BT31,54.256367,-5.969988,Northern Ireland,
+BT32,54.361263,-6.228446,Northern Ireland,
+BT33,54.209398,-5.891446,Northern Ireland,
+BT34,54.232826,-6.352199,Northern Ireland,
+BT35,54.19079,-6.575842,Northern Ireland,
+BT36,54.672856,-5.993665,Northern Ireland,
+BT37,54.672097,-5.900125,Northern Ireland,
+BT38,54.716603,-5.810399,Northern Ireland,
+BT39,54.702434,-6.093793,Northern Ireland,
+BT4,54.599755,-5.907178,Northern Ireland,
+BT40,54.851723,-5.817068,Northern Ireland,
+BT41,54.719619,-6.208492,Northern Ireland,
+BT42,54.862757,-6.285635,Northern Ireland,
+BT43,54.865361,-6.325462,Northern Ireland,
+BT44,54.967976,-5.952165,Northern Ireland,
+BT45,54.820057,-6.555749,Northern Ireland,
+BT46,54.844118,-6.671644,Northern Ireland,
+BT47,54.989553,-7.314191,Northern Ireland,
+BT48,55.011646,-7.318035,Northern Ireland,
+BT49,55.05115,-6.951282,Northern Ireland,
+BT5,54.599616,-5.917352,Northern Ireland,
+BT51,55.130813,-6.676411,Northern Ireland,
+BT52,55.131004,-6.66927,Northern Ireland,
+BT53,55.071072,-6.517948,Northern Ireland,
+BT54,55.20173,-6.249063,Northern Ireland,
+BT55,55.182303,-6.718331,Northern Ireland,
+BT56,55.204981,-6.651332,Northern Ireland,
+BT57,55.199066,-6.549934,Northern Ireland,
+BT6,54.583056,-5.909535,Northern Ireland,
+BT60,54.252337,-6.623266,Northern Ireland,
+BT61,54.349349,-6.655014,Northern Ireland,
+BT62,54.424509,-6.443131,Northern Ireland,
+BT63,54.421243,-6.349349,Northern Ireland,
+BT64,54.4494,-6.389921,Northern Ireland,
+BT65,54.446549,-6.37827,Northern Ireland,
+BT66,54.461735,-6.331603,Northern Ireland,
+BT67,54.506929,-6.298235,Northern Ireland,
+BT68,54.349105,-6.837297,Northern Ireland,
+BT69,54.413977,-6.974954,Northern Ireland,
+BT7,54.590358,-5.932353,Northern Ireland,
+BT70,54.504622,-6.767833,Northern Ireland,
+BT71,54.406833,-6.729923,Northern Ireland,
+BT74,54.322141,-7.605482,Northern Ireland,
+BT75,54.379313,-7.243633,Northern Ireland,
+BT76,54.411653,-7.170834,Northern Ireland,
+BT77,54.42973,-7.131439,Northern Ireland,
+BT78,54.599728,-7.303875,Northern Ireland,
+BT79,54.60062,-7.29668,Northern Ireland,
+BT8,54.566382,-5.912785,Northern Ireland,
+BT80,54.658157,-6.617252,Northern Ireland,
+BT81,54.709469,-7.592364,Northern Ireland,
+BT82,54.84396,-7.427086,Northern Ireland,
+BT9,54.580603,-5.935183,Northern Ireland,
+BT92,54.276026,-7.429709,Northern Ireland,
+BT93,54.568687,-7.632266,Northern Ireland,
+BT94,54.475102,-7.69857,Northern Ireland,
+CA1,54.890923,-2.943847,England,Carlisle
+CA10,54.748715,-2.706131,England,Penrith and The Border
+CA11,54.664391,-2.776681,England,Penrith and The Border
+CA12,54.598829,-3.130564,England,Copeland
+CA13,54.659886,-3.370302,England,Workington
+CA14,54.649067,-3.544177,England,Workington
+CA15,54.715266,-3.499405,England,Workington
+CA16,54.58447,-2.496381,England,Penrith and The Border
+CA17,54.471107,-2.347573,England,Penrith and The Border
+CA18,54.357953,-3.387562,England,Copeland
+CA19,54.392855,-3.379545,England,Copeland
+CA2,54.885003,-2.923724,England,Carlisle
+CA20,54.419059,-3.443721,England,Copeland
+CA21,54.446278,-3.509638,England,Copeland
+CA22,54.482032,-3.528922,England,Copeland
+CA23,54.50861,-3.528926,England,Copeland
+CA24,54.521496,-3.545399,England,Copeland
+CA25,54.521646,-3.517176,England,Copeland
+CA26,54.534939,-3.499926,England,Copeland
+CA27,54.490152,-3.589252,England,Copeland
+CA28,54.54464,-3.590426,England,Copeland
+CA3,54.913053,-2.942134,England,Carlisle
+CA4,54.86365,-2.885127,England,Carlisle
+CA5,54.765018,-3.22618,England,Workington
+CA6,54.945319,-3.001183,England,Penrith and The Border
+CA7,54.819305,-3.181305,England,Penrith and The Border
+CA8,54.942008,-2.730402,England,Penrith and The Border
+CA9,54.810423,-2.448099,England,Penrith and The Border
+CA95,54.64571,-3.56618,England,Workington
+CA99,54.890923,-2.943847,England,Carlisle
+CB1,52.209345,0.148231,England,Cambridge
+CB10,52.021405,0.239289,England,Saffron Walden
+CB11,52.021635,0.249387,England,Saffron Walden
+CB2,52.172529,0.134025,England,South Cambridgeshire
+CB21,52.098354,0.288332,England,South East Cambridgeshire
+CB22,52.166761,0.157965,England,South Cambridgeshire
+CB23,52.156829,0.005441,England,South Cambridgeshire
+CB24,52.260901,0.064293,England,South Cambridgeshire
+CB25,52.278132,0.329367,England,South East Cambridgeshire
+CB3,52.210536,0.112119,England,Cambridge
+CB4,52.225366,0.137979,England,Cambridge
+CB5,52.278132,0.329367,England,South East Cambridgeshire
+CB6,52.40106,0.262877,England,South East Cambridgeshire
+CB7,52.398368,0.267723,England,South East Cambridgeshire
+CB8,52.247555,0.401352,England,West Suffolk
+CB9,52.089158,0.44485,England,West Suffolk
+CF1,51.469749,-3.187692,Wales,Cardiff South and Penarth
+CF10,51.479098,-3.178172,Wales,Cardiff Central
+CF11,51.452831,-3.190722,Wales,Cardiff South and Penarth
+CF14,51.545962,-3.188753,Wales,Cardiff North
+CF15,51.535864,-3.261129,Wales,Cardiff West
+CF2,51.483421,-3.169325,Wales,Cardiff Central
+CF23,51.50202,-3.117358,Wales,Cardiff South and Penarth
+CF24,51.484238,-3.167633,Wales,Cardiff Central
+CF3,51.524314,-3.109429,Wales,Cardiff South and Penarth
+CF30,51.519641,-3.119563,Wales,Cardiff South and Penarth
+CF31,51.507156,-3.576075,Wales,Bridgend
+CF32,51.531668,-3.641036,Wales,Ogmore
+CF33,51.520831,-3.671651,Wales,Bridgend
+CF34,51.609076,-3.650398,Wales,Ogmore
+CF35,51.485272,-3.585157,Wales,Bridgend
+CF36,51.478702,-3.706659,Wales,Bridgend
+CF37,51.596006,-3.348913,Wales,Pontypridd
+CF38,51.556631,-3.307546,Wales,Pontypridd
+CF39,51.614725,-3.412456,Wales,Rhondda
+CF4,51.512573,-3.22051,Wales,Cardiff North
+CF40,51.619625,-3.453054,Wales,Rhondda
+CF41,51.646156,-3.488591,Wales,Rhondda
+CF42,51.671229,-3.529573,Wales,Rhondda
+CF43,51.647505,-3.432915,Wales,Rhondda
+CF44,51.706318,-3.416784,Wales,Cynon Valley
+CF45,51.678694,-3.37833,Wales,Cynon Valley
+CF46,51.663061,-3.306473,Wales,Merthyr Tydfil and Rhymney
+CF47,51.742776,-3.367751,Wales,Merthyr Tydfil and Rhymney
+CF48,51.725333,-3.367702,Wales,Merthyr Tydfil and Rhymney
+CF5,51.485374,-3.227244,Wales,Cardiff West
+CF6,51.438611,-3.172367,Wales,Cardiff South and Penarth
+CF61,51.410276,-3.482843,Wales,Vale of Glamorgan
+CF62,51.416976,-3.313939,Wales,Vale of Glamorgan
+CF63,51.411654,-3.258973,Wales,Vale of Glamorgan
+CF64,51.438637,-3.172454,Wales,Cardiff South and Penarth
+CF7,51.461098,-3.444803,Wales,Vale of Glamorgan
+CF71,51.461037,-3.444671,Wales,Vale of Glamorgan
+CF72,51.530172,-3.390822,Wales,Pontypridd
+CF8,51.574374,-3.2214,Wales,Caerphilly
+CF81,51.687075,-3.23097,Wales,Caerphilly
+CF82,51.651285,-3.239858,Wales,Caerphilly
+CF83,51.574421,-3.22117,Wales,Caerphilly
+CF91,51.46575,-3.193635,Wales,Cardiff South and Penarth
+CF95,51.481201,-3.17104,Wales,Cardiff Central
+CF99,51.464372,-3.161655,Wales,Cardiff South and Penarth
+CH1,53.190296,-2.888293,England,City of Chester
+CH2,53.197189,-2.894558,England,City of Chester
+CH25,53.396977,-3.011915,England,Birkenhead
+CH26,53.365702,-3.065922,England,Birkenhead
+CH27,53.415703,-3.023253,England,Wallasey
+CH28,53.400438,-3.111957,England,Wallasey
+CH29,53.390343,-3.179391,England,Wirral West
+CH3,53.192561,-2.855262,England,City of Chester
+CH30,53.379061,-3.098456,E05000961,E99999999
+CH31,53.329743,-3.098885,England,Wirral South
+CH32,53.36195,-2.99765,England,Wirral South
+CH33,53.290555,-3.062639,England,Ellesmere Port and Neston
+CH34,53.286357,-2.912846,England,Ellesmere Port and Neston
+CH4,53.154421,-3.026793,Wales,Alyn and Deeside
+CH41,53.39948,-3.050928,England,Birkenhead
+CH42,53.382625,-3.02727,England,Birkenhead
+CH43,53.366354,-3.068312,England,Birkenhead
+CH44,53.417135,-3.035414,England,Wallasey
+CH45,53.43104,-3.059187,England,Wallasey
+CH46,53.400082,-3.111511,England,Wallasey
+CH47,53.397837,-3.169687,England,Wirral West
+CH48,53.372799,-3.18549,England,Wirral West
+CH49,53.377341,-3.100787,E05000961,E99999999
+CH5,53.211451,-3.037006,Wales,Alyn and Deeside
+CH6,53.249613,-3.134375,Wales,Delyn
+CH60,53.329743,-3.098885,England,Wirral South
+CH61,53.352536,-3.121467,E05000961,E99999999
+CH62,53.312669,-2.9642,England,Wirral South
+CH63,53.324241,-2.992236,England,Wirral South
+CH64,53.290357,-3.062664,England,Ellesmere Port and Neston
+CH65,53.279119,-2.901233,England,Ellesmere Port and Neston
+CH66,53.271542,-2.967652,England,City of Chester
+CH7,53.167511,-3.144011,Wales,Delyn
+CH70,53.19275,-2.92259,England,City of Chester
+CH8,53.272839,-3.221112,Wales,Delyn
+CH88,53.194573,-2.87521,England,City of Chester
+CH99,53.197732,-2.88448,England,City of Chester
+CM0,51.662522,0.829122,England,Maldon
+CM1,51.737212,0.475991,England,Chelmsford
+CM11,51.634321,0.42694,England,Basildon and Billericay
+CM12,51.62913,0.419235,England,Basildon and Billericay
+CM13,51.631309,0.331983,England,Brentwood and Ongar
+CM14,51.620305,0.303594,England,Brentwood and Ongar
+CM15,51.66597,0.269468,England,Brentwood and Ongar
+CM16,51.700041,0.113007,England,Epping Forest
+CM17,51.78317,0.132258,England,Harlow
+CM18,51.76403,0.104082,England,Harlow
+CM19,51.76786,0.090013,England,Harlow
+CM2,51.728371,0.46705,England,Chelmsford
+CM20,51.77154,0.093951,England,Harlow
+CM21,51.803614,0.137487,England,Hertford and Stortford
+CM22,51.924558,0.245839,England,Saffron Walden
+CM23,51.937084,0.151522,England,Saffron Walden
+CM24,51.881181,0.220616,England,Saffron Walden
+CM3,51.785622,0.468694,England,Saffron Walden
+CM4,51.670157,0.382675,E05004076,E10000012
+CM5,51.710728,0.24419,E05004152,E10000012
+CM6,51.872314,0.362738,England,Saffron Walden
+CM7,51.876264,0.566457,England,Braintree
+CM77,51.8782,0.508011,England,Braintree
+CM8,51.798702,0.63901,England,Witham
+CM9,51.741544,0.69003,England,Maldon
+CM92,51.769357,0.061253,England,Harlow
+CM98,51.752183,0.518843,England,Chelmsford
+CM99,51.717497,0.500728,England,Chelmsford
+CO1,51.888554,0.89577,England,Colchester
+CO10,52.05142,0.741986,England,South Suffolk
+CO11,51.945634,1.060682, E07000076,England
+CO12,51.937679,1.279763,England,Harwich and North Essex
+CO13,51.838172,1.246807,England,Clacton
+CO14,51.849345,1.27172,England,Clacton
+CO15,51.786501,1.138877,England,Clacton
+CO16,51.865205,1.150779,England,Clacton
+CO2,51.860461,0.908389,England,Colchester
+CO3,51.88913,0.844166,England,Witham
+CO4,51.894449,0.917809,England,Colchester
+CO5,51.810127,0.753338,England,Witham
+CO6,51.900326,0.746582,England,Harwich and North Essex
+CO7,51.811527,1.024884,England,Harwich and North Essex
+CO8,51.970883,0.775883,England,South Suffolk
+CO9,51.939976,0.628556,England,Braintree
+CR0,51.34034,-0.005061,England,Croydon Central
+CR2,51.347927,-0.089572,England,Croydon South
+CR3,51.307715,-0.083208,England,East Surrey
+CR4,51.410383,-0.147321,England,Mitcham and Morden
+CR44,51.382348,-0.132875,England,Carshalton and Wallington
+CR5,51.313816,-0.136348,England,Croydon South
+CR6,51.279515,-0.074,England,East Surrey
+CR7,51.394377,-0.115797,England,Croydon North
+CR8,51.33853,-0.110651,England,Croydon South
+CR9,51.333332,-0.003872,England,Croydon Central
+CR90,51.375716,-0.091863,England,Croydon Central
+CT1,51.284726,1.094339,England,Canterbury
+CT10,51.360197,1.436815,England,South Thanet
+CT11,51.332515,1.404962,England,South Thanet
+CT12,51.334182,1.314635,England,North Thanet
+CT13,51.273664,1.333922,England,South Thanet
+CT14,51.220412,1.374689,England,Dover
+CT15,51.196655,1.267052,England,Dover
+CT16,51.132188,1.307001,England,Dover
+CT17,51.128299,1.306795,England,Dover
+CT18,51.100903,1.165101,England,Folkestone and Hythe
+CT19,51.08492,1.155754,England,Folkestone and Hythe
+CT2,51.29535,1.110906,England,Canterbury
+CT20,51.07858,1.177256,England,Folkestone and Hythe
+CT21,51.075139,1.076658,England,Folkestone and Hythe
+CT3,51.273653,1.215412,England,South Thanet
+CT4,51.256787,1.111368,England,Canterbury
+CT5,51.358985,1.025199,England,Canterbury
+CT50,51.080969,1.141476,England,Folkestone and Hythe
+CT6,51.36213,1.120921,England,North Thanet
+CT7,51.373158,1.313327,England,North Thanet
+CT8,51.383575,1.344943,England,North Thanet
+CT9,51.387849,1.382777,England,North Thanet
+CV1,52.412221,-1.510776,England,Coventry South
+CV10,52.526753,-1.460761,England,Nuneaton
+CV11,52.522743,-1.464642,England,Nuneaton
+CV12,52.479997,-1.489559,England,North Warwickshire
+CV13,52.603562,-1.422505,England,Bosworth
+CV2,52.447372,-1.445428,England,Coventry North East
+CV21,52.379814,-1.250428,England,Rugby
+CV22,52.369646,-1.256182,England,Rugby
+CV23,52.410995,-1.238271,E05008976,E10000031
+CV3,52.405334,-1.483144,England,Coventry North East
+CV31,52.2865,-1.532773,England,Warwick and Leamington
+CV32,52.287064,-1.534409,England,Warwick and Leamington
+CV33,52.146061,-1.384042,England,Kenilworth and Southam
+CV34,52.282395,-1.589223,England,Warwick and Leamington
+CV35,52.21648,-1.50542,England,Kenilworth and Southam
+CV36,52.062859,-1.624963,England,Stratford-on-Avon
+CV37,52.19515,-1.709699,England,Stratford-on-Avon
+CV4,52.412221,-1.510776,England,Coventry South
+CV47,52.245601,-1.400783,England,Kenilworth and Southam
+CV5,52.397618,-1.534644,England,Coventry South
+CV6,52.416889,-1.526795,England,Coventry North West
+CV7,52.39097,-1.660161,England,Meriden
+CV8,52.341802,-1.578795,England,Kenilworth and Southam
+CV9,52.576602,-1.546653,England,North Warwickshire
+CW1,53.089335,-2.431667,England,Crewe and Nantwich
+CW10,53.187376,-2.444474,England,Congleton
+CW11,53.144363,-2.3656,England,Congleton
+CW12,53.164829,-2.215347,England,Congleton
+CW2,53.079707,-2.432049,England,Crewe and Nantwich
+CW3,52.988914,-2.507576,England,Eddisbury
+CW4,53.202616,-2.358191,England,Congleton
+CW5,53.06822,-2.521508,England,Crewe and Nantwich
+CW6,53.15878,-2.668182,England,Eddisbury
+CW7,53.190152,-2.524513,England,Eddisbury
+CW8,53.171096,-2.516068,England,Eddisbury
+CW9,53.261269,-2.508698,England,Weaver Vale
+CW98,53.089335,-2.431667,England,Crewe and Nantwich
+DA1,51.444499,0.209754,England,Dartford
+DA10,51.449983,0.308323,England,Dartford
+DA11,51.442727,0.367722,England,Gravesham
+DA12,51.441274,0.370194,England,Gravesham
+DA13,51.372254,0.36246,England,Gravesham
+DA14,51.426481,0.105038,England,Old Bexley and Sidcup
+DA15,51.43585,0.101123,England,Old Bexley and Sidcup
+DA16,51.459186,0.126048,England,Bexleyheath and Crayford
+DA17,51.49077,0.147253,England,Erith and Thamesmead
+DA18,51.496326,0.149272,England,Erith and Thamesmead
+DA2,51.440488,0.239607,England,Dartford
+DA3,51.387832,0.302304,England,Dartford
+DA4,51.369373,0.213463,England,Sevenoaks
+DA5,51.44178,0.14999,England,Old Bexley and Sidcup
+DA6,51.450268,0.13876,England,Bexleyheath and Crayford
+DA7,51.463461,0.133805,England,Bexleyheath and Crayford
+DA8,51.492369,0.165883,England,Erith and Thamesmead
+DA9,51.44868,0.277011,England,Dartford
+DD1,56.462239,-2.973543,Scotland,Dundee West
+DD10,56.75624,-2.469022,Scotland,West Aberdeenshire and Kincardine
+DD11,56.558628,-2.580408,Scotland,Angus
+DD2,56.455337,-2.993015,Scotland,Dundee West
+DD3,56.487307,-2.989287,Scotland,Dundee West
+DD4,56.485354,-2.931606,Scotland,Dundee East
+DD5,56.468393,-2.877076,Scotland,Dundee East
+DD6,56.440076,-2.941803,Scotland,North East Fife
+DD7,56.502612,-2.711707,Scotland,Dundee East
+DD8,56.643759,-2.890715,Scotland,Angus
+DD9,56.733594,-2.659041,Scotland,Angus
+DE1,52.915042,-1.466139,England,Derby South
+DE11,52.774598,-1.557778,England,South Derbyshire
+DE12,52.734669,-1.532708,England,North West Leicestershire
+DE13,52.822407,-1.669006,England,Burton
+DE14,52.802904,-1.636491,England,Burton
+DE15,52.814779,-1.608291,England,Burton
+DE2,52.891346,-1.44259,England,Derby South
+DE21,52.947355,-1.441945,England,Mid Derbyshire
+DE22,52.930853,-1.484258,England,Derby North
+DE23,52.898087,-1.509696,England,Derby South
+DE24,52.890967,-1.444215,England,Derby South
+DE3,52.919965,-1.545471,England,Derby North
+DE4,53.217637,-1.673203,England,Derbyshire Dales
+DE45,53.216332,-1.672823,England,Derbyshire Dales
+DE5,53.024813,-1.454886,England,Mid Derbyshire
+DE55,53.076228,-1.400023,England,Amber Valley
+DE56,53.007775,-1.429124,E05008523,E10000007
+DE6,53.014899,-1.735028,England,Derbyshire Dales
+DE65,52.8673,-1.635003,England,South Derbyshire
+DE7,52.975429,-1.317829,England,Erewash
+DE72,52.861592,-1.384658,England,South Derbyshire
+DE73,52.819373,-1.421475,England,South Derbyshire
+DE74,52.84157,-1.284787,England,North West Leicestershire
+DE75,53.013777,-1.353088,England,Amber Valley
+DE99,52.915042,-1.466139,England,Derby South
+DG1,55.069535,-3.610166,Scotland,Dumfries and Galloway
+DG10,55.333683,-3.444119,Scotland,Dumfriesshire
+DG11,55.09291,-3.331172,Scotland,Dumfriesshire
+DG12,54.987755,-3.264564,Scotland,Dumfriesshire
+DG13,55.150739,-3.000595,Scotland,Dumfriesshire
+DG14,55.080517,-2.944548,Scotland,Dumfriesshire
+DG16,54.996163,-3.066992,Scotland,Dumfriesshire
+DG2,55.07093,-3.61954,Scotland,Dumfries and Galloway
+DG3,55.240981,-3.791493,Scotland,Dumfriesshire
+DG4,55.364684,-3.918605,Scotland,Dumfriesshire
+DG5,54.932389,-3.822027,Scotland,Dumfries and Galloway
+DG6,54.836002,-4.049794,Scotland,Dumfries and Galloway
+DG7,54.942865,-3.927201,Scotland,Dumfries and Galloway
+DG8,54.883051,-4.816223,Scotland,Dumfries and Galloway
+DG9,54.90511,-5.034964,Scotland,Dumfries and Galloway
+DH1,54.777567,-1.573998,England,City of Durham
+DH2,54.876591,-1.576975,England,North Durham
+DH3,54.896447,-1.57605,England,Blaydon
+DH4,54.843268,-1.471311,England,Houghton and Sunderland South
+DH5,54.814037,-1.447636,England,Houghton and Sunderland South
+DH6,54.783579,-1.507417,England,City of Durham
+DH7,54.828422,-1.707688,England,North West Durham
+DH8,54.861145,-1.847129,England,North West Durham
+DH9,54.869074,-1.695911,England,North Durham
+DH97,54.79271,-1.535113,England,City of Durham
+DH98,54.934643,-1.615103,England,Gateshead
+DH99,54.79271,-1.535113,England,City of Durham
+DL1,54.522097,-1.550751,England,Darlington
+DL10,54.406725,-1.733955,England,Richmond (Yorks)
+DL11,54.401406,-1.811486,England,Richmond (Yorks)
+DL12,54.608018,-2.001702,England,Bishop Auckland
+DL13,54.765797,-2.21858,England,North West Durham
+DL14,54.660326,-1.725962,England,Bishop Auckland
+DL15,54.710261,-1.690798,England,North West Durham
+DL16,54.698905,-1.602596,England,Bishop Auckland
+DL17,54.682302,-1.537818,England,Sedgefield
+DL2,54.512592,-1.467294,England,Sedgefield
+DL3,54.551223,-1.548097,England,Darlington
+DL4,54.631971,-1.651812,England,Bishop Auckland
+DL5,54.625107,-1.563665,England,Sedgefield
+DL6,54.33806,-1.429532,England,Richmond (Yorks)
+DL7,54.389614,-1.490662,England,Richmond (Yorks)
+DL8,54.290204,-1.594279,England,Richmond (Yorks)
+DL9,54.379353,-1.743816,England,Richmond (Yorks)
+DL98,54.527513,-1.5597,England,Darlington
+DN1,53.523057,-1.134819,England,Doncaster Central
+DN10,53.4451,-0.849444,England,Bassetlaw
+DN11,53.475934,-1.065038,England,Don Valley
+DN12,53.483881,-1.189416,England,Don Valley
+DN14,53.692792,-1.032011, E06000011,England
+DN15,53.620922,-0.566353,England,Brigg and Goole
+DN16,53.582099,-0.658678,England,Scunthorpe
+DN17,53.584673,-0.658959,England,Scunthorpe
+DN18,53.685645,-0.448963,England,Cleethorpes
+DN19,53.676717,-0.380193,England,Cleethorpes
+DN2,53.529084,-1.125509,England,Doncaster Central
+DN20,53.565591,-0.549712,England,Brigg and Goole
+DN21,53.389627,-0.773455,England,Gainsborough
+DN22,53.328848,-0.822288,England,Bassetlaw
+DN3,53.578865,-1.06742,E05001005,E99999999
+DN31,53.565945,-0.084258,England,Great Grimsby
+DN32,53.552994,-0.082745,England,Great Grimsby
+DN33,53.549181,-0.096714,England,Great Grimsby
+DN34,53.564986,-0.103056,England,Great Grimsby
+DN35,53.552066,-0.018673,England,Cleethorpes
+DN36,53.534615,-0.028904,England,Cleethorpes
+DN37,53.544503,-0.124997,England,Cleethorpes
+DN38,53.598006,-0.392167,England,Brigg and Goole
+DN39,53.581576,-0.35199,England,Cleethorpes
+DN4,53.518189,-1.141569,England,Doncaster Central
+DN40,53.62009,-0.200047,England,Cleethorpes
+DN41,53.578795,-0.171757,England,Cleethorpes
+DN5,53.545274,-1.146862,England,Doncaster North
+DN55,53.512924,-1.125721,England,Doncaster Central
+DN6,53.612671,-1.152004,England,Doncaster North
+DN7,53.583589,-1.019749,England,Don Valley
+DN8,53.614084,-0.970096,England,Don Valley
+DN9,53.520594,-0.805076,England,Brigg and Goole
+DT1,50.715195,-2.444083,England,West Dorset
+DT10,50.930249,-2.297914,England,North Dorset
+DT11,50.802146,-2.228288,England,North Dorset
+DT2,50.778165,-2.573195,England,West Dorset
+DT3,50.613912,-2.494674,England,West Dorset
+DT4,50.61215,-2.459223,England,South Dorset
+DT5,50.560548,-2.445479,England,South Dorset
+DT6,50.734402,-2.759565,England,West Dorset
+DT7,50.726979,-2.938006,England,West Dorset
+DT8,50.809836,-2.740961,England,West Dorset
+DT9,50.948516,-2.514091,England,West Dorset
+DY1,52.511892,-2.088439,England,Dudley North
+DY10,52.387094,-2.250475,England,Wyre Forest
+DY11,52.391555,-2.2618,England,Wyre Forest
+DY12,52.395588,-2.321564,England,Wyre Forest
+DY13,52.335669,-2.282824,England,Wyre Forest
+DY14,52.368743,-2.5044,England,Ludlow
+DY2,52.480737,-2.082619,England,Stourbridge
+DY3,52.535235,-2.103671,England,Dudley North
+DY4,52.544336,-2.036865,England,West Bromwich West
+DY5,52.475166,-2.102278,England,Stourbridge
+DY6,52.491429,-2.189034,England,South Staffordshire
+DY7,52.461897,-2.20517,England,South Staffordshire
+DY8,52.457219,-2.147475,England,Stourbridge
+DY9,52.378606,-2.118963,England,Bromsgrove
+E1,51.512497,-0.052098,England,Poplar and Limehouse
+E10,51.572162,-0.008666,England,Leyton and Wanstead
+E11,51.564032,0.008798,England,Leyton and Wanstead
+E12,51.551892,0.046229,England,East Ham
+E13,51.529253,0.023155,England,West Ham
+E14,51.509978,-0.01501,England,Poplar and Limehouse
+E15,51.544029,-0.002063,England,West Ham
+E16,51.507713,0.022806,England,West Ham
+E17,51.585503,-0.018014,England,Walthamstow
+E18,51.591999,0.026577,England,Chingford and Woodford Green
+E1W,51.508644,-0.07359,England,Poplar and Limehouse
+E2,51.526024,-0.066917,England,Bethnal Green and Bow
+E20,51.547915,-0.007431,England,West Ham
+E3,51.53023,-0.028907,England,Bethnal Green and Bow
+E4,51.63325,0.008156,England,Chingford and Woodford Green
+E5,51.557186,-0.049165,England,Hackney North and Stoke Newington
+E6,51.537562,0.040294,England,East Ham
+E7,51.554412,0.019655,England,Leyton and Wanstead
+E77,51.513948,-0.069129,England,Bethnal Green and Bow
+E8,51.543401,-0.063282,England,Hackney South and Shoreditch
+E9,51.545421,-0.041952,England,Hackney South and Shoreditch
+E98,51.508025,-0.064394,England,Poplar and Limehouse
+EC1A,51.524503,-0.112088,England,Islington South and Finsbury
+EC1M,51.521357,-0.106597,England,Holborn and St Pancras
+EC1N,51.51807,-0.10852,England,Holborn and St Pancras
+EC1P,51.524503,-0.112088,England,Islington South and Finsbury
+EC1R,51.52326,-0.10695,England,Islington South and Finsbury
+EC1V,51.523383,-0.100112,England,Islington South and Finsbury
+EC1Y,51.523387,-0.097027,England,Islington South and Finsbury
+EC2A,51.520707,-0.087597,England,Islington South and Finsbury
+EC2M,51.516838,-0.084732,England,Cities of London and Westminster
+EC2N,51.514782,-0.084919,England,Cities of London and Westminster
+EC2P,51.524503,-0.112088,England,Islington South and Finsbury
+EC2R,51.51727,-0.090248,England,Cities of London and Westminster
+EC2V,51.515373,-0.092461,England,Cities of London and Westminster
+EC2Y,51.516961,-0.096113,England,Cities of London and Westminster
+EC3A,51.513299,-0.081104,England,Cities of London and Westminster
+EC3B,51.51403,-0.081823,England,Cities of London and Westminster
+EC3M,51.510603,-0.085599,England,Cities of London and Westminster
+EC3N,51.512897,-0.077403,England,Cities of London and Westminster
+EC3P,51.524503,-0.112088,England,Islington South and Finsbury
+EC3R,51.509998,-0.082699,England,Cities of London and Westminster
+EC3V,51.51273,-0.08427,England,Cities of London and Westminster
+EC4A,51.517526,-0.108283,England,Cities of London and Westminster
+EC4M,51.51528,-0.10339,England,Cities of London and Westminster
+EC4N,51.513504,-0.092006,England,Cities of London and Westminster
+EC4P,51.524503,-0.112088,England,Islington South and Finsbury
+EC4R,51.51074,-0.089614,England,Cities of London and Westminster
+EC4V,51.511247,-0.094809,England,Cities of London and Westminster
+EC4Y,51.512701,-0.104621,England,Cities of London and Westminster
+EC50,51.524503,-0.112088,England,Islington South and Finsbury
+EC88,51.526579,-0.080993,England,Hackney South and Shoreditch
+EH1,55.953655,-3.188107,Scotland,Edinburgh North and Leith
+EH10,55.942261,-3.214016,Scotland,Edinburgh South West
+EH11,55.940596,-3.217005,Scotland,Edinburgh South West
+EH12,55.948641,-3.323941,Scotland,Edinburgh West
+EH13,55.907236,-3.249825,Scotland,Edinburgh South West
+EH14,55.933034,-3.237369,Scotland,Edinburgh South West
+EH15,55.953228,-3.115576,Scotland,Edinburgh East
+EH16,55.931279,-3.145677,Scotland,Edinburgh East
+EH17,55.907926,-3.133999,Scotland,Edinburgh South
+EH18,55.882239,-3.114082,Scotland,Midlothian
+EH19,55.875289,-3.106547,Scotland,Midlothian
+EH2,55.955084,-3.193676,Scotland,Edinburgh North and Leith
+EH20,55.873728,-3.104281,Scotland,Midlothian
+EH21,55.94315,-3.055998,Scotland,East Lothian
+EH22,55.893001,-3.072864,Scotland,Midlothian
+EH23,55.847718,-3.054798,Scotland,Midlothian
+EH24,55.850553,-3.137998,Scotland,Midlothian
+EH25,55.85816,-3.164261,Scotland,Midlothian
+EH26,55.831621,-3.227585,Scotland,Midlothian
+EH27,55.887276,-3.420788,Scotland,Livingston
+EH28,55.923134,-3.397647,Scotland,Edinburgh West
+EH29,55.956253,-3.404975,Scotland,Edinburgh West
+EH3,55.961302,-3.202037,Scotland,Edinburgh North and Leith
+EH30,55.973619,-3.352244,Scotland,Edinburgh West
+EH31,56.034904,-2.830883,Scotland,East Lothian
+EH32,55.970647,-2.956832,Scotland,East Lothian
+EH33,55.945249,-2.954076,Scotland,East Lothian
+EH34,55.909633,-2.895148,Scotland,East Lothian
+EH35,55.912843,-2.938418,Scotland,East Lothian
+EH36,55.866543,-2.884777,Scotland,East Lothian
+EH37,55.864302,-2.966503,Scotland,Midlothian
+EH38,55.780276,-2.964692,Scotland,Berwickshire
+EH39,56.058353,-2.72277,Scotland,East Lothian
+EH4,55.959488,-3.225575,Scotland,Edinburgh North and Leith
+EH40,55.987016,-2.656362,Scotland,East Lothian
+EH41,55.95569,-2.781843,Scotland,East Lothian
+EH42,56.00083,-2.515368,Scotland,East Lothian
+EH43,55.624555,-3.011634,Scotland,Dumfriesshire
+EH44,55.619473,-3.062235,Scotland,Dumfriesshire
+EH45,55.651928,-3.187819,Scotland,Dumfriesshire
+EH46,55.731865,-3.381248,Scotland,Dumfriesshire
+EH47,55.858312,-3.71825,Scotland,Linlithgow and East Falkirk
+EH48,55.903097,-3.638074,Scotland,Linlithgow and East Falkirk
+EH49,55.976415,-3.587197,Scotland,Linlithgow and East Falkirk
+EH5,55.980287,-3.222227,Scotland,Edinburgh North and Leith
+EH51,56.017379,-3.608241,Scotland,Linlithgow and East Falkirk
+EH52,55.934479,-3.471261,S13002821,S99999999
+EH53,55.892764,-3.481259,Scotland,Livingston
+EH54,55.885073,-3.512159,Scotland,Livingston
+EH55,55.85245,-3.569854,Scotland,Livingston
+EH6,55.977174,-3.181216,Scotland,Edinburgh North and Leith
+EH7,55.958462,-3.183545,Scotland,Edinburgh North and Leith
+EH8,55.955167,-3.150051,Scotland,Edinburgh East
+EH9,55.934598,-3.19359,Scotland,Edinburgh South
+EH91,55.923232,-3.305119,Scotland,Edinburgh South West
+EH95,55.978625,-3.253521,Scotland,Edinburgh North and Leith
+EH99,55.951967,-3.174923,Scotland,Edinburgh East
+EN1,51.651933,-0.077091,England,Enfield North
+EN10,51.728633,-0.025284,England,Broxbourne
+EN11,51.764847,-0.007269,England,Broxbourne
+EN2,51.657483,-0.082104,England,Enfield North
+EN3,51.644435,-0.053184,England,Edmonton
+EN4,51.649929,-0.149308,England,Enfield
+EN5,51.643239,-0.171145,England,Chipping Barnet
+EN6,51.699279,-0.189753,England,Hertsmere
+EN7,51.660577,-0.079978,England,Enfield North
+EN8,51.707866,-0.036885,England,Broxbourne
+EN9,51.686246,-0.013747,England,Broxbourne
+EX1,50.72373,-3.527605,England,Exeter
+EX10,50.718379,-3.288563,England,East Devon
+EX11,50.750899,-3.280398,England,East Devon
+EX12,50.712185,-3.073541,England,Tiverton and Honiton
+EX13,50.781873,-2.997432,England,Tiverton and Honiton
+EX14,50.799367,-3.187286,England,Tiverton and Honiton
+EX15,50.858018,-3.393103,England,Tiverton and Honiton
+EX16,50.904104,-3.485928,England,Tiverton and Honiton
+EX17,50.79506,-3.650682,England,Central Devon
+EX18,50.916121,-3.869897,England,North Devon
+EX19,50.911442,-4.073432,England,Torridge and West Devon
+EX2,50.720442,-3.527314,England,Exeter
+EX20,50.739187,-4.003436,England,Central Devon
+EX21,50.779174,-4.190875,England,Central Devon
+EX22,50.810492,-4.353741,England,Torridge and West Devon
+EX23,50.788396,-4.551559,England,North Cornwall
+EX24,50.740935,-3.07074,England,Tiverton and Honiton
+EX3,50.682226,-3.463818,England,East Devon
+EX31,51.079619,-4.061284,England,North Devon
+EX32,51.052939,-4.047799,E05003550,E10000008
+EX33,51.108638,-4.162436,England,North Devon
+EX34,51.202408,-4.029658,England,North Devon
+EX35,51.229371,-3.834587,England,North Devon
+EX36,51.017397,-3.835716,England,North Devon
+EX37,50.996373,-3.984582,England,North Devon
+EX38,50.956432,-4.147315,England,Torridge and West Devon
+EX39,51.035743,-4.241314,England,Torridge and West Devon
+EX4,50.761825,-3.491483,England,Central Devon
+EX5,50.70942,-3.451733,England,East Devon
+EX6,50.733033,-3.677763,England,Central Devon
+EX7,50.583679,-3.460788,England,Newton Abbot
+EX8,50.619392,-3.41188,England,East Devon
+EX9,50.630741,-3.334848,England,East Devon
+FK1,56.002002,-3.784778,Scotland,Falkirk
+FK10,56.117088,-3.794093,Scotland,Ochil and South Perthshire
+FK11,56.150813,-3.854347,Scotland,Ochil and South Perthshire
+FK12,56.153625,-3.800948,Scotland,Ochil and South Perthshire
+FK13,56.153533,-3.746606,Scotland,Ochil and South Perthshire
+FK14,56.162301,-3.670092,Scotland,Ochil and South Perthshire
+FK15,56.186484,-3.963438,Scotland,Stirling
+FK16,56.187721,-4.058647,Scotland,Stirling
+FK17,56.243784,-4.216449,Scotland,Stirling
+FK18,56.324941,-4.327853,Scotland,Stirling
+FK19,56.38539,-4.27544,Scotland,Stirling
+FK2,55.983682,-3.727157,Scotland,Falkirk
+FK20,56.41758,-4.449069,Scotland,Stirling
+FK21,56.452858,-4.33423,Scotland,Stirling
+FK3,56.009411,-3.720606,Scotland,Linlithgow and East Falkirk
+FK4,56.000879,-3.887314,Scotland,Falkirk
+FK5,56.019684,-3.833326,Scotland,Falkirk
+FK6,56.020782,-3.909609,Scotland,Falkirk
+FK7,56.093001,-3.916366,Scotland,Stirling
+FK8,56.126169,-3.941683,Scotland,Stirling
+FK9,56.134258,-3.960984,Scotland,Stirling
+FY0,53.754607,-3.008011,England,Fylde
+FY1,53.818787,-3.051658,England,Blackpool South
+FY2,53.858082,-3.038518,England,Blackpool North and Cleveleys
+FY3,53.824341,-3.001405,England,Fylde
+FY4,53.798854,-3.05333,England,Blackpool South
+FY5,53.876083,-3.042965,England,Blackpool North and Cleveleys
+FY6,53.924524,-2.997117,England,Lancaster and Fleetwood
+FY7,53.924362,-3.008976,England,Lancaster and Fleetwood
+FY8,53.7487,-3.030495,England,Fylde
+G1,55.860893,-4.241474,Scotland,Glasgow Central
+G11,55.874883,-4.307281,Scotland,Glasgow North
+G12,55.88664,-4.316774,Scotland,Glasgow North West
+G13,55.892786,-4.328768,Scotland,Glasgow North West
+G14,55.876269,-4.345205,Scotland,Glasgow North West
+G15,55.907356,-4.355626,Scotland,Glasgow North West
+G2,55.861016,-4.249471,Scotland,Glasgow Central
+G20,55.897799,-4.30162,Scotland,Glasgow North
+G21,55.874969,-4.224028,Scotland,Glasgow North East
+G22,55.883712,-4.257196,Scotland,Glasgow North East
+G23,55.899083,-4.276101,Scotland,Glasgow North
+G3,55.869064,-4.27615,Scotland,Glasgow Central
+G31,55.857818,-4.224183,Scotland,Glasgow North East
+G32,55.859674,-4.154744,Scotland,Glasgow East
+G33,55.883521,-4.16526,Scotland,Glasgow North East
+G34,55.863607,-4.106714,Scotland,Glasgow East
+G4,55.868641,-4.241904,Scotland,Glasgow Central
+G40,55.851069,-4.233079,Scotland,Glasgow Central
+G41,55.848789,-4.288224,Scotland,Glasgow Central
+G42,55.826459,-4.2416,Scotland,Glasgow Central
+G43,55.820529,-4.304221,Scotland,Glasgow South
+G44,55.817548,-4.260003,Scotland,Glasgow South
+G45,55.80759,-4.230987,Scotland,Glasgow South
+G46,55.807526,-4.295026,Scotland,East Renfrewshire
+G5,55.842922,-4.241238,Scotland,Glasgow Central
+G51,55.853378,-4.299966,Scotland,Glasgow South West
+G52,55.847022,-4.331557,Scotland,Glasgow South West
+G53,55.825521,-4.348233,Scotland,Glasgow South West
+G58,55.822004,-4.332311,Scotland,Glasgow South
+G60,55.932074,-4.485805,Scotland,West Dunbartonshire
+G61,55.909328,-4.32568,Scotland,East Dunbartonshire
+G62,55.939155,-4.310974,Scotland,East Dunbartonshire
+G63,56.069204,-4.43521,Scotland,Stirling
+G64,55.901451,-4.20422,Scotland,East Dunbartonshire
+G65,55.977686,-4.054123,Scotland,Cumbernauld
+G66,55.941308,-4.160205,Scotland,East Dunbartonshire
+G67,55.950463,-3.987429,Scotland,Cumbernauld
+G68,55.971029,-4.018659,Scotland,Cumbernauld
+G69,55.907972,-4.082625,Scotland,Coatbridge
+G70,55.951916,-3.983659,Scotland,Cumbernauld
+G71,55.824379,-4.052419,Scotland,Coatbridge
+G72,55.792697,-4.087282,Scotland,Rutherglen and Hamilton West
+G73,55.834329,-4.203007,Scotland,Rutherglen and Hamilton West
+G74,55.762502,-4.176254,Scotland,East Kilbride
+G75,55.757256,-4.18672,Scotland,East Kilbride
+G76,55.739553,-4.272235,S13002582,S99999999
+G77,55.76972,-4.336218,Scotland,East Renfrewshire
+G78,55.803978,-4.396149,Scotland,East Renfrewshire
+G79,55.771011,-4.223077,Scotland,East Kilbride
+G80,55.868641,-4.241904,Scotland,Glasgow Central
+G81,55.897349,-4.388931,Scotland,West Dunbartonshire
+G82,55.944483,-4.570477,Scotland,West Dunbartonshire
+G83,55.983769,-4.580444,Scotland,West Dunbartonshire
+G84,56.08053,-4.82792,Scotland,Argyll and Bute
+G9,55.868641,-4.241904,Scotland,Glasgow Central
+G90,55.868641,-4.241904,Scotland,Glasgow Central
+GL1,51.863224,-2.214587,England,Gloucester
+GL10,51.744172,-2.283616,England,Stroud
+GL11,51.681551,-2.355283,England,Stroud
+GL12,51.636852,-2.353315,England,The Cotswolds
+GL13,51.692221,-2.459718,England,Stroud
+GL14,51.802786,-2.450082,England,Forest of Dean
+GL15,51.760224,-2.472623,England,Forest of Dean
+GL16,51.810158,-2.616861,England,Forest of Dean
+GL17,51.863263,-2.44932,England,Forest of Dean
+GL18,51.931034,-2.402919,England,Forest of Dean
+GL19,51.878226,-2.385377,England,Forest of Dean
+GL2,51.877779,-2.215441,England,Tewkesbury
+GL20,51.994582,-2.156419,England,Tewkesbury
+GL3,51.887114,-2.187327,England,Tewkesbury
+GL4,51.839692,-2.243837,England,Gloucester
+GL5,51.744835,-2.216719,England,Stroud
+GL50,51.901823,-2.075387,England,Cheltenham
+GL51,51.914251,-2.106374,England,Cheltenham
+GL52,51.904775,-2.070363,England,Cheltenham
+GL53,51.877268,-2.07658,England,Cheltenham
+GL54,51.929041,-1.722762,England,The Cotswolds
+GL55,52.053137,-1.78116,England,The Cotswolds
+GL56,51.992237,-1.700483,England,The Cotswolds
+GL6,51.696433,-2.218455,England,Stroud
+GL7,51.701673,-1.960059,England,The Cotswolds
+GL8,51.63671,-2.158766,England,The Cotswolds
+GL9,51.545802,-2.292647,England,Thornbury and Yate
+GU1,51.245292,-0.582318,England,Guildford
+GU10,51.233413,-0.731992,England,Surrey Heath
+GU11,51.248743,-0.761173,England,Aldershot
+GU12,51.238825,-0.744321,England,Aldershot
+GU13,51.264305,-0.828048,England,North East Hampshire
+GU14,51.289172,-0.765463,England,Aldershot
+GU15,51.332794,-0.71698,England,Surrey Heath
+GU16,51.316003,-0.74243,England,Surrey Heath
+GU17,51.330816,-0.780953,England,Aldershot
+GU18,51.352091,-0.670143,England,Surrey Heath
+GU19,51.36078,-0.693533,England,Surrey Heath
+GU2,51.234878,-0.577796,England,Guildford
+GU20,51.368466,-0.663836,England,Surrey Heath
+GU21,51.317753,-0.555834,England,Woking
+GU22,51.30919,-0.569575,England,Woking
+GU23,51.300155,-0.492338,England,Mole Valley
+GU24,51.304421,-0.638683,England,Woking
+GU25,51.401727,-0.563456,England,Runnymede and Weybridge
+GU26,51.113519,-0.732976,England,South West Surrey
+GU27,51.100597,-0.706721,England,South West Surrey
+GU28,50.986695,-0.608831,England,Arundel and South Downs
+GU29,50.999622,-0.731705,England,Chichester
+GU3,51.231625,-0.634573,England,Guildford
+GU30,51.07633,-0.803425,England,East Hampshire
+GU31,51.002849,-0.935054,England,East Hampshire
+GU32,51.034753,-0.940826,England,East Hampshire
+GU33,51.075689,-0.887776,England,East Hampshire
+GU34,51.147192,-0.97697,England,East Hampshire
+GU35,51.11068,-0.846194,England,East Hampshire
+GU4,51.246768,-0.524875,England,Guildford
+GU46,51.330849,-0.834534,England,North East Hampshire
+GU47,51.345397,-0.775354,England,Bracknell
+GU5,51.202118,-0.559367,England,Guildford
+GU51,51.296114,-0.855709,England,North East Hampshire
+GU52,51.254009,-0.847985,England,North East Hampshire
+GU6,51.140963,-0.484249,England,Guildford
+GU7,51.185999,-0.605759,England,South West Surrey
+GU8,51.172318,-0.59271,E05007413,E10000030
+GU9,51.235202,-0.811656,England,South West Surrey
+GU95,51.326294,-0.763075,England,Surrey Heath
+HA0,51.540071,-0.30348,England,Brent North
+HA1,51.579677,-0.335836,England,Harrow West
+HA2,51.572341,-0.350592,England,Harrow West
+HA3,51.579338,-0.319583,England,Brent North
+HA4,51.573425,-0.413572,England,Uxbridge and South Ruislip
+HA5,51.59295,-0.384076,England,Ruislip
+HA6,51.611576,-0.423349,England,Ruislip
+HA7,51.605562,-0.302311,England,Harrow East
+HA8,51.607745,-0.271975,England,Hendon
+HA9,51.557909,-0.283515,England,Brent Central
+HD1,53.648336,-1.781499,England,Huddersfield
+HD2,53.662379,-1.778672,England,Huddersfield
+HD3,53.654492,-1.801379,England,Huddersfield
+HD4,53.640085,-1.802203,England,Colne Valley
+HD5,53.649522,-1.736789,England,Huddersfield
+HD6,53.698361,-1.775122,England,Calder Valley
+HD7,53.57091,-1.785703,England,Colne Valley
+HD8,53.635632,-1.723158,England,Huddersfield
+HD9,53.57091,-1.785703,England,Colne Valley
+HG1,53.993652,-1.541736,England,Harrogate and Knaresborough
+HG2,53.983734,-1.554944,England,Harrogate and Knaresborough
+HG3,53.96379,-1.448751,England,Selby and Ainsty
+HG4,54.137433,-1.522427,England,Skipton and Ripon
+HG5,54.006866,-1.46399,England,Harrogate and Knaresborough
+HP1,51.748401,-0.469885,England,Hemel Hempstead
+HP10,51.589356,-0.681444,England,Beaconsfield
+HP11,51.627761,-0.748003,England,Wycombe
+HP12,51.635856,-0.766984,England,Wycombe
+HP13,51.64231,-0.73633,England,Wycombe
+HP14,51.644413,-0.797001,England,Wycombe
+HP15,51.662147,-0.732279,England,Aylesbury
+HP16,51.703113,-0.706678,England,Chesham and Amersham
+HP17,51.721742,-0.834575,England,Buckingham
+HP18,51.791228,-0.912387,England,Buckingham
+HP19,51.818554,-0.809475,England,Aylesbury
+HP2,51.75265,-0.471596,England,Hemel Hempstead
+HP20,51.818554,-0.809475,England,Aylesbury
+HP21,51.812595,-0.783376,England,Aylesbury
+HP22,51.85199,-0.871228,England,Aylesbury
+HP23,51.791883,-0.666021,England,South West Hertfordshire
+HP27,51.722501,-0.831269,England,Buckingham
+HP3,51.728821,-0.470923,England,Hemel Hempstead
+HP4,51.761824,-0.569648,England,South West Hertfordshire
+HP5,51.707635,-0.612055,England,Chesham and Amersham
+HP6,51.673681,-0.599803,England,Chesham and Amersham
+HP7,51.673718,-0.608985,England,Chesham and Amersham
+HP8,51.648153,-0.55091,England,Chesham and Amersham
+HP9,51.607722,-0.641575,England,Beaconsfield
+HR1,52.060642,-2.709996,England,Hereford and South Herefordshire
+HR2,51.969758,-2.895349,England,Hereford and South Herefordshire
+HR3,52.074826,-3.125041,Wales,Brecon and Radnorshire
+HR4,52.055604,-2.720869,England,Hereford and South Herefordshire
+HR5,52.205849,-3.027564,England,North Herefordshire
+HR6,52.235672,-2.742001,England,North Herefordshire
+HR7,52.189015,-2.506941,England,North Herefordshire
+HR8,52.038547,-2.42291,England,North Herefordshire
+HR9,51.912929,-2.582505,England,Hereford and South Herefordshire
+HS1,58.208207,-6.380045,Scotland,Na h-Eileanan an Iar
+HS2,58.21904,-6.349698,Scotland,Na h-Eileanan an Iar
+HS3,57.992454,-6.754004,Scotland,Na h-Eileanan an Iar
+HS4,57.872429,-6.699011,Scotland,Na h-Eileanan an Iar
+HS5,57.769937,-7.009299,Scotland,Na h-Eileanan an Iar
+HS6,57.601252,-7.16386,Scotland,Na h-Eileanan an Iar
+HS7,57.473212,-7.390103,Scotland,Na h-Eileanan an Iar
+HS8,57.085834,-7.30126, S12000013,Scotland
+HS9,56.963076,-7.441358, S12000013,Scotland
+HU1,53.744039,-0.333144,England,Kingston upon Hull West and Hessle
+HU10,53.754444,-0.441076,England,Haltemprice and Howden
+HU11,53.778806,-0.247261,England,Beverley and Holderness
+HU12,53.700468,-0.079289,England,Beverley and Holderness
+HU13,53.722873,-0.434726,England,Kingston upon Hull West and Hessle
+HU14,53.717935,-0.503453,England,Haltemprice and Howden
+HU15,53.730873,-0.575242,England,Haltemprice and Howden
+HU16,53.779606,-0.414479,England,Haltemprice and Howden
+HU17,53.84184,-0.427723,England,Beverley and Holderness
+HU18,53.911603,-0.168989,England,Beverley and Holderness
+HU19,53.731659,0.029424,England,Beverley and Holderness
+HU2,53.751253,-0.339334,England,Kingston upon Hull West and Hessle
+HU20,53.789895,-0.508787,England,Haltemprice and Howden
+HU3,53.749748,-0.351436,England,Kingston upon Hull West and Hessle
+HU4,53.744829,-0.395696,England,Kingston upon Hull West and Hessle
+HU5,53.757286,-0.348546,England,Kingston upon Hull North
+HU6,53.797572,-0.37062,England,Haltemprice and Howden
+HU7,53.777569,-0.342924,England,Kingston upon Hull East
+HU8,53.778227,-0.339787,England,Kingston upon Hull East
+HU9,53.744073,-0.326561,England,Kingston upon Hull East
+HX1,53.724319,-1.857382,England,Halifax
+HX2,53.722588,-1.895881,England,Halifax
+HX3,53.713077,-1.859284,England,Halifax
+HX4,53.68099,-1.894681,England,Calder Valley
+HX5,53.684907,-1.836621,England,Calder Valley
+HX6,53.706974,-1.916295,England,Halifax
+HX7,53.733095,-1.990868,England,Calder Valley
+IG1,51.558255,0.072064,England,Ilford South
+IG10,51.64607,0.05408,England,Epping Forest
+IG11,51.524785,0.078646,England,East Ham
+IG2,51.572847,0.082411,England,Ilford South
+IG3,51.561221,0.092946,England,Ilford South
+IG4,51.576197,0.057668,England,Ilford South
+IG5,51.582095,0.061341,England,Ilford North
+IG6,51.578987,0.082519,England,Ilford North
+IG7,51.60901,0.110929,England,Ilford North
+IG8,51.607377,0.023391,England,Chingford and Woodford Green
+IG9,51.623454,0.044766,England,Epping Forest
+IP1,52.052848,1.1467,England,Ipswich
+IP10,52.034802,1.234475,England,Suffolk Coastal
+IP11,51.984567,1.318223,England,Suffolk Coastal
+IP12,52.093004,1.317202,England,Suffolk Coastal
+IP13,52.158856,1.373401,England,Central Suffolk and North Ipswich
+IP14,52.186266,0.997491,England,Bury St Edmunds
+IP15,52.152095,1.600926,England,Suffolk Coastal
+IP16,52.205971,1.578288,England,Suffolk Coastal
+IP17,52.21597,1.492622,England,Suffolk Coastal
+IP18,52.327355,1.676581,England,Suffolk Coastal
+IP19,52.348784,1.425337,England,Suffolk Coastal
+IP2,52.051397,1.14279,England,Ipswich
+IP20,52.432701,1.360155,England,South Norfolk
+IP21,52.365243,1.128892,England,Central Suffolk and North Ipswich
+IP22,52.370854,1.098918,England,Central Suffolk and North Ipswich
+IP23,52.320486,1.145648,England,Central Suffolk and North Ipswich
+IP24,52.415009,0.746803,England,South West Norfolk
+IP25,52.571569,0.824017,England,Mid Norfolk
+IP26,52.487998,0.52345,England,South West Norfolk
+IP27,52.447327,0.624158,England,West Suffolk
+IP28,52.335872,0.525685,England,West Suffolk
+IP29,52.158811,0.666935,England,South Suffolk
+IP3,52.037845,1.176898,England,Ipswich
+IP30,52.195818,0.799936,England,Bury St Edmunds
+IP31,52.328472,0.850715,England,West Suffolk
+IP32,52.259716,0.701067,England,Bury St Edmunds
+IP33,52.245952,0.711453,England,Bury St Edmunds
+IP4,52.055702,1.167063,England,Ipswich
+IP5,52.065977,1.234758,England,Central Suffolk and North Ipswich
+IP6,52.106058,1.111756,England,Central Suffolk and North Ipswich
+IP7,52.043527,0.953461,England,South Suffolk
+IP8,52.062857,1.096566,England,South Suffolk
+IP9,52.014148,1.165787,England,South Suffolk
+IP98,52.376663,1.109215,England,South Norfolk
+IV1,57.481338,-4.223951,Scotland,Inverness
+IV10,57.589791,-4.186899,Scotland,Ross
+IV11,57.681113,-4.035232,Scotland,Ross
+IV12,57.582902,-3.868892,Scotland,Inverness
+IV13,57.333441,-3.993265,Scotland,Inverness
+IV14,57.600485,-4.530442,S13002667,S99999999
+IV15,57.594903,-4.424235,Scotland,Ross
+IV16,57.669849,-4.324864,Scotland,Caithness
+IV17,57.694754,-4.251971,Scotland,Caithness
+IV18,57.688736,-4.169606,Scotland,Caithness
+IV19,57.811182,-4.052522,Scotland,Caithness
+IV2,57.237209,-4.456451,Scotland,Inverness
+IV20,57.777056,-3.967187,Scotland,Caithness
+IV21,57.69734,-5.726448,S13002667,S99999999
+IV22,57.529891,-5.531631,S13002667,S99999999
+IV23,57.68438,-4.678747,S13002667,S99999999
+IV24,57.906004,-4.351042,S13002662,S99999999
+IV25,57.879842,-4.027357,Scotland,Caithness
+IV26,57.902134,-5.165279,S13002667,S99999999
+IV27,58.114432,-4.441312,S13002662,S99999999
+IV28,57.991268,-4.162468,Scotland,Caithness
+IV3,57.474809,-4.244037,Scotland,Inverness
+IV30,57.647236,-3.321455,Scotland,Moray
+IV31,57.721699,-3.282028,Scotland,Moray
+IV32,57.66081,-3.112221,Scotland,Moray
+IV33,57.526316,-3.212591,Scotland,Moray
+IV34,57.459278,-3.296046,Scotland,Moray
+IV35,57.460479,-3.352764,Scotland,Moray
+IV36,57.609952,-3.614073,Scotland,Moray
+IV4,57.502461,-4.473971,Scotland,Ross
+IV40,57.281792,-5.712955,S13002667,S99999999
+IV41,57.272753,-5.734284,Scotland,Ross
+IV42,57.222101,-5.667154,Scotland,Ross
+IV43,57.141004,-5.828618,Scotland,Ross
+IV44,57.134204,-5.965133,Scotland,Ross
+IV45,57.064703,-5.899674,Scotland,Ross
+IV46,57.116729,-5.98875,Scotland,Ross
+IV47,57.325888,-6.406951,Scotland,Ross
+IV48,57.312726,-6.11172,Scotland,Ross
+IV49,57.24647,-5.911182,Scotland,Ross
+IV5,57.476953,-4.418665,Scotland,Inverness
+IV51,57.418277,-6.210464,Scotland,Ross
+IV52,57.33185,-5.666145,S13002667,S99999999
+IV53,57.341031,-5.565153,S13002667,S99999999
+IV54,57.395921,-5.502517,S13002667,S99999999
+IV55,57.515576,-6.572518,Scotland,Ross
+IV56,57.359835,-6.407083,Scotland,Ross
+IV6,57.482518,-4.461277,Scotland,Ross
+IV63,57.332499,-4.477051,Scotland,Inverness
+IV7,57.561528,-4.439689,Scotland,Ross
+IV8,57.551752,-4.259633,Scotland,Ross
+IV9,57.567243,-4.173073,Scotland,Ross
+IV99,57.481338,-4.223951,Scotland,Inverness
+KA1,55.608733,-4.500106,Scotland,Kilmarnock and Loudoun
+KA10,55.544334,-4.663266,Scotland,Central Ayrshire
+KA11,55.623262,-4.641757,Scotland,Central Ayrshire
+KA12,55.617158,-4.666696,Scotland,Central Ayrshire
+KA13,55.653983,-4.699693,Scotland,North Ayrshire and Arran
+KA14,55.739762,-4.677956,Scotland,North Ayrshire and Arran
+KA15,55.749946,-4.633887,Scotland,North Ayrshire and Arran
+KA16,55.606285,-4.328647,Scotland,Kilmarnock and Loudoun
+KA17,55.609896,-4.281463,Scotland,Kilmarnock and Loudoun
+KA18,55.454641,-4.266843,Scotland,Ayr
+KA19,55.354619,-4.680659,S13002785,S99999999
+KA2,55.60192,-4.526376,Scotland,Kilmarnock and Loudoun
+KA20,55.640722,-4.756328,Scotland,North Ayrshire and Arran
+KA21,55.63579,-4.790402,Scotland,North Ayrshire and Arran
+KA22,55.646267,-4.796901,Scotland,North Ayrshire and Arran
+KA23,55.694235,-4.855697,Scotland,North Ayrshire and Arran
+KA24,55.706833,-4.721025,Scotland,North Ayrshire and Arran
+KA25,55.753458,-4.687119,Scotland,North Ayrshire and Arran
+KA26,55.234931,-4.855575,Scotland,Ayr
+KA27,55.577199,-5.151072,Scotland,North Ayrshire and Arran
+KA28,55.753297,-4.928841,Scotland,North Ayrshire and Arran
+KA29,55.757618,-4.854942,Scotland,North Ayrshire and Arran
+KA3,55.612573,-4.496444,Scotland,Kilmarnock and Loudoun
+KA30,55.794063,-4.867152,Scotland,North Ayrshire and Arran
+KA4,55.600956,-4.381465,Scotland,Kilmarnock and Loudoun
+KA5,55.515561,-4.378663,Scotland,Kilmarnock and Loudoun
+KA6,55.476261,-4.582785,S13002785,S99999999
+KA7,55.462661,-4.633344,Scotland,Ayr
+KA8,55.468025,-4.607467,Scotland,Ayr
+KA9,55.501105,-4.610747,Scotland,Central Ayrshire
+KT1,51.408597,-0.304339,England,Kingston and Surbiton
+KT10,51.376481,-0.337382,England,Esher and Walton
+KT11,51.329521,-0.413793,England,Esher and Walton
+KT12,51.386685,-0.420354,England,Esher and Walton
+KT13,51.366804,-0.439943,England,Runnymede and Weybridge
+KT14,51.334372,-0.511371,England,Woking
+KT15,51.367195,-0.506486,England,Runnymede and Weybridge
+KT16,51.387936,-0.527483,England,Runnymede and Weybridge
+KT17,51.335323,-0.26244,England,Epsom and Ewell
+KT18,51.332573,-0.267411,England,Epsom and Ewell
+KT19,51.360472,-0.253172,England,Epsom and Ewell
+KT2,51.295195,-0.422291,England,Mole Valley
+KT20,51.291351,-0.237309,England,Reigate
+KT21,51.31009,-0.298604,England,Epsom and Ewell
+KT22,51.30148,-0.340968,England,Mole Valley
+KT23,51.279715,-0.387707,England,Mole Valley
+KT24,51.268214,-0.43077,England,Mole Valley
+KT3,51.402625,-0.258942,England,Kingston and Surbiton
+KT4,51.378171,-0.244279,England,Sutton and Cheam
+KT5,51.395789,-0.297352,England,Kingston and Surbiton
+KT6,51.392393,-0.310659,England,Kingston and Surbiton
+KT7,51.383517,-0.321836,England,Esher and Walton
+KT8,51.397498,-0.348896,England,Esher and Walton
+KT9,51.367415,-0.305847,England,Kingston and Surbiton
+KW1,58.442288,-3.090783,Scotland,Caithness
+KW10,57.972728,-3.978527,Scotland,Caithness
+KW11,58.387829,-4.211406,S13002662,S99999999
+KW12,58.500131,-3.48161,Scotland,Caithness
+KW13,58.450687,-3.892263,S13002662,S99999999
+KW14,58.593549,-3.522999,Scotland,Caithness
+KW15,58.9832,-2.960509,Scotland,Orkney and Shetland
+KW16,58.963184,-3.297858,Scotland,Orkney and Shetland
+KW17,59.161909,-2.767565,Scotland,Orkney and Shetland
+KW2,58.349734,-3.165667,Scotland,Caithness
+KW3,58.310231,-3.285577,Scotland,Caithness
+KW5,58.287418,-3.346459,Scotland,Caithness
+KW6,58.246018,-3.438726,Scotland,Caithness
+KW7,58.201512,-3.482391,Scotland,Caithness
+KW8,58.116957,-3.664285,Scotland,Caithness
+KW9,58.013404,-3.854711,Scotland,Caithness
+KY1,56.111699,-3.16065,Scotland,Kirkcaldy and Cowdenbeath
+KY10,56.205168,-2.763927,Scotland,North East Fife
+KY11,56.031099,-3.399091,Scotland,Dunfermline and West Fife
+KY12,56.074917,-3.450067,Scotland,Dunfermline and West Fife
+KY13,56.182315,-3.57123,Scotland,Ochil and South Perthshire
+KY14,56.349478,-3.240597,Scotland,North East Fife
+KY15,56.31991,-3.020911,Scotland,North East Fife
+KY16,56.375124,-2.893649,Scotland,North East Fife
+KY2,56.120044,-3.161866,Scotland,Kirkcaldy and Cowdenbeath
+KY3,56.066421,-3.243825,S13002627,S99999999
+KY4,56.13342,-3.379715,Scotland,Kirkcaldy and Cowdenbeath
+KY5,56.139491,-3.284935,Scotland,Glenrothes
+KY6,56.194778,-3.193488,Scotland,Glenrothes
+KY7,56.189164,-3.160249,Scotland,Glenrothes
+KY8,56.171298,-3.031958,S13002640,S99999999
+KY9,56.188609,-2.836072,Scotland,North East Fife
+KY99,56.050555,-3.433305,Scotland,Dunfermline and West Fife
+L1,53.397222,-2.980398,England,Liverpool
+L10,53.469542,-2.915266,England,Knowsley
+L11,53.460417,-2.898894,England,Liverpool
+L12,53.440615,-2.885529,England,Liverpool
+L13,53.435705,-2.929637,England,Liverpool
+L14,53.419043,-2.871989,England,Liverpool
+L15,53.398254,-2.930083,England,Liverpool
+L16,53.387602,-2.886322,England,Garston and Halewood
+L17,53.370417,-2.929868,England,Liverpool
+L18,53.39016,-2.907141,England,Liverpool
+L19,53.360518,-2.920786,England,Garston and Halewood
+L2,53.406117,-2.992862,England,Liverpool
+L20,53.450588,-2.991415,England,Bootle
+L21,53.482091,-2.989572,England,Bootle
+L22,53.475518,-3.027147,England,Bootle
+L23,53.48571,-3.013589,England,Bootle
+L24,53.34237,-2.841691,England,Garston and Halewood
+L25,53.363568,-2.856535,England,Garston and Halewood
+L26,53.361506,-2.828995,England,Garston and Halewood
+L27,53.374665,-2.865821,England,Garston and Halewood
+L28,53.436,-2.875031,England,Liverpool
+L29,53.49626,-2.982787,England,Sefton Central
+L3,53.409398,-2.999272,England,Liverpool
+L30,53.490419,-2.981491,England,Bootle
+L31,53.515879,-2.943004,England,Sefton Central
+L32,53.480512,-2.90295,England,Knowsley
+L33,53.481331,-2.885939,England,Knowsley
+L34,53.454508,-2.852657,England,Knowsley
+L35,53.416754,-2.763836,England,St Helens South and Whiston
+L36,53.402646,-2.834367,England,Knowsley
+L37,53.561472,-3.040311,England,West Lancashire
+L38,53.525109,-3.060101,England,Sefton Central
+L39,53.542112,-2.84005,England,West Lancashire
+L4,53.432593,-2.967214,England,Liverpool
+L40,53.612603,-2.867328,England,West Lancashire
+L41,53.399522,-3.048237,England,Birkenhead
+L42,53.386185,-3.03137,England,Birkenhead
+L43,53.370657,-3.059552,England,Birkenhead
+L44,53.416729,-3.033614,England,Wallasey
+L45,53.429019,-3.067024,England,Wallasey
+L46,53.400748,-3.111439,England,Wallasey
+L47,53.398391,-3.170033,England,Wirral West
+L48,53.37308,-3.184371,England,Wirral West
+L49,53.387517,-3.084029,England,Birkenhead
+L5,53.430285,-2.969133,England,Liverpool
+L6,53.426854,-2.949776,England,Liverpool
+L60,53.32967,-3.098929,England,Wirral South
+L61,53.327996,-3.105042,England,Wirral South
+L62,53.321993,-2.968268,England,Wirral South
+L63,53.321796,-2.992284,England,Wirral South
+L64,53.279874,-3.058805,England,Ellesmere Port and Neston
+L65,53.278472,-2.901294,England,Ellesmere Port and Neston
+L66,53.27255,-2.96865,England,City of Chester
+L67,53.450475,-2.943226,England,Liverpool
+L68,53.473059,-2.960691,England,Bootle
+L69,53.406403,-2.975555,England,Liverpool
+L7,53.410524,-2.942612,England,Liverpool
+L70,53.485198,-3.015686,England,Bootle
+L71,53.47211,-2.973536,England,Bootle
+L72,53.486419,-3.015896,England,Bootle
+L73,53.406403,-2.975555,England,Liverpool
+L74,53.393004,-2.988286,England,Liverpool
+L75,53.404429,-2.991574,England,Liverpool
+L8,53.391665,-2.952887,England,Liverpool
+L80,53.469207,-2.969086,England,Bootle
+L9,53.465571,-2.954105,England,Liverpool
+LA1,54.048155,-2.803827,England,Lancaster and Fleetwood
+LA10,54.32369,-2.528751,England,Westmorland and Lonsdale
+LA11,54.193186,-2.910494,England,Westmorland and Lonsdale
+LA12,54.195241,-3.090533,England,Barrow and Furness
+LA13,54.123224,-3.20158,England,Barrow and Furness
+LA14,54.117694,-3.224093,England,Barrow and Furness
+LA15,54.156018,-3.182852,England,Barrow and Furness
+LA16,54.188252,-3.205182,England,Barrow and Furness
+LA17,54.257256,-3.141154,England,Barrow and Furness
+LA18,54.209264,-3.268399,England,Copeland
+LA19,54.209264,-3.268399,England,Copeland
+LA2,54.024926,-2.80718,England,Lancaster and Fleetwood
+LA20,54.280836,-3.208851,England,Barrow and Furness
+LA21,54.366673,-3.051097,England,Westmorland and Lonsdale
+LA22,54.431429,-2.96137,England,Westmorland and Lonsdale
+LA23,54.394901,-2.920316,England,Westmorland and Lonsdale
+LA3,54.061697,-2.873773,England,Morecambe and Lunesdale
+LA4,54.071884,-2.867034,England,Morecambe and Lunesdale
+LA5,54.201315,-2.835541,England,Westmorland and Lonsdale
+LA6,54.13587,-2.746078,England,Morecambe and Lunesdale
+LA7,54.226846,-2.77401,England,Westmorland and Lonsdale
+LA8,54.286878,-2.730096,England,Westmorland and Lonsdale
+LA9,54.329718,-2.746847,England,Westmorland and Lonsdale
+LD1,52.241588,-3.378543,Wales,Brecon and Radnorshire
+LD2,52.148959,-3.40326,Wales,Brecon and Radnorshire
+LD3,51.997509,-3.233949,Wales,Brecon and Radnorshire
+LD4,52.116654,-3.555147,Wales,Brecon and Radnorshire
+LD5,52.135301,-3.626502,Wales,Brecon and Radnorshire
+LD6,52.300222,-3.51124,Wales,Brecon and Radnorshire
+LD7,52.344543,-3.048599,Wales,Brecon and Radnorshire
+LD8,52.273741,-3.006387,Wales,Brecon and Radnorshire
+LE1,52.632285,-1.124859,England,Leicester South
+LE10,52.538678,-1.37392,England,Bosworth
+LE11,52.772123,-1.209336,England,Loughborough
+LE12,52.784143,-1.128533,England,Loughborough
+LE13,52.752604,-0.881713,England,Rutland and Melton
+LE14,52.759377,-0.741219,England,Rutland and Melton
+LE15,52.670463,-0.727611,England,Rutland and Melton
+LE16,52.483687,-0.905523,England,Harborough
+LE17,52.454434,-1.199893,England,South Leicestershire
+LE18,52.586002,-1.109973,England,Harborough
+LE19,52.583315,-1.209061,England,South Leicestershire
+LE2,52.636082,-1.117927,England,Leicester South
+LE21,52.632801,-1.125337,England,Leicester South
+LE3,52.628105,-1.14833,England,Leicester West
+LE4,52.643983,-1.142332,England,Leicester West
+LE41,52.654115,-1.121497,England,Leicester East
+LE5,52.632285,-1.124859,England,Leicester South
+LE55,52.632801,-1.125337,England,Leicester South
+LE6,52.686064,-1.234131,England,Charnwood
+LE65,52.747492,-1.467374,England,North West Leicestershire
+LE67,52.725762,-1.375021,England,North West Leicestershire
+LE7,52.692087,-1.096129,England,Charnwood
+LE8,52.535457,-1.043958,England,Harborough
+LE87,52.557859,-1.183012,England,South Leicestershire
+LE9,52.574442,-1.317324,England,Bosworth
+LE94,52.483687,-0.905523,England,Harborough
+LE95,52.606178,-1.19056,England,South Leicestershire
+LL11,53.048897,-3.000085,Wales,Wrexham
+LL12,53.10632,-2.974246,Wales,Wrexham
+LL13,53.004572,-2.910301,Wales,Clwyd South
+LL14,53.010546,-3.056507,Wales,Clwyd South
+LL15,53.114852,-3.310444,Wales,Clwyd West
+LL16,53.183959,-3.419178,Wales,Vale of Clwyd
+LL17,53.270797,-3.41775,Wales,Vale of Clwyd
+LL18,53.319088,-3.484355,Wales,Vale of Clwyd
+LL19,53.336059,-3.403498,Wales,Vale of Clwyd
+LL20,52.927545,-3.174193,Wales,Clwyd South
+LL21,52.980957,-3.374324,Wales,Clwyd South
+LL22,53.284533,-3.582806,Wales,Clwyd West
+LL23,52.911009,-3.596931,Wales,Dwyfor Meirionnydd
+LL24,53.091335,-3.801937,Wales,Aberconwy
+LL25,53.0601,-3.873174,Wales,Aberconwy
+LL26,53.13905,-3.795756,Wales,Aberconwy
+LL27,53.150322,-3.828333,Wales,Aberconwy
+LL28,53.304697,-3.754374,Wales,Clwyd West
+LL29,53.297735,-3.729404,Wales,Clwyd West
+LL30,53.321263,-3.824644,Wales,Aberconwy
+LL31,53.283039,-3.803259,Wales,Aberconwy
+LL32,53.283248,-3.834335,Wales,Aberconwy
+LL33,53.252788,-3.97511,Wales,Aberconwy
+LL34,53.268447,-3.920197,Wales,Aberconwy
+LL35,52.546234,-4.047853,Wales,Dwyfor Meirionnydd
+LL36,52.589296,-4.103112,Wales,Dwyfor Meirionnydd
+LL37,52.66625,-4.08446,Wales,Dwyfor Meirionnydd
+LL38,52.696977,-4.049147,Wales,Dwyfor Meirionnydd
+LL39,52.70997,-4.014493,Wales,Dwyfor Meirionnydd
+LL40,52.743117,-3.88451,Wales,Dwyfor Meirionnydd
+LL41,52.99419,-3.933305,Wales,Dwyfor Meirionnydd
+LL42,52.723497,-4.056669,Wales,Dwyfor Meirionnydd
+LL43,52.776043,-4.093544,Wales,Dwyfor Meirionnydd
+LL44,52.791337,-4.097096,Wales,Dwyfor Meirionnydd
+LL45,52.820051,-4.102887,Wales,Dwyfor Meirionnydd
+LL46,52.860352,-4.111788,Wales,Dwyfor Meirionnydd
+LL47,52.899562,-4.066829,Wales,Dwyfor Meirionnydd
+LL48,52.929496,-4.067154,Wales,Dwyfor Meirionnydd
+LL49,52.930569,-4.140084,Wales,Dwyfor Meirionnydd
+LL51,52.967209,-4.216503,Wales,Dwyfor Meirionnydd
+LL52,52.919995,-4.234351,Wales,Dwyfor Meirionnydd
+LL53,52.882983,-4.414139,Wales,Dwyfor Meirionnydd
+LL54,52.989691,-4.417765,Wales,Dwyfor Meirionnydd
+LL55,53.14241,-4.273965,Wales,Arfon
+LL56,53.185727,-4.206192,Wales,Arfon
+LL57,53.228003,-4.127461,Wales,Arfon
+LL58,53.26338,-4.09248,Wales,Ynys Mon
+LL59,53.225497,-4.175172,Wales,Ynys Mon
+LL60,53.232385,-4.282269,Wales,Ynys Mon
+LL61,53.223815,-4.221454,Wales,Ynys Mon
+LL62,53.204237,-4.402831,Wales,Ynys Mon
+LL63,53.193086,-4.463214,Wales,Ynys Mon
+LL64,53.233413,-4.515626,Wales,Ynys Mon
+LL65,53.314794,-4.63623,Wales,Ynys Mon
+LL66,53.382138,-4.39403,Wales,Ynys Mon
+LL67,53.408464,-4.465114,Wales,Ynys Mon
+LL68,53.37877,-4.423687,Wales,Ynys Mon
+LL69,53.389703,-4.315977,Wales,Ynys Mon
+LL70,53.366463,-4.297294,Wales,Ynys Mon
+LL71,53.329583,-4.380722,Wales,Ynys Mon
+LL72,53.342687,-4.246109,Wales,Ynys Mon
+LL73,53.332493,-4.25125,Wales,Ynys Mon
+LL74,53.32046,-4.230376,Wales,Ynys Mon
+LL75,53.271025,-4.236365,Wales,Ynys Mon
+LL76,53.30214,-4.239342,Wales,Ynys Mon
+LL77,53.253774,-4.308429,Wales,Ynys Mon
+LL78,53.326041,-4.290766,Wales,Ynys Mon
+LN1,53.229461,-0.54168,England,Lincoln
+LN10,53.204792,-0.250425,England,Louth and Horncastle
+LN11,53.373953,0.001958,England,Louth and Horncastle
+LN12,53.342986,0.261796,England,Louth and Horncastle
+LN13,53.260157,0.172782,England,Louth and Horncastle
+LN2,53.228741,-0.540865,England,Lincoln
+LN3,53.240149,-0.456636,England,Gainsborough
+LN4,53.225872,-0.480338,England,Sleaford and North Hykeham
+LN5,53.128822,-0.522042,England,Sleaford and North Hykeham
+LN6,53.212193,-0.57599,England,Lincoln
+LN7,53.486098,-0.335044,England,Gainsborough
+LN8,53.377277,-0.505426,England,Gainsborough
+LN9,53.20993,-0.12369,England,Louth and Horncastle
+LS1,53.796166,-1.552544,England,Leeds Central
+LS10,53.785922,-1.534409,England,Leeds Central
+LS11,53.782969,-1.559271,England,Leeds Central
+LS12,53.791459,-1.563144,England,Leeds Central
+LS13,53.817935,-1.649933,England,Leeds West
+LS14,53.833454,-1.462072,England,Leeds East
+LS15,53.796903,-1.450956,England,Leeds East
+LS16,53.845906,-1.606655,England,Leeds North West
+LS17,53.944353,-1.580775,England,Skipton and Ripon
+LS18,53.840766,-1.635563,England,Pudsey
+LS19,53.862739,-1.672093,England,Leeds North West
+LS2,53.804319,-1.550438,England,Leeds Central
+LS20,53.874501,-1.712702,England,Pudsey
+LS21,53.904334,-1.692117,England,Leeds North West
+LS22,53.927584,-1.404668,England,Elmet and Rothwell
+LS23,53.904132,-1.343861,England,Elmet and Rothwell
+LS24,53.885657,-1.265525,England,Selby and Ainsty
+LS25,53.735114,-1.59673,England,Morley and Outwood
+LS26,53.755166,-1.490509,England,Elmet and Rothwell
+LS27,53.741888,-1.606747,England,Morley and Outwood
+LS28,53.79567,-1.665086,England,Pudsey
+LS29,53.93003,-1.826772,England,Keighley
+LS3,53.800906,-1.558415,England,Leeds Central
+LS4,53.810616,-1.597524,England,Leeds West
+LS5,53.816589,-1.591103,England,Leeds West
+LS6,53.817862,-1.574504,England,Leeds North West
+LS7,53.807689,-1.533774,England,Leeds Central
+LS8,53.844401,-1.519155,England,Leeds North East
+LS88,53.735403,-1.576292,England,Morley and Outwood
+LS9,53.791433,-1.51422,England,Leeds Central
+LS98,53.765718,-1.501228,England,Leeds Central
+LS99,53.765718,-1.501228,England,Leeds Central
+LU1,51.879978,-0.422926,England,Luton South
+LU2,51.880844,-0.401204,England,Luton South
+LU3,51.885132,-0.426422,England,Luton South
+LU4,51.892717,-0.472516,England,Luton North
+LU5,51.880787,-0.510579,England,South West Bedfordshire
+LU6,51.892098,-0.534896,England,South West Bedfordshire
+LU7,51.941679,-0.655559,England,South West Bedfordshire
+LU95,51.915245,-0.664316,England,South West Bedfordshire
+M1,53.487366,-2.227197,England,Manchester Central
+M10,53.503752,-2.185402,England,Manchester Central
+M11,53.47551,-2.191336,England,Manchester Central
+M12,53.467355,-2.218745,England,Manchester Central
+M13,53.467355,-2.218745,England,Manchester Central
+M14,53.43936,-2.221205,England,Manchester
+M15,53.472784,-2.246493,England,Manchester Central
+M16,53.450887,-2.268019,England,Manchester
+M17,53.471202,-2.283182,England,Salford and Eccles
+M18,53.461814,-2.178291,England,Manchester
+M19,53.444269,-2.194914,England,Manchester
+M2,53.481178,-2.242564,England,Manchester Central
+M20,53.424647,-2.234762,England,Manchester
+M21,53.442187,-2.275341,England,Manchester
+M22,53.37119,-2.257494,England,Wythenshawe and Sale East
+M23,53.400482,-2.27068,England,Wythenshawe and Sale East
+M24,53.54789,-2.198786,England,Heywood and Middleton
+M25,53.523388,-2.275747,England,Bury South
+M26,53.559569,-2.328095,England,Bury South
+M27,53.505699,-2.348048,England,Worsley and Eccles South
+M28,53.524191,-2.417435,England,Worsley and Eccles South
+M29,53.522642,-2.491418,England,Leigh
+M3,53.487461,-2.247121,England,Salford and Eccles
+M30,53.482487,-2.336873,England,Worsley and Eccles South
+M31,53.448325,-2.351373,England,Stretford and Urmston
+M32,53.446902,-2.309926,England,Stretford and Urmston
+M33,53.42577,-2.316725,England,Wythenshawe and Sale East
+M34,53.455575,-2.112696,England,Denton and Reddish
+M35,53.511289,-2.156785,England,Ashton-under-Lyne
+M38,53.52517,-2.430145,England,Worsley and Eccles South
+M4,53.482831,-2.238716,England,Manchester Central
+M40,53.509671,-2.18202,England,Manchester Central
+M41,53.448325,-2.351373,England,Stretford and Urmston
+M43,53.478854,-2.146675,England,Ashton-under-Lyne
+M44,53.438607,-2.428623,England,Worsley and Eccles South
+M45,53.534444,-2.28712,England,Bury South
+M46,53.522642,-2.491418,England,Leigh
+M5,53.481203,-2.280431,England,Salford and Eccles
+M50,53.482675,-2.327411,England,Salford and Eccles
+M52,53.444579,-2.213584,England,Manchester
+M6,53.48411,-2.279004,England,Salford and Eccles
+M60,53.487366,-2.227197,England,Manchester Central
+M61,53.479278,-2.244557,England,Manchester Central
+M7,53.504157,-2.253354,England,Blackley and Broughton
+M8,53.505593,-2.241407,England,Blackley and Broughton
+M9,53.535044,-2.229821,England,Blackley and Broughton
+M90,53.361884,-2.270841,England,Wythenshawe and Sale East
+M99,53.487366,-2.227197,England,Manchester Central
+ME1,51.386147,0.50744,England,Rochester and Strood
+ME10,51.340408,0.732782,England,Sittingbourne and Sheppey
+ME11,51.416969,0.741835,England,Sittingbourne and Sheppey
+ME12,51.440697,0.764297,England,Sittingbourne and Sheppey
+ME13,51.288421,0.853435,England,Faversham and Mid Kent
+ME14,51.278325,0.5191,England,Maidstone and The Weald
+ME15,51.242602,0.519095,England,Maidstone and The Weald
+ME16,51.281509,0.496845,England,Maidstone and The Weald
+ME17,51.241397,0.672272,England,Faversham and Mid Kent
+ME18,51.266212,0.378032,E05005114,E10000016
+ME19,51.279891,0.398729,England,Tonbridge and Malling
+ME2,51.372775,0.459046,England,Rochester and Strood
+ME20,51.316257,0.433375,England,Chatham and Aylesford
+ME3,51.446105,0.676654,England,Rochester and Strood
+ME4,51.407515,0.54791,England,Rochester and Strood
+ME5,51.368441,0.54528,England,Chatham and Aylesford
+ME6,51.329354,0.442309,England,Chatham and Aylesford
+ME7,51.386467,0.546381,England,Gillingham and Rainham
+ME8,51.36658,0.585103,England,Gillingham and Rainham
+ME9,51.322772,0.740073,England,Sittingbourne and Sheppey
+ME99,51.390569,0.503786,England,Rochester and Strood
+MK1,52.010919,-0.725813,England,Milton Keynes South
+MK10,52.03174,-0.687,England,Milton Keynes South
+MK11,52.056457,-0.852416,England,Milton Keynes South
+MK12,52.062264,-0.809688,England,Milton Keynes North
+MK13,52.065906,-0.79121,England,Milton Keynes North
+MK14,52.08109,-0.747107,England,Milton Keynes North
+MK15,52.040072,-0.726953,England,Milton Keynes North
+MK16,52.055762,-0.699816,England,Milton Keynes North
+MK17,51.984435,-0.763232,England,Buckingham
+MK18,52.000615,-0.985908,England,Buckingham
+MK19,52.062212,-0.863632,England,South Northamptonshire
+MK2,51.994604,-0.729481,England,Milton Keynes South
+MK3,51.991368,-0.740481,England,Milton Keynes South
+MK4,52.012208,-0.751276,England,Milton Keynes South
+MK40,52.134428,-0.475586,England,Bedford
+MK41,52.143052,-0.432487,England,Bedford
+MK42,52.129917,-0.464666,England,Bedford
+MK43,52.079022,-0.601573,England,Mid Bedfordshire
+MK44,52.25073,-0.528809,England,North East Bedfordshire
+MK45,52.015705,-0.504238,England,Mid Bedfordshire
+MK46,52.151981,-0.701897,England,Milton Keynes North
+MK5,52.020857,-0.804958,England,Milton Keynes South
+MK6,52.030339,-0.765348,England,Milton Keynes North
+MK7,52.024915,-0.709747,England,Milton Keynes South
+MK77,52.04209,-0.81887,England,Milton Keynes South
+MK8,52.027899,-0.790194,England,Milton Keynes South
+MK9,52.037224,-0.770275,England,Milton Keynes North
+MK98,52.055461,-0.76028,England,Milton Keynes North
+ML1,55.793574,-3.994934,Scotland,Motherwell and Wishaw
+ML10,55.67615,-4.065005,Scotland,East Kilbride
+ML11,55.633043,-3.879706,Scotland,East Kilbride
+ML12,55.623936,-3.523717,Scotland,Dumfriesshire
+ML2,55.775337,-3.940635,Scotland,Motherwell and Wishaw
+ML3,55.77921,-4.050251,Scotland,Lanark and Hamilton East
+ML4,55.818724,-4.022734,Scotland,Coatbridge
+ML5,55.860823,-4.033408,Scotland,Coatbridge
+ML6,55.866954,-3.982026,Scotland,Airdrie and Shotts
+ML7,55.820458,-3.808156,Scotland,Airdrie and Shotts
+ML8,55.733913,-3.84045,Scotland,Lanark and Hamilton East
+ML9,55.740282,-3.973734,Scotland,Lanark and Hamilton East
+N1,51.539426,-0.117931,England,Islington South and Finsbury
+N10,51.600529,-0.150711,England,Chipping Barnet
+N11,51.615924,-0.134803,England,Enfield
+N12,51.609953,-0.174837,England,Finchley and Golders Green
+N13,51.620946,-0.107554,England,Enfield
+N14,51.641931,-0.142234,England,Enfield
+N15,51.584643,-0.09252,England,Tottenham
+N16,51.565965,-0.081427,England,Hackney North and Stoke Newington
+N17,51.598757,-0.067555,England,Tottenham
+N18,51.609087,-0.086036,England,Edmonton
+N19,51.571541,-0.125999,England,Islington North
+N1C,51.536503,-0.124685,England,Holborn and St Pancras
+N1P,51.538425,-0.103278,England,Islington South and Finsbury
+N2,51.586176,-0.170131,England,Finchley and Golders Green
+N20,51.628393,-0.160819,England,Chipping Barnet
+N21,51.636934,-0.103087,England,Enfield
+N22,51.601388,-0.127211,England,Hornsey and Wood Green
+N3,51.606177,-0.192925,England,Finchley and Golders Green
+N4,51.577749,-0.102161,England,Tottenham
+N5,51.553922,-0.101783,England,Islington North
+N6,51.57434,-0.14935,England,Hornsey and Wood Green
+N7,51.555414,-0.128624,England,Islington North
+N8,51.584529,-0.104924,England,Tottenham
+N81,51.589973,-0.112392,England,Hornsey and Wood Green
+N9,51.627632,-0.045248,England,Edmonton
+NE1,54.967724,-1.615787,England,Newcastle upon Tyne Central
+NE10,54.952796,-1.572148,England,Gateshead
+NE11,54.940605,-1.633621,England,Gateshead
+NE12,55.025554,-1.563552,England,North Tyneside
+NE13,55.048303,-1.627068,England,North Tyneside
+NE15,55.020768,-1.772294,England,Hexham
+NE16,54.953576,-1.686639,England,Blaydon
+NE17,54.920303,-1.815468,England,Blaydon
+NE18,55.042624,-1.828569,England,Hexham
+NE19,55.233069,-2.10296,England,Berwick-upon-Tweed
+NE2,54.975653,-1.597167,England,Newcastle upon Tyne East
+NE20,55.059461,-1.748936,England,Hexham
+NE21,54.928114,-1.742498,England,Blaydon
+NE22,55.128786,-1.589104,England,Wansbeck
+NE23,55.088642,-1.598868,England,Blyth Valley
+NE24,55.1276,-1.506784,England,Blyth Valley
+NE25,55.072243,-1.524285,England,Blyth Valley
+NE26,55.042157,-1.44757,England,Tynemouth
+NE27,55.036966,-1.522668,England,Tynemouth
+NE28,54.996204,-1.502425,England,North Tyneside
+NE29,55.010571,-1.447817,England,North Tyneside
+NE3,55.004966,-1.619512,England,Newcastle upon Tyne North
+NE30,55.008888,-1.443337,England,Tynemouth
+NE31,54.973888,-1.519401,England,Jarrow
+NE32,54.981187,-1.486939,England,Jarrow
+NE33,54.99783,-1.432501,England,South Shields
+NE34,54.978351,-1.446884,England,South Shields
+NE35,54.981187,-1.486939,England,Jarrow
+NE36,54.944133,-1.431743,England,Jarrow
+NE37,54.914084,-1.535838,England,Washington and Sunderland West
+NE38,54.899728,-1.558676,England,Blaydon
+NE39,54.93079,-1.733117,England,Blaydon
+NE4,54.975087,-1.640244,England,Newcastle upon Tyne Central
+NE40,54.972692,-1.772363,E05001082,E99999999
+NE41,54.976119,-1.822743,England,Hexham
+NE42,54.961292,-1.849842,England,Hexham
+NE43,54.950596,-1.925277,England,Hexham
+NE44,54.957709,-1.99149,England,Hexham
+NE45,54.974602,-2.018685,England,Hexham
+NE46,54.969536,-2.102783,England,Hexham
+NE47,54.914604,-2.039919,England,Hexham
+NE48,55.181144,-2.437397,England,Hexham
+NE49,54.970104,-2.459545,England,Hexham
+NE5,54.991251,-1.713915,England,Newcastle upon Tyne North
+NE6,54.977927,-1.578849,England,Newcastle upon Tyne East
+NE61,55.167873,-1.691948,England,Wansbeck
+NE62,55.16443,-1.596146,England,Wansbeck
+NE63,55.182617,-1.569659,England,Wansbeck
+NE64,55.185886,-1.509787,England,Wansbeck
+NE65,55.335485,-1.580111,England,Berwick-upon-Tweed
+NE66,55.413709,-1.708077,England,Berwick-upon-Tweed
+NE67,55.549145,-1.668482,England,Berwick-upon-Tweed
+NE68,55.584429,-1.667867,England,Berwick-upon-Tweed
+NE69,55.607962,-1.718273,England,Berwick-upon-Tweed
+NE7,54.998945,-1.591806,England,Newcastle upon Tyne East
+NE70,55.54963,-1.785591,England,Berwick-upon-Tweed
+NE71,55.550527,-2.013731,England,Berwick-upon-Tweed
+NE8,54.963713,-1.603549,England,Gateshead
+NE82,54.934643,-1.615103,England,Gateshead
+NE83,54.929961,-1.623575,England,Blaydon
+NE85,54.902416,-1.494241,England,Washington and Sunderland West
+NE88,54.941778,-1.614988,England,Gateshead
+NE89,54.900678,-1.536132,England,Washington and Sunderland West
+NE9,54.935756,-1.59794,England,Gateshead
+NE92,54.941778,-1.614988,England,Gateshead
+NE98,55.002802,-1.581762,England,Newcastle upon Tyne East
+NE99,54.96737,-1.614603,England,Newcastle upon Tyne Central
+NG1,52.95501,-1.141046,England,Nottingham East
+NG10,52.897021,-1.271967,England,Erewash
+NG11,52.889581,-1.224189,England,Rushcliffe
+NG12,52.949301,-1.039891,England,Rushcliffe
+NG13,52.94172,-0.805623,England,Rutland and Melton
+NG14,52.982901,-1.044018,England,Gedling
+NG15,53.076801,-1.233622,England,Ashfield
+NG16,52.988238,-1.218312,England,Broxtowe
+NG17,53.123648,-1.26408,England,Ashfield
+NG18,53.143614,-1.194788,England,Mansfield
+NG19,53.150724,-1.166035,England,Mansfield
+NG2,52.948307,-1.151567,England,Nottingham South
+NG20,53.204614,-1.153327,England,Mansfield
+NG21,53.118715,-1.118841,England,Sherwood
+NG22,53.173284,-0.950669,England,Newark
+NG23,53.031414,-0.738055,England,Sleaford and North Hykeham
+NG24,53.076379,-0.810274,England,Newark
+NG25,53.078557,-0.956213,England,Newark
+NG3,52.962777,-1.14981,England,Nottingham East
+NG31,52.909786,-0.640577,England,Grantham and Stamford
+NG32,52.896698,-0.679757,England,Grantham and Stamford
+NG33,52.893732,-0.567378,England,Grantham and Stamford
+NG34,52.955016,-0.379066,England,Sleaford and North Hykeham
+NG4,52.961057,-1.095817,England,Gedling
+NG5,52.998387,-1.135194,England,Gedling
+NG6,52.980607,-1.175941,England,Nottingham North
+NG7,52.954833,-1.162886,England,Nottingham South
+NG70,53.143614,-1.194788,England,Mansfield
+NG8,52.952942,-1.190965,England,Nottingham South
+NG80,52.930123,-1.198353,England,Broxtowe
+NG9,52.926228,-1.216855,England,Broxtowe
+NG90,52.930123,-1.198353,England,Broxtowe
+NN1,52.245271,-0.898245,England,Northampton South
+NN10,52.291773,-0.597449,England,Wellingborough
+NN11,52.258151,-1.156488,England,Daventry
+NN12,52.133146,-1.002202,England,South Northamptonshire
+NN13,52.029526,-1.14638,England,South Northamptonshire
+NN14,52.436587,-0.688152,England,Kettering
+NN15,52.389394,-0.685701,England,Kettering
+NN16,52.398576,-0.72864,England,Kettering
+NN17,52.487909,-0.699925,England,Corby
+NN18,52.491002,-0.720557,England,Corby
+NN2,52.247715,-0.811909,England,Northampton South
+NN29,52.283076,-0.644137,England,Wellingborough
+NN3,52.247715,-0.811909,England,Northampton South
+NN4,52.228603,-0.864148,England,South Northamptonshire
+NN5,52.233088,-0.937438,England,South Northamptonshire
+NN6,52.28825,-0.837597,England,Daventry
+NN7,52.225674,-0.829451,England,South Northamptonshire
+NN8,52.301153,-0.69248,England,Wellingborough
+NN9,52.328252,-0.709673,England,Wellingborough
+NN99,52.237043,-0.901949,England,Northampton South
+NP1,51.592444,-3.050861,Wales,Newport West
+NP10,51.594759,-3.052344,Wales,Newport West
+NP11,51.695675,-3.160769,Wales,Islwyn
+NP12,51.681898,-3.187046,Wales,Islwyn
+NP13,51.730781,-3.132896,Wales,Blaenau Gwent
+NP15,51.704432,-2.901793,Wales,Monmouth
+NP16,51.629116,-2.673028,Wales,Monmouth
+NP18,51.607687,-2.953681,Wales,Newport West
+NP19,51.589956,-2.991591,Wales,Newport East
+NP2,51.681058,-3.187429,Wales,Islwyn
+NP20,51.589691,-2.997402,Wales,Newport West
+NP22,51.785042,-3.28026,Wales,Blaenau Gwent
+NP23,51.799241,-3.175131,Wales,Blaenau Gwent
+NP24,51.721321,-3.24325,Wales,Merthyr Tydfil and Rhymney
+NP25,51.826819,-2.713641,Wales,Monmouth
+NP26,51.60912,-2.849013,Wales,Newport East
+NP3,51.730144,-3.133691,Wales,Blaenau Gwent
+NP4,51.740393,-2.970101,Wales,Monmouth
+NP44,51.660971,-3.026234,Wales,Torfaen
+NP5,51.703371,-2.90293,Wales,Monmouth
+NP6,51.607665,-2.953016,Wales,Newport West
+NP7,51.826042,-3.084614,Wales,Monmouth
+NP8,51.858352,-3.136578,Wales,Brecon and Radnorshire
+NP9,51.588464,-2.991587,Wales,Newport East
+NPT,51.588464,-2.991587,Wales,Newport East
+NR1,52.62665,1.309265,England,Norwich South
+NR10,52.720608,1.299213,England,Broadland
+NR11,52.79396,1.250346,England,Broadland
+NR12,52.850919,1.477253,England,North Norfolk
+NR13,52.637515,1.549467,England,Broadland
+NR14,52.515902,1.60303,England,South Norfolk
+NR15,52.560426,1.405689,England,South Norfolk
+NR16,52.534206,1.156193,England,South Norfolk
+NR17,52.512241,1.000507,England,Mid Norfolk
+NR18,52.571622,1.11057,England,Mid Norfolk
+NR19,52.644397,0.967887,England,Mid Norfolk
+NR2,52.62752,1.293546,England,Norwich South
+NR20,52.658962,1.031937,England,Mid Norfolk
+NR21,52.884525,0.945753,England,North Norfolk
+NR22,52.893362,0.873599,England,Broadland
+NR23,52.954495,0.853322,England,North Norfolk
+NR24,52.873648,1.075673,England,North Norfolk
+NR25,52.906785,1.09062,England,North Norfolk
+NR26,52.943124,1.21128,England,North Norfolk
+NR27,52.904266,1.338031,England,North Norfolk
+NR28,52.815222,1.337374,England,North Norfolk
+NR29,52.662446,1.64396,England,Great Yarmouth
+NR3,52.636065,1.296716,England,Norwich South
+NR30,52.612534,1.724583,England,Great Yarmouth
+NR31,52.606717,1.717898,England,Great Yarmouth
+NR32,52.475175,1.750993,England,Waveney
+NR33,52.467816,1.745654,England,Waveney
+NR34,52.4843,1.63078,England,South Norfolk
+NR35,52.456615,1.434326,England,Waveney
+NR4,52.602649,1.244203,England,South Norfolk
+NR5,52.648943,1.233524,England,Norwich South
+NR6,52.660278,1.252776,England,Norwich North
+NR7,52.626314,1.340425,England,Norwich North
+NR8,52.658914,1.210463,England,South Norfolk
+NR9,52.633709,1.185024,England,South Norfolk
+NR99,52.62665,1.309265,England,Norwich South
+NW1,51.536729,-0.139441,England,Holborn and St Pancras
+NW10,51.559112,-0.249308,England,Brent Central
+NW11,51.584599,-0.20019,England,Finchley and Golders Green
+NW1W,51.530785,-0.13543,England,Holborn and St Pancras
+NW2,51.562194,-0.213352,England,Finchley and Golders Green
+NW26,51.530785,-0.13543,England,Holborn and St Pancras
+NW3,51.559003,-0.177786,England,Hampstead and Kilburn
+NW4,51.592278,-0.221975,England,Hendon
+NW5,51.552181,-0.141291,England,Holborn and St Pancras
+NW6,51.552426,-0.193281,England,Hampstead and Kilburn
+NW7,51.615471,-0.241175,England,Hendon
+NW8,51.535624,-0.18195,England,Westminster North
+NW9,51.584492,-0.260429,England,Brent North
+OL1,53.541497,-2.099827,England,Oldham East and Saddleworth
+OL10,53.592244,-2.216625,England,Heywood and Middleton
+OL11,53.607172,-2.146561,England,Rochdale
+OL12,53.628687,-2.155376,England,Rochdale
+OL13,53.70244,-2.200302,England,Rossendale and Darwen
+OL14,53.713147,-2.097976,England,Calder Valley
+OL15,53.62685,-2.119201,England,Rochdale
+OL16,53.616566,-2.159322,England,Rochdale
+OL2,53.559661,-2.120808,England,Oldham West and Royton
+OL3,53.556198,-2.013321,England,Oldham East and Saddleworth
+OL4,53.536318,-2.102666,England,Oldham East and Saddleworth
+OL5,53.513821,-2.040995,England,Stalybridge and Hyde
+OL6,53.486475,-2.094211,England,Ashton-under-Lyne
+OL7,53.485777,-2.111616,England,Ashton-under-Lyne
+OL8,53.531473,-2.121286,England,Oldham West and Royton
+OL9,53.553868,-2.141607,England,Oldham West and Royton
+OL95,53.556341,-2.105402,England,Oldham West and Royton
+OX1,51.750233,-1.267367,England,Oxford East
+OX10,51.599753,-1.125338,England,Wantage
+OX11,51.602004,-1.256283,England,Wantage
+OX12,51.603582,-1.42339,England,Wantage
+OX13,51.680362,-1.420347,England,Wantage
+OX14,51.669903,-1.296571,England,Oxford West and Abingdon
+OX15,51.990839,-1.367474,England,Banbury
+OX16,52.060043,-1.339908,England,Banbury
+OX17,52.102928,-1.297914,England,Banbury
+OX18,51.766536,-1.587094,England,Witney
+OX2,51.752399,-1.271533,England,Oxford West and Abingdon
+OX20,51.856193,-1.361348,England,Witney
+OX25,51.849794,-1.113358,England,Banbury
+OX26,51.896642,-1.166978,England,Banbury
+OX27,51.906938,-1.081343,England,Buckingham
+OX28,51.790655,-1.463519,England,Witney
+OX29,51.78906,-1.520994,England,Witney
+OX3,51.764412,-1.225289,England,Oxford East
+OX33,51.746774,-1.135408,England,Henley
+OX39,51.716755,-0.928418,England,Henley
+OX4,51.750539,-1.243286,England,Oxford East
+OX44,51.722552,-1.21354,England,Oxford East
+OX49,51.612769,-0.999888,England,Henley
+OX5,51.822309,-1.289761,England,Oxford West and Abingdon
+OX6,51.900427,-1.116286,England,Banbury
+OX7,51.856164,-1.362539,England,Witney
+OX8,51.769798,-1.393682,England,Witney
+OX9,51.748169,-0.978678,England,Henley
+PA1,55.846557,-4.422109,Scotland,Paisley and Renfrewshire South
+PA10,55.829386,-4.532934,S13002757,S99999999
+PA11,55.856204,-4.576803,S13002759,S99999999
+PA12,55.795972,-4.626959,S13002757,S99999999
+PA13,55.894486,-4.626914,Scotland,Inverclyde
+PA14,55.933701,-4.694723,Scotland,Inverclyde
+PA15,55.946775,-4.753057,Scotland,Inverclyde
+PA16,55.918866,-4.843534,Scotland,Inverclyde
+PA17,55.87397,-4.887752,Scotland,North Ayrshire and Arran
+PA18,55.878771,-4.888093,Scotland,Inverclyde
+PA19,55.953995,-4.837314,Scotland,Inverclyde
+PA2,55.821018,-4.466198,Scotland,Paisley and Renfrewshire South
+PA20,55.838459,-5.055649,Scotland,Argyll and Bute
+PA21,55.893334,-5.245114,Scotland,Argyll and Bute
+PA22,56.009412,-5.214009,Scotland,Argyll and Bute
+PA23,55.950846,-4.92994,Scotland,Argyll and Bute
+PA24,56.172198,-4.902994,Scotland,Argyll and Bute
+PA25,56.223817,-5.026814,Scotland,Argyll and Bute
+PA26,56.254948,-4.93768,Scotland,Argyll and Bute
+PA27,56.166511,-5.068009,Scotland,Argyll and Bute
+PA28,55.423075,-5.606476,Scotland,Argyll and Bute
+PA29,55.860902,-5.420396,Scotland,Argyll and Bute
+PA3,55.841827,-4.457596,Scotland,Paisley and Renfrewshire North
+PA30,56.011584,-5.449507,Scotland,Argyll and Bute
+PA31,56.029236,-5.42748,Scotland,Argyll and Bute
+PA32,56.230936,-5.072386,Scotland,Argyll and Bute
+PA33,56.40154,-4.983807,Scotland,Argyll and Bute
+PA34,56.411232,-5.474661,Scotland,Argyll and Bute
+PA35,56.432227,-5.234394,Scotland,Argyll and Bute
+PA36,56.491273,-4.796673,Scotland,Argyll and Bute
+PA37,56.477041,-5.398786,Scotland,Argyll and Bute
+PA38,56.537284,-5.344473,Scotland,Argyll and Bute
+PA39,56.679873,-5.116975,Scotland,Ross
+PA4,55.874625,-4.387231,Scotland,Paisley and Renfrewshire North
+PA40,56.715163,-4.96651,Scotland,Ross
+PA41,55.682955,-5.737656,Scotland,Argyll and Bute
+PA42,55.698616,-6.217618,Scotland,Argyll and Bute
+PA43,55.756616,-6.285435,Scotland,Argyll and Bute
+PA44,55.775686,-6.250973,Scotland,Argyll and Bute
+PA45,55.815273,-6.140304,Scotland,Argyll and Bute
+PA46,55.850147,-6.106655,Scotland,Argyll and Bute
+PA47,55.680229,-6.501146,Scotland,Argyll and Bute
+PA48,55.737713,-6.379812,Scotland,Argyll and Bute
+PA49,55.768409,-6.359678,Scotland,Argyll and Bute
+PA5,55.831322,-4.504714,S13002756,S99999999
+PA6,55.848759,-4.522308,S13002758,S99999999
+PA60,55.844614,-5.947573,Scotland,Argyll and Bute
+PA61,56.075729,-6.179653,Scotland,Argyll and Bute
+PA62,56.359266,-5.851521,Scotland,Argyll and Bute
+PA63,56.381781,-5.715874,Scotland,Argyll and Bute
+PA64,56.437785,-5.686188,Scotland,Argyll and Bute
+PA65,56.464362,-5.69679,Scotland,Argyll and Bute
+PA66,56.324226,-6.363564,Scotland,Argyll and Bute
+PA67,56.315188,-6.239963,Scotland,Argyll and Bute
+PA68,56.421335,-6.138537,Scotland,Argyll and Bute
+PA69,56.381703,-6.060024,Scotland,Argyll and Bute
+PA7,55.902379,-4.501727,S13002759,S99999999
+PA70,56.374087,-6.007273,Scotland,Argyll and Bute
+PA71,56.485259,-5.982547,Scotland,Argyll and Bute
+PA72,56.517301,-5.94305,Scotland,Argyll and Bute
+PA73,56.496879,-6.136336,Scotland,Argyll and Bute
+PA74,56.53148,-6.232453,Scotland,Argyll and Bute
+PA75,56.620608,-6.07641,Scotland,Argyll and Bute
+PA76,56.331096,-6.392844,Scotland,Argyll and Bute
+PA77,56.506371,-6.802924,Scotland,Argyll and Bute
+PA78,56.623286,-6.527072,Scotland,Argyll and Bute
+PA8,55.901613,-4.47336,Scotland,Paisley and Renfrewshire North
+PA80,56.539242,-5.775048,Scotland,Ross
+PA81,57.085299,-7.301564, S12000013,Scotland
+PA82,57.601406,-7.163379,Scotland,Na h-Eileanan an Iar
+PA83,57.769937,-7.009299,Scotland,Na h-Eileanan an Iar
+PA84,57.872572,-6.698793,Scotland,Na h-Eileanan an Iar
+PA85,57.992454,-6.754004,Scotland,Na h-Eileanan an Iar
+PA86,58.219582,-6.347242,Scotland,Na h-Eileanan an Iar
+PA87,58.208207,-6.380045,Scotland,Na h-Eileanan an Iar
+PA88,57.472528,-7.374751,Scotland,Na h-Eileanan an Iar
+PA9,55.815348,-4.523242,S13002756,S99999999
+PE1,52.575364,-0.250043,England,Peterborough
+PE10,52.779143,-0.385326,England,Grantham and Stamford
+PE11,52.786395,-0.153382,England,South Holland and The Deepings
+PE12,52.795483,0.101221,England,South Holland and The Deepings
+PE13,52.66446,0.157457,England,North East Cambridgeshire
+PE14,52.643849,0.174343,England,North East Cambridgeshire
+PE15,52.576731,0.049124,England,North East Cambridgeshire
+PE16,52.453663,0.048248,England,North East Cambridgeshire
+PE17,52.448211,-0.107462,England,North West Cambridgeshire
+PE18,52.333739,-0.295628,England,North West Cambridgeshire
+PE19,52.233226,-0.262329,England,Huntingdon
+PE2,52.557422,-0.272973,England,North West Cambridgeshire
+PE20,52.935218,-0.029751,England,Boston and Skegness
+PE21,52.97018,-0.012836,England,Boston and Skegness
+PE22,53.010477,0.11429,England,Boston and Skegness
+PE23,53.154282,0.066773,England,Louth and Horncastle
+PE24,53.1085,0.241193,England,Boston and Skegness
+PE25,53.14974,0.341224,England,Boston and Skegness
+PE26,52.44816,-0.107656,England,North West Cambridgeshire
+PE27,52.344039,-0.078618,England,Huntingdon
+PE28,52.333739,-0.295628,England,North West Cambridgeshire
+PE29,52.338748,-0.159083,England,Huntingdon
+PE3,52.573095,-0.251033,England,Peterborough
+PE30,52.757653,0.400347,England,North West Norfolk
+PE31,52.791861,0.457675,England,North West Norfolk
+PE32,52.773217,0.546518,England,North West Norfolk
+PE33,52.65674,0.382023,England,South West Norfolk
+PE34,52.732304,0.379446,England,North West Norfolk
+PE35,52.819015,0.494754,England,North West Norfolk
+PE36,52.934464,0.488548,England,North West Norfolk
+PE37,52.648647,0.685522,England,South West Norfolk
+PE38,52.582576,0.401603,England,South West Norfolk
+PE4,52.624927,-0.271262,England,Peterborough
+PE5,52.575326,-0.35143,England,North West Cambridgeshire
+PE6,52.664152,-0.170503,England,South Holland and The Deepings
+PE7,52.549161,-0.250436,England,North West Cambridgeshire
+PE8,52.481043,-0.470128,England,Corby
+PE9,52.653481,-0.480437,England,Grantham and Stamford
+PE99,52.613489,-0.286572,England,Peterborough
+PH1,56.403124,-3.447342,Scotland,Perth and North Perthshire
+PH10,56.591495,-3.339972,Scotland,Perth and North Perthshire
+PH11,56.622669,-3.230674,Scotland,Perth and North Perthshire
+PH12,56.589765,-3.164648,Scotland,Perth and North Perthshire
+PH13,56.545572,-3.268215,Scotland,Perth and North Perthshire
+PH14,56.44463,-3.164373,Scotland,Perth and North Perthshire
+PH15,56.620142,-3.863774,Scotland,Perth and North Perthshire
+PH16,56.696869,-3.715681,Scotland,Perth and North Perthshire
+PH17,56.6858,-4.576429,Scotland,Perth and North Perthshire
+PH18,56.772562,-3.853029,Scotland,Perth and North Perthshire
+PH19,56.940001,-4.239141,Scotland,Inverness
+PH2,56.379104,-3.435192,Scotland,Perth and North Perthshire
+PH20,57.020422,-4.287091,Scotland,Inverness
+PH21,57.129163,-3.931862,Scotland,Inverness
+PH22,57.196713,-3.816909,Scotland,Inverness
+PH23,57.280633,-3.812383,Scotland,Inverness
+PH24,57.248248,-3.755118,Scotland,Inverness
+PH25,57.26451,-3.640035,Scotland,Inverness
+PH26,57.303233,-3.663968,Scotland,Inverness
+PH3,56.296144,-3.707665,Scotland,Ochil and South Perthshire
+PH30,56.792162,-4.601605,Scotland,Ross
+PH31,56.891339,-4.843035,Scotland,Ross
+PH32,57.144537,-4.682511,Scotland,Inverness
+PH33,56.818973,-5.109874,Scotland,Ross
+PH34,56.912314,-4.941359,Scotland,Ross
+PH35,57.069596,-4.795779,Scotland,Ross
+PH36,56.696463,-5.569853,Scotland,Ross
+PH37,56.873224,-5.455919,Scotland,Ross
+PH38,56.874538,-5.666001,Scotland,Ross
+PH39,56.909818,-5.842086,Scotland,Ross
+PH4,56.261966,-3.783835,Scotland,Ochil and South Perthshire
+PH40,56.972026,-5.823176,Scotland,Ross
+PH41,56.835734,-6.228028,Scotland,Ross
+PH42,56.90189,-6.142751,Scotland,Ross
+PH43,57.015416,-6.28149,Scotland,Ross
+PH44,57.056806,-6.503662,Scotland,Ross
+PH49,56.679734,-5.119658,Scotland,Ross
+PH5,56.330211,-3.836933,Scotland,Ochil and South Perthshire
+PH50,56.716301,-4.970032,Scotland,Ross
+PH6,56.355967,-3.994836,Scotland,Ochil and South Perthshire
+PH7,56.37246,-3.838966,Scotland,Ochil and South Perthshire
+PH8,56.560005,-3.578652,Scotland,Perth and North Perthshire
+PH9,56.647762,-3.681613,Scotland,Perth and North Perthshire
+PL1,50.378269,-4.145507,England,Plymouth
+PL10,50.347151,-4.218673,England,South East Cornwall
+PL11,50.376293,-4.196432,England,South East Cornwall
+PL12,50.410424,-4.229186,England,South East Cornwall
+PL13,50.354611,-4.454324,England,South East Cornwall
+PL14,50.454152,-4.462953,England,South East Cornwall
+PL15,50.627462,-4.379765,England,North Cornwall
+PL16,50.643241,-4.28302,England,Torridge and West Devon
+PL17,50.505497,-4.302953,England,South East Cornwall
+PL18,50.50916,-4.210971,England,South East Cornwall
+PL19,50.54916,-4.144025,England,Torridge and West Devon
+PL2,50.379221,-4.168815,England,Plymouth
+PL20,50.492683,-4.091301,England,Torridge and West Devon
+PL21,50.393802,-3.919641,England,South West Devon
+PL22,50.407053,-4.67128,England,South East Cornwall
+PL23,50.336632,-4.633385,England,St Austell and Newquay
+PL24,50.35182,-4.692457,England,St Austell and Newquay
+PL25,50.346926,-4.778492,England,St Austell and Newquay
+PL26,50.327149,-4.773052,England,St Austell and Newquay
+PL27,50.516891,-4.833216,England,North Cornwall
+PL28,50.541693,-4.93899,England,North Cornwall
+PL29,50.594423,-4.829365,England,North Cornwall
+PL3,50.384535,-4.157804,England,Plymouth
+PL30,50.483354,-4.766809,England,North Cornwall
+PL31,50.470088,-4.719073,England,North Cornwall
+PL32,50.621554,-4.680241,England,North Cornwall
+PL33,50.626187,-4.728597,England,North Cornwall
+PL34,50.662366,-4.747266,England,North Cornwall
+PL35,50.685867,-4.693463,England,North Cornwall
+PL4,50.370288,-4.137848,England,Plymouth
+PL5,50.398404,-4.180962,England,Plymouth
+PL6,50.413926,-4.118839,England,Plymouth
+PL7,50.387657,-4.059074,England,South West Devon
+PL8,50.314107,-4.039361,England,South West Devon
+PL9,50.336539,-4.113876,England,South West Devon
+PL95,50.436173,-4.105736,England,South West Devon
+PO1,50.799294,-1.08837,England,Portsmouth South
+PO10,50.847339,-0.936055,England,Havant
+PO11,50.786625,-0.988206,England,Havant
+PO12,50.795354,-1.118654,England,Gosport
+PO13,50.828608,-1.166234,England,Gosport
+PO14,50.853373,-1.192955,England,Fareham
+PO15,50.854109,-1.1953,England,Fareham
+PO16,50.852449,-1.181691,England,Fareham
+PO17,50.896714,-1.183447,England,Meon Valley
+PO18,50.86488,-0.783793,England,Chichester
+PO19,50.830781,-0.781328,England,Chichester
+PO2,50.813855,-1.078264,England,Portsmouth North
+PO20,50.730022,-0.788123,England,Chichester
+PO21,50.787135,-0.677056,England,Bognor Regis and Littlehampton
+PO22,50.83272,-0.620314,England,Arundel and South Downs
+PO3,50.809426,-1.064115,England,Portsmouth South
+PO30,50.699429,-1.297634,England,Isle of Wight
+PO31,50.761189,-1.300212,England,Isle of Wight
+PO32,50.761784,-1.288506,England,Isle of Wight
+PO33,50.722465,-1.14497,England,Isle of Wight
+PO34,50.719505,-1.112215,England,Isle of Wight
+PO35,50.685964,-1.081281,E05008481,E99999999
+PO36,50.673425,-1.144644,E05008481,E99999999
+PO37,50.626955,-1.178047,England,Isle of Wight
+PO38,50.596287,-1.210271,England,Isle of Wight
+PO39,50.68502,-1.531751,England,Isle of Wight
+PO4,50.795362,-1.074399,England,Portsmouth South
+PO40,50.682817,-1.525163,England,Isle of Wight
+PO41,50.70959,-1.465268,England,Isle of Wight
+PO5,50.794478,-1.080873,England,Portsmouth South
+PO6,50.848,-1.025147,England,Portsmouth North
+PO7,50.880162,-1.03862,England,Meon Valley
+PO8,50.914046,-0.993725,England,Meon Valley
+PO9,50.851021,-0.979853,England,Havant
+PR0,53.758809,-2.683907,England,Preston
+PR1,53.749742,-2.730892,England,South Ribble
+PR11,53.759775,-2.684879,England,Preston
+PR2,53.754369,-2.708738,England,Preston
+PR25,53.687843,-2.71236,England,South Ribble
+PR26,53.711673,-2.695112,England,Ribble Valley
+PR3,53.947984,-2.773742,England,Lancaster and Fleetwood
+PR4,53.791011,-2.749127,England,Wyre and Preston North
+PR5,53.733958,-2.622656,England,Ribble Valley
+PR6,53.654242,-2.626064,England,Chorley
+PR7,53.654164,-2.630527,England,Chorley
+PR8,53.648196,-3.004321,England,Southport
+PR9,53.648674,-3.003061,England,Southport
+RG1,51.460727,-0.974799,England,Reading East
+RG10,51.475507,-0.8605,England,Maidenhead
+RG11,51.41074,-0.835078,England,Wokingham
+RG12,51.415599,-0.771207,England,Bracknell
+RG13,51.401893,-1.325746,England,Newbury
+RG14,51.402021,-1.324594,England,Newbury
+RG15,51.349288,-1.404918,England,North West Hampshire
+RG16,51.503312,-1.293995,England,Newbury
+RG17,51.411568,-1.517125,England,Newbury
+RG18,51.485991,-1.24302,England,Newbury
+RG19,51.402185,-1.287056,England,Newbury
+RG2,51.445162,-0.969694,England,Reading East
+RG20,51.350392,-1.404617,England,North West Hampshire
+RG21,51.276351,-1.108237,England,Basingstoke
+RG22,51.253927,-1.104989,England,Basingstoke
+RG23,51.250356,-1.175897,England,North West Hampshire
+RG24,51.25821,-1.037421,England,Basingstoke
+RG25,51.255175,-0.935126,England,North East Hampshire
+RG26,51.340688,-1.127319,England,North East Hampshire
+RG27,51.318978,-1.024254,England,North East Hampshire
+RG28,51.229426,-1.339468,England,North West Hampshire
+RG29,51.255114,-0.935299,England,North East Hampshire
+RG3,51.455979,-0.990349,England,Reading West
+RG30,51.455979,-0.990349,England,Reading West
+RG31,51.442498,-1.04692,England,Reading West
+RG4,51.466876,-0.965405,England,Reading East
+RG40,51.41074,-0.835078,England,Wokingham
+RG41,51.4142,-0.841303,England,Wokingham
+RG42,51.420304,-0.769671,England,Bracknell
+RG45,51.368244,-0.818961,England,Bracknell
+RG5,51.458807,-0.916317,England,Maidenhead
+RG6,51.457618,-0.945622,England,Reading East
+RG7,51.39221,-0.973931,England,Wokingham
+RG8,51.523246,-1.13182,England,Henley
+RG9,51.535933,-0.90402,England,Henley
+RH1,51.240567,-0.164682,England,Reigate
+RH10,51.117178,-0.188479,England,Crawley
+RH11,51.123739,-0.201669,England,Crawley
+RH12,51.062764,-0.327452,England,Horsham
+RH13,51.053156,-0.322205,England,Horsham
+RH14,51.039355,-0.520788,England,Chichester
+RH15,50.952833,-0.12719,England,Mid Sussex
+RH16,51.006415,-0.103822,England,Mid Sussex
+RH17,51.013371,-0.096852,England,Mid Sussex
+RH18,51.097001,0.033821,England,Wealden
+RH19,51.125873,-0.009743,England,Mid Sussex
+RH2,51.238009,-0.204982,England,Reigate
+RH20,50.95727,-0.511791,England,Arundel and South Downs
+RH3,51.238367,-0.260867,E05007315,E10000030
+RH4,51.231714,-0.330759,England,Mole Valley
+RH5,51.23478,-0.321924,England,Mole Valley
+RH6,51.168352,-0.178893,England,Mole Valley
+RH7,51.174263,-0.017059,England,East Surrey
+RH77,51.138775,-0.169779,England,Crawley
+RH8,51.259899,-0.004088,England,East Surrey
+RH9,51.251097,-0.065272,England,East Surrey
+RM1,51.577599,0.178261,England,Romford
+RM10,51.554182,0.168097,England,Dagenham and Rainham
+RM11,51.570191,0.18834,England,Romford
+RM12,51.561347,0.194293,England,Romford
+RM13,51.516765,0.19212,England,Dagenham and Rainham
+RM14,51.559384,0.250465,England,Hornchurch and Upminster
+RM15,51.499427,0.262667,England,Thurrock
+RM16,51.477622,0.302661,England,Thurrock
+RM17,51.492201,0.320367,England,Thurrock
+RM18,51.464813,0.349471,England,Thurrock
+RM19,51.479918,0.320751,England,Thurrock
+RM2,51.577912,0.190919,England,Romford
+RM20,51.485854,0.27905,England,Thurrock
+RM3,51.59325,0.214614,England,Hornchurch and Upminster
+RM4,51.651567,0.144465,England,Brentwood and Ongar
+RM5,51.597077,0.16227,England,Romford
+RM50,51.57025,0.170636,England,Romford
+RM6,51.569757,0.128317,England,Ilford South
+RM7,51.57244,0.180078,England,Romford
+RM8,51.561301,0.147241,England,Dagenham and Rainham
+RM9,51.544048,0.122271,England,Barking
+S1,53.381553,-1.463527,England,Sheffield Central
+S10,53.371719,-1.525018,England,Sheffield
+S11,53.363472,-1.508505,England,Sheffield
+S12,53.360448,-1.426948,England,Sheffield
+S13,53.355553,-1.393074,England,Sheffield
+S14,53.339499,-1.450703,England,Sheffield
+S17,53.335597,-1.546669,England,Sheffield
+S18,53.300029,-1.452695,England,North East Derbyshire
+S19,53.325816,-1.361802,England,Sheffield South East
+S2,53.372937,-1.416545,England,Sheffield Central
+S20,53.352423,-1.340192,England,Sheffield South East
+S21,53.320185,-1.31724,England,North East Derbyshire
+S25,53.387146,-1.218032,England,Rother Valley
+S26,53.364324,-1.263337,England,Rother Valley
+S3,53.385189,-1.472698,England,Sheffield Central
+S30,53.315173,-1.703725,England,Derbyshire Dales
+S31,53.364875,-1.301153,England,Rother Valley
+S32,53.330456,-1.654383,England,Derbyshire Dales
+S33,53.348198,-1.689601,England,High Peak
+S35,53.425131,-1.543911,England,Sheffield
+S36,53.481462,-1.593622,England,Penistone and Stocksbridge
+S4,53.403775,-1.462045,England,Sheffield
+S40,53.235342,-1.434598,England,Chesterfield
+S41,53.222934,-1.413522,England,Chesterfield
+S42,53.198778,-1.398419,England,North East Derbyshire
+S43,53.255214,-1.40103,England,Chesterfield
+S44,53.233581,-1.389197,England,Bolsover
+S45,53.164685,-1.479143,England,North East Derbyshire
+S49,53.235342,-1.434598,England,Chesterfield
+S5,53.436131,-1.44565,England,Sheffield
+S6,53.425444,-1.4922,England,Sheffield
+S60,53.429159,-1.358344,England,Rotherham
+S61,53.430156,-1.373274,England,Rotherham
+S62,53.461471,-1.342946,England,Wentworth and Dearne
+S63,53.548766,-1.313794,England,Wentworth and Dearne
+S64,53.499953,-1.283889,England,Doncaster North
+S65,53.43072,-1.356033,England,Rotherham
+S66,53.42074,-1.284438,England,Rother Valley
+S7,53.36656,-1.475798,England,Sheffield Central
+S70,53.551718,-1.482449,England,Barnsley Central
+S71,53.550691,-1.475836,England,Barnsley Central
+S72,53.554752,-1.352446,England,Barnsley East
+S73,53.522299,-1.397995,England,Barnsley East
+S74,53.498251,-1.461348,England,Barnsley East
+S75,53.563931,-1.494499,England,Barnsley Central
+S8,53.362523,-1.475532,England,Sheffield Central
+S80,53.30489,-1.122592,England,Bassetlaw
+S81,53.311438,-1.117039,England,Bassetlaw
+S9,53.410116,-1.433623,England,Sheffield
+S95,53.429159,-1.358344,England,Rotherham
+S96,53.401879,-1.42358,England,Sheffield South East
+S97,53.508606,-1.332929,England,Wentworth and Dearne
+S98,53.404296,-1.430992,England,Sheffield South East
+S99,53.403669,-1.431407,England,Sheffield South East
+SA1,51.647965,-3.924034,Wales,Swansea East
+SA10,51.655738,-3.845976,Wales,Aberavon
+SA11,51.656581,-3.806238,Wales,Neath
+SA12,51.592408,-3.800009,Wales,Aberavon
+SA13,51.592221,-3.778101,Wales,Aberavon
+SA14,51.755328,-4.117276,Wales,Llanelli
+SA15,51.680617,-4.163203,Wales,Llanelli
+SA16,51.685986,-4.252159,Wales,Llanelli
+SA17,51.720065,-4.241995,Wales,Llanelli
+SA18,51.812899,-3.867858,Wales,Carmarthen East and Dinefwr
+SA19,51.891374,-3.988494,Wales,Carmarthen East and Dinefwr
+SA2,51.617375,-3.966754,Wales,Swansea West
+SA20,51.993868,-3.797032,Wales,Carmarthen East and Dinefwr
+SA3,51.588807,-4.195809,Wales,Gower
+SA31,51.85682,-4.305064,Wales,Carmarthen West and South Pembrokeshire
+SA32,51.885582,-4.268782,Wales,Carmarthen East and Dinefwr
+SA33,51.819869,-4.495723,Wales,Carmarthen West and South Pembrokeshire
+SA34,51.819034,-4.615204,Wales,Carmarthen West and South Pembrokeshire
+SA35,51.984282,-4.494196,Wales,Preseli Pembrokeshire
+SA36,51.956521,-4.60706,Wales,Preseli Pembrokeshire
+SA37,52.025497,-4.582572,Wales,Preseli Pembrokeshire
+SA38,52.03917,-4.467475,Wales,Carmarthen East and Dinefwr
+SA39,52.004413,-4.264328,Wales,Carmarthen East and Dinefwr
+SA4,51.754383,-4.050929,Wales,Llanelli
+SA40,52.070477,-4.148778,Wales,Carmarthen East and Dinefwr
+SA41,52.026159,-4.680912,Wales,Preseli Pembrokeshire
+SA42,52.018219,-4.828078,Wales,Preseli Pembrokeshire
+SA43,52.08643,-4.657095,Wales,Ceredigion
+SA44,52.037883,-4.312913,Wales,Carmarthen East and Dinefwr
+SA45,52.214675,-4.35863,Wales,Ceredigion
+SA46,52.243105,-4.258609,Wales,Ceredigion
+SA47,52.193953,-4.31204,Wales,Ceredigion
+SA48,52.111823,-4.077055,Wales,Ceredigion
+SA5,51.641115,-3.977985,Wales,Swansea West
+SA6,51.682574,-3.911542,Wales,Swansea East
+SA61,51.801421,-4.96748,Wales,Preseli Pembrokeshire
+SA62,51.786717,-5.020026,Wales,Preseli Pembrokeshire
+SA63,51.851772,-4.879097,Wales,Preseli Pembrokeshire
+SA64,52.001493,-4.99666,Wales,Preseli Pembrokeshire
+SA65,51.996055,-4.977414,Wales,Preseli Pembrokeshire
+SA66,51.82585,-4.727223,Wales,Carmarthen West and South Pembrokeshire
+SA67,51.800464,-4.74372,Wales,Carmarthen West and South Pembrokeshire
+SA68,51.727345,-4.746906,Wales,Carmarthen West and South Pembrokeshire
+SA69,51.713961,-4.701618,Wales,Carmarthen West and South Pembrokeshire
+SA7,51.668641,-3.905676,Wales,Swansea East
+SA70,51.671919,-4.699186,Wales,Carmarthen West and South Pembrokeshire
+SA71,51.673495,-4.908026,Wales,Carmarthen West and South Pembrokeshire
+SA72,51.692775,-4.921188,Wales,Carmarthen West and South Pembrokeshire
+SA73,51.720311,-5.023299,Wales,Preseli Pembrokeshire
+SA8,51.716576,-3.848468,Wales,Neath
+SA80,51.647965,-3.924034,Wales,Swansea East
+SA9,51.766264,-3.775136,Wales,Brecon and Radnorshire
+SA99,51.670003,-3.945446,Wales,Swansea East
+SE1,51.498409,-0.101655,England,Bermondsey and Old Southwark
+SE10,51.487122,0.003284,England,Greenwich and Woolwich
+SE11,51.485536,-0.109694,England,Vauxhall
+SE12,51.449266,0.013068,England,Lewisham East
+SE13,51.4596,-0.005954,England,Lewisham
+SE14,51.474839,-0.046877,England,Lewisham
+SE15,51.47681,-0.068163,England,Camberwell and Peckham
+SE16,51.491797,-0.042421,England,Bermondsey and Old Southwark
+SE17,51.489348,-0.091358,England,Bermondsey and Old Southwark
+SE18,51.484461,0.084733,England,Greenwich and Woolwich
+SE19,51.420963,-0.086067,England,Dulwich and West Norwood
+SE1P,51.492762,-0.080152,England,Bermondsey and Old Southwark
+SE2,51.481603,0.122712,England,Erith and Thamesmead
+SE20,51.409107,-0.059069,England,Lewisham West and Penge
+SE21,51.434204,-0.085226,England,Dulwich and West Norwood
+SE22,51.447688,-0.072271,England,Dulwich and West Norwood
+SE23,51.443835,-0.049207,England,Lewisham
+SE24,51.464009,-0.09315,England,Dulwich and West Norwood
+SE25,51.40169,-0.076118,England,Croydon North
+SE26,51.429773,-0.046095,England,Lewisham West and Penge
+SE27,51.436348,-0.10538,England,Dulwich and West Norwood
+SE28,51.492036,0.087067,England,Erith and Thamesmead
+SE3,51.467795,0.01803,England,Greenwich and Woolwich
+SE4,51.453277,-0.032497,England,Lewisham
+SE5,51.481797,-0.090377,England,Camberwell and Peckham
+SE6,51.445315,-0.006202,England,Lewisham East
+SE7,51.483026,0.034848,England,Greenwich and Woolwich
+SE8,51.486013,-0.031593,England,Lewisham
+SE9,51.450352,0.062296,England,Eltham
+SE99,51.478247,-0.081697,England,Camberwell and Peckham
+SG1,51.896109,-0.202855,England,Stevenage
+SG10,51.849883,0.063334,England,Hertford and Stortford
+SG11,51.848621,-0.022838,England,North East Hertfordshire
+SG12,51.813411,-0.035406,England,Hertford and Stortford
+SG13,51.797974,-0.014685,England,Hertford and Stortford
+SG14,51.796223,-0.075962,England,Hertford and Stortford
+SG15,52.013345,-0.263444,England,North East Bedfordshire
+SG16,52.030976,-0.286013,England,North East Bedfordshire
+SG17,52.037928,-0.331849,England,Mid Bedfordshire
+SG18,52.094973,-0.266013,England,North East Bedfordshire
+SG19,52.128598,-0.288522,England,North East Bedfordshire
+SG2,51.911026,-0.176496,England,Stevenage
+SG3,51.864273,-0.180334,England,Stevenage
+SG4,51.960329,-0.267036,England,Hitchin and Harpenden
+SG5,51.949137,-0.276359,England,Hitchin and Harpenden
+SG6,51.988348,-0.219452,England,North East Hertfordshire
+SG7,51.907314,-0.158155,England,Stevenage
+SG8,52.109618,-0.050611,England,South Cambridgeshire
+SG9,51.947789,0.00198,England,North East Hertfordshire
+SK1,53.407565,-2.161562,England,Stockport
+SK10,53.261233,-2.129078,England,Macclesfield
+SK11,53.269298,-2.08763,England,Macclesfield
+SK12,53.350362,-2.123114,England,Macclesfield
+SK13,53.445515,-1.986351,England,High Peak
+SK14,53.452294,-2.078204,England,Stalybridge and Hyde
+SK15,53.484918,-2.053942,England,Stalybridge and Hyde
+SK16,53.476505,-2.083884,England,Denton and Reddish
+SK17,53.198259,-1.856512,England,Derbyshire Dales
+SK2,53.40418,-2.137032,England,Stockport
+SK22,53.379285,-1.973624,England,High Peak
+SK23,53.328127,-1.91055,England,High Peak
+SK3,53.393462,-2.186095,England,Cheadle
+SK4,53.408823,-2.161807,England,Stockport
+SK5,53.437474,-2.158454,England,Denton and Reddish
+SK6,53.418984,-2.101194,England,Hazel Grove
+SK7,53.356378,-2.165515,England,Cheadle
+SK8,53.393922,-2.216774,England,Cheadle
+SK9,53.328233,-2.231364,England,Tatton
+SL0,51.522087,-0.507954,England,Beaconsfield
+SL1,51.508272,-0.584619,England,Slough
+SL2,51.526761,-0.614895,England,Slough
+SL3,51.475677,-0.51638,England,Windsor
+SL4,51.481163,-0.610401,England,Windsor
+SL5,51.402679,-0.652689,England,Windsor
+SL6,51.525606,-0.700974,England,Beaconsfield
+SL60,51.518556,-0.714794,England,Maidenhead
+SL7,51.570719,-0.775442,England,Beaconsfield
+SL8,51.575942,-0.708256,England,Beaconsfield
+SL9,51.608596,-0.553672,England,Chesham and Amersham
+SL95,51.508272,-0.584619,England,Slough
+SM1,51.359919,-0.193024,England,Sutton and Cheam
+SM2,51.353102,-0.187734,England,Sutton and Cheam
+SM3,51.369598,-0.1597,England,Carshalton and Wallington
+SM4,51.384566,-0.224633,England,Mitcham and Morden
+SM5,51.380073,-0.183191,England,Carshalton and Wallington
+SM6,51.365888,-0.153082,England,Carshalton and Wallington
+SM7,51.319039,-0.21356,England,Epsom and Ewell
+SN1,51.563689,-1.787886,England,South Swindon
+SN10,51.351626,-1.992039,England,Devizes
+SN11,51.434007,-2.001577,England,North Wiltshire
+SN12,51.369397,-2.134452,England,Chippenham
+SN13,51.43477,-2.19551,England,Chippenham
+SN14,51.46219,-2.127384,England,Chippenham
+SN15,51.465671,-2.117547,England,Chippenham
+SN16,51.58397,-2.099047,England,North Wiltshire
+SN17,51.546538,-1.842447,England,South Swindon
+SN2,51.57052,-1.777162,England,North Swindon
+SN25,51.59524,-1.826717,England,North Swindon
+SN26,51.61266,-1.790185,England,North Swindon
+SN3,51.559752,-1.769887,England,South Swindon
+SN38,51.564251,-1.785647,England,South Swindon
+SN4,51.557951,-1.707799,England,South Swindon
+SN5,51.58857,-1.906938,England,North Wiltshire
+SN6,51.641503,-1.855746,England,North Wiltshire
+SN7,51.657885,-1.581532,England,Wantage
+SN8,51.420795,-1.730346,England,Devizes
+SN9,51.419669,-1.733631,England,Devizes
+SN99,51.551998,-1.722548,England,South Swindon
+SO1,50.899074,-1.404074,England,Southampton
+SO14,50.907036,-1.399592,England,Southampton
+SO15,50.912786,-1.442034,England,Southampton
+SO16,50.941328,-1.485203,E05004637,E10000014
+SO17,50.921951,-1.404067,England,Southampton
+SO18,50.916754,-1.383449,England,Southampton
+SO19,50.899614,-1.331188,England,Southampton
+SO2,50.907004,-1.400375,England,Southampton
+SO20,51.153771,-1.444239,England,Romsey and Southampton North
+SO21,51.093598,-1.291568,England,Winchester
+SO22,51.055671,-1.325405,England,Winchester
+SO23,51.067555,-1.297303,England,Winchester
+SO24,51.084716,-1.140409,England,Meon Valley
+SO3,50.95399,-1.212669,England,Meon Valley
+SO30,50.904324,-1.304583,England,Eastleigh
+SO31,50.871528,-1.27362,England,Fareham
+SO32,50.953928,-1.21277,England,Meon Valley
+SO4,50.786322,-1.609841,England,New Forest East
+SO40,50.934251,-1.508036,England,New Forest East
+SO41,50.761554,-1.622665,England,New Forest West
+SO42,50.818349,-1.570096,England,New Forest East
+SO43,50.873478,-1.576284,England,New Forest East
+SO45,50.802612,-1.332872,E05004592,E10000014
+SO5,50.967647,-1.522879,England,Romsey and Southampton North
+SO50,50.977514,-1.366321,England,Eastleigh
+SO51,51.056829,-1.549045,England,Romsey and Southampton North
+SO52,50.979258,-1.442065,England,Romsey and Southampton North
+SO53,50.996592,-1.390999,England,Winchester
+SO9,50.898737,-1.403268,England,Southampton
+SO97,50.94849,-1.361961,England,Eastleigh
+SP1,51.070568,-1.795797,England,Salisbury
+SP10,51.206331,-1.481741,England,North West Hampshire
+SP11,51.276544,-1.452852,England,North West Hampshire
+SP2,51.096874,-1.867684,England,Salisbury
+SP3,51.082193,-1.920104,England,South West Wiltshire
+SP4,51.148907,-1.71073,E05008337,E99999999
+SP5,51.062215,-1.683087,England,Salisbury
+SP6,50.928658,-1.789076,England,New Forest West
+SP7,51.004025,-2.232856,England,North Dorset
+SP8,51.037332,-2.274697,England,North Dorset
+SP9,51.231325,-1.669038,England,Devizes
+SR1,54.908544,-1.379729,England,Sunderland Central
+SR2,54.871439,-1.370995,England,Sunderland Central
+SR3,54.885966,-1.396739,England,Houghton and Sunderland South
+SR4,54.908181,-1.424685,England,Sunderland Central
+SR43,54.91018,-1.425545,England,Sunderland Central
+SR5,54.912055,-1.382748,England,Sunderland Central
+SR6,54.911468,-1.380323,England,Sunderland Central
+SR7,54.839003,-1.348113,England,Easington
+SR8,54.757944,-1.333286,England,Easington
+SR88,54.756721,-1.334922,England,Easington
+SR9,54.895902,-1.364393,England,Sunderland Central
+SS0,51.552159,0.6778,England,Southend West
+SS1,51.543522,0.71237,England,Rochford and Southend East
+SS11,51.614533,0.523044,England,Rayleigh and Wickford
+SS12,51.613251,0.520358,England,Rayleigh and Wickford
+SS13,51.585559,0.511607,England,South Basildon and East Thurrock
+SS14,51.571103,0.460039,England,Basildon and Billericay
+SS15,51.586298,0.431742,England,Basildon and Billericay
+SS16,51.564444,0.472608,England,South Basildon and East Thurrock
+SS17,51.516681,0.440831,England,South Basildon and East Thurrock
+SS2,51.547411,0.723492,England,Rochford and Southend East
+SS22,51.556979,0.706823,England,Southend West
+SS3,51.553598,0.808534,England,Rochford and Southend East
+SS4,51.583151,0.70835,England,Rochford and Southend East
+SS5,51.60228,0.656471,England,Rayleigh and Wickford
+SS6,51.58447,0.602018,England,Rayleigh and Wickford
+SS7,51.562394,0.575795,England,Castle Point
+SS8,51.518409,0.592051,England,Castle Point
+SS9,51.548733,0.648474,England,Southend West
+SS99,51.531165,0.729429,England,Rochford and Southend East
+ST1,53.024927,-2.174543,England,Stoke-on-Trent Central
+ST10,52.987938,-1.987923,England,Stone
+ST11,52.963058,-2.042642,England,Stone
+ST12,52.945009,-2.158417,England,Stone
+ST13,53.105738,-2.025308,England,Staffordshire Moorlands
+ST14,52.911094,-1.864732,England,Burton
+ST15,52.893683,-2.149371,England,Stone
+ST16,52.803082,-2.123027,England,Stafford
+ST17,52.793316,-2.086474,England,Stafford
+ST18,52.811055,-2.081792,England,Stafford
+ST19,52.725708,-2.115228,England,Stafford
+ST2,53.011902,-2.132967,England,Stoke-on-Trent Central
+ST20,52.741456,-2.208541,England,Stone
+ST21,52.858433,-2.251846,England,Stone
+ST3,52.99614,-2.128046,England,Stoke-on-Trent South
+ST4,53.00325,-2.183292,England,Stoke-on-Trent Central
+ST5,53.038322,-2.217519,England,Newcastle-under-Lyme
+ST55,53.016675,-2.254511,England,Newcastle-under-Lyme
+ST6,53.046585,-2.195723,England,Stoke-on-Trent North
+ST7,53.086593,-2.241099,England,Stoke-on-Trent North
+ST8,53.115886,-2.175898,England,Staffordshire Moorlands
+ST9,53.036713,-2.049441,England,Staffordshire Moorlands
+SW10,51.477972,-0.183005,England,Chelsea and Fulham
+SW11,51.464567,-0.164692,England,Battersea
+SW12,51.448263,-0.142435,England,Streatham
+SW13,51.471845,-0.248994,England,Richmond Park
+SW14,51.46141,-0.269964,England,Richmond Park
+SW15,51.464133,-0.222929,England,Putney
+SW16,51.438393,-0.130763,England,Streatham
+SW17,51.433773,-0.182961,England,Tooting
+SW18,51.458462,-0.185594,England,Battersea
+SW19,51.421637,-0.186146,England,Wimbledon
+SW1A,51.49984,-0.124663,England,Cities of London and Westminster
+SW1E,51.497498,-0.140736,England,Cities of London and Westminster
+SW1H,51.499445,-0.135413,England,Cities of London and Westminster
+SW1P,51.496429,-0.137437,England,Cities of London and Westminster
+SW1V,51.495671,-0.141834,England,Cities of London and Westminster
+SW1W,51.495814,-0.145746,England,Cities of London and Westminster
+SW1X,51.497343,-0.159443,England,Kensington
+SW1Y,51.50799,-0.13381,England,Cities of London and Westminster
+SW2,51.454693,-0.119331,England,Streatham
+SW20,51.421262,-0.253775,England,Richmond Park
+SW3,51.501272,-0.160567,England,Kensington
+SW4,51.461644,-0.148125,England,Vauxhall
+SW5,51.484753,-0.183628,England,Chelsea and Fulham
+SW6,51.48008,-0.19666,England,Chelsea and Fulham
+SW7,51.499509,-0.171444,England,Cities of London and Westminster
+SW8,51.478732,-0.118861,England,Vauxhall
+SW9,51.471957,-0.113034,England,Vauxhall
+SW95,51.481035,-0.135804,England,Battersea
+SW99,51.476133,-0.117758,England,Vauxhall
+SY1,52.713158,-2.749117,England,Shrewsbury and Atcham
+SY10,52.820948,-3.292323,Wales,Montgomeryshire
+SY11,52.859281,-3.055977,England,North Shropshire
+SY12,52.9069,-2.896267,England,North Shropshire
+SY13,52.969175,-2.681603,England,North Shropshire
+SY14,53.016512,-2.777049,England,Eddisbury
+SY15,52.538262,-3.074279,Wales,Montgomeryshire
+SY16,52.514222,-3.313114,Wales,Montgomeryshire
+SY17,52.486086,-3.426162,Wales,Montgomeryshire
+SY18,52.449225,-3.540749,Wales,Montgomeryshire
+SY19,52.613017,-3.628173,Wales,Montgomeryshire
+SY2,52.704308,-2.732537,England,Shrewsbury and Atcham
+SY20,52.58891,-3.843607,Wales,Montgomeryshire
+SY21,52.626567,-3.367905,Wales,Montgomeryshire
+SY22,52.766788,-3.27434,Wales,Montgomeryshire
+SY23,52.414769,-4.083958,Wales,Ceredigion
+SY24,52.453915,-4.01884,Wales,Ceredigion
+SY25,52.290954,-3.898965,Wales,Ceredigion
+SY3,52.669542,-2.782116,E05008141,E99999999
+SY4,52.728789,-2.861986,England,Shrewsbury and Atcham
+SY5,52.639912,-2.927699,England,Shrewsbury and Atcham
+SY6,52.533878,-2.812254,England,Ludlow
+SY7,52.36015,-2.94754,England,Ludlow
+SY8,52.368694,-2.717321,England,Ludlow
+SY9,52.490751,-2.998021,England,Ludlow
+SY99,52.713158,-2.749117,England,Shrewsbury and Atcham
+TA1,51.023456,-3.109704,England,Taunton Deane
+TA10,51.014639,-2.889385,England,Somerton and Frome
+TA11,51.06373,-2.707562,England,Somerton and Frome
+TA12,50.97687,-2.770538,England,Somerton and Frome
+TA13,50.948896,-2.806318,England,Yeovil
+TA14,50.941133,-2.757052,England,Yeovil
+TA15,50.957532,-2.717608,England,Yeovil
+TA16,50.90578,-2.795319,England,Yeovil
+TA17,50.908744,-2.825608,England,Yeovil
+TA18,50.88527,-2.795026,England,Yeovil
+TA19,50.92661,-2.909418,England,Yeovil
+TA2,51.025514,-3.119193,England,Taunton Deane
+TA20,50.880737,-2.955831,England,Yeovil
+TA21,50.986224,-3.242981,England,Taunton Deane
+TA22,51.029445,-3.539619,England,Bridgwater and West Somerset
+TA23,51.180591,-3.330312,England,Bridgwater and West Somerset
+TA24,51.220513,-3.580783,England,Bridgwater and West Somerset
+TA3,51.005767,-3.071254,England,Taunton Deane
+TA4,51.033869,-3.170494,England,Taunton Deane
+TA5,51.127729,-3.097711,England,Bridgwater and West Somerset
+TA6,51.128875,-3.003147,England,Bridgwater and West Somerset
+TA7,51.11358,-2.976429,England,Bridgwater and West Somerset
+TA8,51.231685,-2.997704,England,Wells
+TA9,51.223754,-2.9721,England,Wells
+TD1,55.617469,-2.80901,Scotland,Berwickshire
+TD10,55.707283,-2.462848,Scotland,Berwickshire
+TD11,55.776934,-2.34615,Scotland,Berwickshire
+TD12,55.652683,-2.25212,Scotland,Berwickshire
+TD13,55.9351,-2.360414,Scotland,Berwickshire
+TD14,55.871818,-2.092343,Scotland,Berwickshire
+TD15,55.769182,-2.001265,England,Berwick-upon-Tweed
+TD2,55.719661,-2.75539,Scotland,Berwickshire
+TD3,55.681408,-2.561412,Scotland,Berwickshire
+TD4,55.626578,-2.669079,Scotland,Berwickshire
+TD5,55.599439,-2.431662,Scotland,Berwickshire
+TD6,55.570866,-2.646008,Scotland,Berwickshire
+TD7,55.546945,-2.840416,Scotland,Berwickshire
+TD8,55.478247,-2.555402,Scotland,Berwickshire
+TD9,55.420856,-2.789171,Scotland,Berwickshire
+TF1,52.699974,-2.519917,England,The Wrekin
+TF10,52.770489,-2.3802,England,The Wrekin
+TF11,52.666648,-2.377745,England,The Wrekin
+TF12,52.614614,-2.484227,England,Ludlow
+TF13,52.595412,-2.557918,England,Ludlow
+TF2,52.693363,-2.462253,England,Telford
+TF3,52.660099,-2.441395,England,Telford
+TF4,52.664335,-2.466826,England,Telford
+TF5,52.716644,-2.535349,England,The Wrekin
+TF6,52.697986,-2.542193,England,The Wrekin
+TF7,52.628768,-2.437165,England,Telford
+TF8,52.627618,-2.480869,England,Telford
+TF9,52.903425,-2.483918,England,North Shropshire
+TN1,51.129306,0.260936,England,Tunbridge Wells
+TN10,51.200963,0.275895,England,Tonbridge and Malling
+TN11,51.208275,0.309415,England,Tonbridge and Malling
+TN12,51.16021,0.552263,England,Maidstone and The Weald
+TN13,51.270286,0.191966,England,Sevenoaks
+TN14,51.289188,0.203078,England,Sevenoaks
+TN15,51.289802,0.211053,England,Sevenoaks
+TN16,51.26808,0.071155,England,Sevenoaks
+TN17,51.11261,0.457608,England,Tunbridge Wells
+TN18,51.047775,0.509577,England,Tunbridge Wells
+TN19,51.007049,0.435287,England,Bexhill and Battle
+TN2,51.148289,0.284169,England,Tunbridge Wells
+TN20,51.020422,0.26225,England,Wealden
+TN21,50.968861,0.250129,England,Bexhill and Battle
+TN22,50.971716,0.096287,England,Wealden
+TN23,51.148834,0.870882,England,Ashford
+TN24,51.128217,0.901178,England,Ashford
+TN25,51.168589,0.867832,England,Ashford
+TN26,51.146559,0.875617,England,Ashford
+TN27,51.205701,0.796858,England,Ashford
+TN28,50.986312,0.942066,England,Folkestone and Hythe
+TN29,51.025998,0.997893,England,Folkestone and Hythe
+TN3,51.132023,0.221961,England,Tunbridge Wells
+TN30,51.070875,0.690072,England,Ashford
+TN31,50.946108,0.716005,England,Hastings and Rye
+TN32,50.986955,0.475145,England,Bexhill and Battle
+TN33,50.915716,0.485135,England,Bexhill and Battle
+TN34,50.855758,0.578116,England,Hastings and Rye
+TN35,50.875984,0.635399,England,Hastings and Rye
+TN36,50.923249,0.706135,England,Hastings and Rye
+TN37,50.85235,0.56011,England,Hastings and Rye
+TN38,50.851439,0.540098,England,Hastings and Rye
+TN39,50.833112,0.42801,England,Bexhill and Battle
+TN4,51.15544,0.263758,England,Tunbridge Wells
+TN40,50.840451,0.474258,England,Bexhill and Battle
+TN5,51.063066,0.338246,England,Wealden
+TN6,51.060216,0.160721,England,Wealden
+TN7,51.102805,0.110711,England,Wealden
+TN8,51.197886,0.06414,England,Tonbridge and Malling
+TN9,51.189884,0.287872,England,Tonbridge and Malling
+TQ1,50.464725,-3.526372,England,Torbay
+TQ10,50.426164,-3.834841,England,Totnes
+TQ11,50.481242,-3.777532,England,Central Devon
+TQ12,50.526579,-3.602254,England,Newton Abbot
+TQ13,50.600599,-3.590961,England,Central Devon
+TQ14,50.540204,-3.510165,England,Newton Abbot
+TQ2,50.469733,-3.540146,England,Torbay
+TQ3,50.450107,-3.585076,England,Torbay
+TQ4,50.43536,-3.567671,England,Torbay
+TQ5,50.383912,-3.523283,England,Totnes
+TQ6,50.348487,-3.573101,England,Totnes
+TQ7,50.284549,-3.777183,England,Totnes
+TQ8,50.234858,-3.779373,England,Totnes
+TQ9,50.429983,-3.680894,England,Totnes
+TR1,50.25529,-5.046108,England,Truro and Falmouth
+TR10,50.170894,-5.10711,England,Truro and Falmouth
+TR11,50.15714,-5.071268,England,Truro and Falmouth
+TR12,50.078985,-5.206161,England,St Ives
+TR13,50.135203,-5.306761,E05009163,E99999999
+TR14,50.221258,-5.302744,England,Camborne and Redruth
+TR15,50.234366,-5.228867,England,Camborne and Redruth
+TR16,50.246326,-5.23453,England,Camborne and Redruth
+TR17,50.128756,-5.489354,England,St Ives
+TR18,50.121062,-5.539014,England,St Ives
+TR19,50.102007,-5.582088,England,St Ives
+TR2,50.278998,-4.990558,England,Truro and Falmouth
+TR20,50.140695,-5.484862,England,St Ives
+TR21,50.118876,-5.539594,England,St Ives
+TR22,49.892489,-6.344756,England,St Ives
+TR23,49.953616,-6.352649,England,St Ives
+TR24,49.953907,-6.337222,England,St Ives
+TR25,49.960963,-6.283026,England,St Ives
+TR26,50.211984,-5.48124,England,St Ives
+TR27,50.184244,-5.42085,England,Camborne and Redruth
+TR3,50.247914,-5.057744,England,Truro and Falmouth
+TR4,50.283665,-5.2382,England,Camborne and Redruth
+TR5,50.311817,-5.176799,England,Truro and Falmouth
+TR6,50.346399,-5.139998,England,Truro and Falmouth
+TR7,50.413606,-5.0873,England,St Austell and Newquay
+TR8,50.444855,-5.041255,England,St Austell and Newquay
+TR9,50.43608,-4.940763,England,St Austell and Newquay
+TR93,50.129396,-5.502752,England,St Ives
+TS1,54.575854,-1.244942,England,Middlesbrough
+TS10,54.619226,-1.069421,England,Redcar
+TS11,54.591948,-1.023444,England,Redcar
+TS12,54.58284,-0.974056,England,Middlesbrough South and East Cleveland
+TS13,54.563226,-0.90701,England,Middlesbrough South and East Cleveland
+TS14,54.535329,-1.05297,England,Middlesbrough South and East Cleveland
+TS15,54.454285,-1.341729,England,Richmond (Yorks)
+TS16,54.530358,-1.347784,England,Stockton South
+TS17,54.539262,-1.303902,England,Stockton South
+TS18,54.561963,-1.313289,England,Stockton North
+TS19,54.568026,-1.320611,England,Stockton North
+TS2,54.580052,-1.233601,England,Middlesbrough
+TS20,54.59087,-1.312494,England,Stockton North
+TS21,54.550775,-1.357616,England,Stockton North
+TS22,54.604518,-1.301056,England,Stockton North
+TS23,54.597305,-1.295329,England,Stockton North
+TS24,54.701123,-1.205485,England,Hartlepool
+TS25,54.669581,-1.192145,England,Hartlepool
+TS26,54.682486,-1.243756,England,Hartlepool
+TS27,54.721346,-1.252503,England,Easington
+TS28,54.7258,-1.379323,England,Sedgefield
+TS29,54.718925,-1.411749,England,Sedgefield
+TS3,54.550013,-1.196952,England,Middlesbrough South and East Cleveland
+TS4,54.575279,-1.226358,England,Middlesbrough
+TS5,54.563148,-1.273122,England,Middlesbrough
+TS6,54.566828,-1.174195,England,Redcar
+TS7,54.525681,-1.173712,England,Middlesbrough South and East Cleveland
+TS8,54.504029,-1.216632,England,Richmond (Yorks)
+TS9,54.469223,-1.193581,England,Richmond (Yorks)
+TS90,54.575854,-1.244942,England,Middlesbrough
+TW1,51.450066,-0.332278,England,Twickenham
+TW10,51.483003,-0.284759,England,Richmond Park
+TW11,51.426112,-0.334934,England,Twickenham
+TW12,51.432255,-0.375394,England,Twickenham
+TW13,51.445927,-0.415764,England,Feltham and Heston
+TW14,51.450907,-0.405013,England,Feltham and Heston
+TW15,51.43211,-0.440209,England,Spelthorne
+TW16,51.418743,-0.414402,England,Spelthorne
+TW17,51.398655,-0.454874,England,Spelthorne
+TW18,51.430519,-0.498049,England,Spelthorne
+TW19,51.45087,-0.554732,England,Windsor
+TW2,51.444881,-0.340137,England,Twickenham
+TW20,51.439534,-0.542587,England,Runnymede and Weybridge
+TW3,51.470272,-0.360985,England,Brentford and Isleworth
+TW4,51.463738,-0.383922,England,Brentford and Isleworth
+TW5,51.477373,-0.383469,England,Feltham and Heston
+TW6,51.470362,-0.458471,England,Hayes and Harlington
+TW7,51.474163,-0.349888,England,Brentford and Isleworth
+TW8,51.483357,-0.30357,England,Brentford and Isleworth
+TW9,51.460814,-0.302376,England,Richmond Park
+UB1,51.5075,-0.378483,England,Ealing
+UB10,51.536914,-0.471566,England,Uxbridge and South Ruislip
+UB11,51.512385,-0.444371,England,Hayes and Harlington
+UB18,51.50072,-0.402684,England,Ealing
+UB2,51.506173,-0.378055,England,Ealing
+UB3,51.508331,-0.423586,England,Hayes and Harlington
+UB4,51.525886,-0.417704,England,Hayes and Harlington
+UB5,51.548213,-0.368441,England,Ealing North
+UB6,51.542248,-0.343807,England,Ealing North
+UB7,51.48946,-0.471425,England,Hayes and Harlington
+UB8,51.537334,-0.487341,England,Uxbridge and South Ruislip
+UB9,51.551326,-0.485232,England,Beaconsfield
+W1,51.519657,-0.152216,England,Cities of London and Westminster
+W10,51.529068,-0.215875,England,Westminster North
+W11,51.520272,-0.200435,England,Westminster North
+W12,51.516397,-0.244403,England,Hammersmith
+W13,51.528521,-0.329557,England,Ealing North
+W14,51.499436,-0.21866,England,Hammersmith
+W1A,51.517133,-0.134244,England,Cities of London and Westminster
+W1B,51.52161,-0.146054,England,Cities of London and Westminster
+W1C,51.515373,-0.149132,England,Cities of London and Westminster
+W1D,51.51631,-0.134493,England,Cities of London and Westminster
+W1F,51.512957,-0.134011,England,Cities of London and Westminster
+W1G,51.516184,-0.148119,England,Cities of London and Westminster
+W1H,51.515401,-0.153238,England,Cities of London and Westminster
+W1J,51.509092,-0.137555,England,Cities of London and Westminster
+W1K,51.504919,-0.151126,England,Cities of London and Westminster
+W1M,51.515948,-0.145159,England,Cities of London and Westminster
+W1N,51.514219,-0.149553,England,Cities of London and Westminster
+W1P,51.521973,-0.136035,England,Holborn and St Pancras
+W1R,51.512331,-0.143865,England,Cities of London and Westminster
+W1S,51.514335,-0.146061,England,Cities of London and Westminster
+W1T,51.517133,-0.134244,England,Cities of London and Westminster
+W1U,51.515112,-0.150872,England,Cities of London and Westminster
+W1V,51.509092,-0.137555,England,Cities of London and Westminster
+W1W,51.522937,-0.143535,England,Cities of London and Westminster
+W1X,51.511678,-0.149238,England,Cities of London and Westminster
+W1Y,51.510964,-0.142739,England,Cities of London and Westminster
+W2,51.516375,-0.175251,England,Cities of London and Westminster
+W3,51.519838,-0.268414,England,Ealing Central and Acton
+W4,51.501346,-0.254217,England,Ealing Central and Acton
+W5,51.528642,-0.297937,England,Ealing Central and Acton
+W6,51.495144,-0.227399,England,Hammersmith
+W7,51.518505,-0.337894,England,Ealing North
+W8,51.504699,-0.192994,England,Kensington
+W9,51.522735,-0.181195,England,Westminster North
+WA1,53.387343,-2.598369,England,Warrington South
+WA10,53.450627,-2.741917,England,St Helens South and Whiston
+WA11,53.464165,-2.70168,England,St Helens North
+WA12,53.458998,-2.623519,England,St Helens North
+WA13,53.381321,-2.478814,England,Warrington South
+WA14,53.384537,-2.346923,England,Altrincham and Sale West
+WA15,53.366184,-2.313833,England,Altrincham and Sale West
+WA16,53.303319,-2.383764,England,Tatton
+WA2,53.412209,-2.558881,England,Warrington North
+WA3,53.472898,-2.555415,England,Leigh
+WA4,53.384975,-2.588443,England,Warrington South
+WA5,53.397172,-2.610057,England,Warrington South
+WA55,53.389638,-2.606686,England,Warrington South
+WA6,53.273977,-2.76922,England,Weaver Vale
+WA7,53.32578,-2.694467,England,Weaver Vale
+WA8,53.369442,-2.718202,England,Halton
+WA88,53.367977,-2.768674,England,Halton
+WA9,53.452264,-2.724267,England,St Helens South and Whiston
+WC1A,51.516595,-0.129279,England,Holborn and St Pancras
+WC1B,51.518137,-0.12897,England,Holborn and St Pancras
+WC1E,51.522774,-0.133307,England,Holborn and St Pancras
+WC1H,51.522908,-0.129827,England,Holborn and St Pancras
+WC1N,51.524571,-0.125276,England,Holborn and St Pancras
+WC1R,51.518266,-0.120144,England,Holborn and St Pancras
+WC1V,51.518435,-0.113896,England,Holborn and St Pancras
+WC1X,51.523743,-0.111803,England,Islington South and Finsbury
+WC2A,51.51785,-0.113848,England,Holborn and St Pancras
+WC2B,51.514374,-0.119713,England,Cities of London and Westminster
+WC2E,51.513814,-0.12295,England,Cities of London and Westminster
+WC2H,51.513034,-0.129237,England,Cities of London and Westminster
+WC2N,51.511497,-0.127585,England,Cities of London and Westminster
+WC2R,51.510588,-0.120258,England,Cities of London and Westminster
+WC99,51.516327,-0.123769,England,Holborn and St Pancras
+WD1,51.64862,-0.424507,England,Watford
+WD17,51.656885,-0.398674,England,Watford
+WD18,51.653147,-0.394209,England,Watford
+WD19,51.646236,-0.382702,England,Watford
+WD2,51.640457,-0.357689,England,Hertsmere
+WD23,51.640496,-0.357905,England,Hertsmere
+WD24,51.668112,-0.397064,England,Watford
+WD25,51.688203,-0.405165,England,Watford
+WD3,51.639741,-0.474557,England,South West Hertfordshire
+WD4,51.712833,-0.4503,England,Hemel Hempstead
+WD5,51.707237,-0.416349,England,Watford
+WD6,51.654297,-0.27924,England,Hertsmere
+WD7,51.682948,-0.31724,England,Hertsmere
+WD99,51.648777,-0.422087,England,Watford
+WF1,53.679403,-1.500734,England,Wakefield
+WF10,53.726949,-1.35379,England,Normanton
+WF11,53.69582,-1.261472,England,Normanton
+WF12,53.672305,-1.627572,England,Dewsbury
+WF13,53.691992,-1.628353,England,Dewsbury
+WF14,53.685173,-1.696382,England,Dewsbury
+WF15,53.713787,-1.680858,England,Batley and Spen
+WF16,53.706621,-1.673565,England,Batley and Spen
+WF17,53.72128,-1.64187,England,Batley and Spen
+WF2,53.685426,-1.520801,England,Wakefield
+WF3,53.723803,-1.567406,England,Morley and Outwood
+WF4,53.666415,-1.417162,E05001448,E99999999
+WF5,53.664136,-1.579065,England,Wakefield
+WF6,53.699565,-1.415659,England,Normanton
+WF7,53.674163,-1.350708,England,Hemsworth
+WF8,53.693105,-1.308164,England,Normanton
+WF9,53.627064,-1.295136,E05001444,E99999999
+WF90,53.674436,-1.490892,England,Wakefield
+WN1,53.546971,-2.635089,England,Wigan
+WN2,53.555452,-2.610023,England,Wigan
+WN3,53.542386,-2.636922,England,Wigan
+WN4,53.501558,-2.64739,England,Makerfield
+WN5,53.537828,-2.688986,England,Wigan
+WN6,53.57369,-2.64079,England,Wigan
+WN7,53.497459,-2.516316,England,Leigh
+WN8,53.540431,-2.745132,England,West Lancashire
+WR1,52.196683,-2.216937,England,Worcester
+WR10,52.110569,-2.074703,England,West Worcestershire
+WR11,52.08019,-1.941294,England,Mid Worcestershire
+WR12,52.035684,-1.862793,England,Mid Worcestershire
+WR13,52.125742,-2.287495,England,West Worcestershire
+WR14,52.128137,-2.313936,England,West Worcestershire
+WR15,52.31256,-2.593973,England,West Worcestershire
+WR2,52.187763,-2.231858,England,Worcester
+WR3,52.207324,-2.228418,England,Worcester
+WR4,52.214143,-2.160454,England,Mid Worcestershire
+WR5,52.189459,-2.214883,England,Worcester
+WR6,52.147571,-2.443833,England,North Herefordshire
+WR7,52.206966,-2.117464,England,Mid Worcestershire
+WR78,52.197687,-2.223497,England,Worcester
+WR8,52.087415,-2.238999,England,West Worcestershire
+WR9,52.267131,-2.168002,England,Mid Worcestershire
+WR99,52.185384,-2.252074,England,Worcester
+WS1,52.58609,-1.981419,England,Walsall South
+WS10,52.548575,-2.019747,England,West Bromwich West
+WS11,52.68706,-2.02842,England,Cannock Chase
+WS12,52.691941,-2.028409,England,Cannock Chase
+WS13,52.684575,-1.828183,England,Lichfield
+WS14,52.672925,-1.834884,England,Lichfield
+WS15,52.746993,-1.927207,England,Cannock Chase
+WS2,52.588011,-2.03085,England,Walsall South
+WS3,52.607134,-1.978206,England,Walsall North
+WS4,52.619506,-1.952897,England,Aldridge-Brownhills
+WS5,52.572852,-1.961239,England,Walsall South
+WS6,52.65916,-2.0042,England,South Staffordshire
+WS7,52.677774,-1.915652,England,Lichfield
+WS8,52.647409,-1.932441,England,Aldridge-Brownhills
+WS9,52.600259,-1.920141,England,Aldridge-Brownhills
+WV1,52.588319,-2.114778,England,Wolverhampton North East
+WV10,52.593237,-2.122482,England,Wolverhampton North East
+WV11,52.615849,-2.089476,England,Wolverhampton North East
+WV12,52.601197,-2.035407,England,Walsall North
+WV13,52.590087,-2.056477,England,Walsall North
+WV14,52.565212,-2.073572,England,Wolverhampton South East
+WV15,52.534185,-2.414863,England,Ludlow
+WV16,52.53432,-2.419744,England,Ludlow
+WV2,52.581441,-2.124618,England,Wolverhampton South West
+WV3,52.57252,-2.14286,England,Wolverhampton South West
+WV4,52.567798,-2.144866,England,Wolverhampton South West
+WV5,52.524749,-2.198241,England,South Staffordshire
+WV6,52.593409,-2.145792,England,Wolverhampton South West
+WV7,52.642743,-2.281226,England,The Wrekin
+WV8,52.626107,-2.193913,England,South Staffordshire
+WV9,52.660618,-2.136199,England,South Staffordshire
+WV98,52.600561,-2.133399,England,Wolverhampton South West
+YO1,53.960431,-1.092336,England,York Central
+YO10,53.954494,-1.05775,England,York Central
+YO11,54.282344,-0.402302,England,Scarborough and Whitby
+YO12,54.276028,-0.417567,England,Scarborough and Whitby
+YO13,54.31535,-0.448512,England,Scarborough and Whitby
+YO14,54.208929,-0.293673,England,Thirsk and Malton
+YO15,54.113452,-0.150159,England,East Yorkshire
+YO16,54.089811,-0.208933,England,East Yorkshire
+YO17,54.134305,-0.798168,England,Thirsk and Malton
+YO18,54.245997,-0.777474,England,Thirsk and Malton
+YO19,53.920831,-1.065497,England,York Outer
+YO2,53.954138,-1.087322,England,York Central
+YO21,54.485508,-0.615373,England,Scarborough and Whitby
+YO22,54.482392,-0.609381,England,Scarborough and Whitby
+YO23,53.954138,-1.087322,England,York Central
+YO24,53.958677,-1.092161,England,York Central
+YO25,54.024896,-0.465938,England,East Yorkshire
+YO26,53.960431,-1.092336,England,York Central
+YO3,53.96702,-1.060745,England,York Central
+YO30,54.022094,-1.15727,England,Thirsk and Malton
+YO31,53.96702,-1.060745,England,York Central
+YO32,54.018892,-1.091492,England,York Outer
+YO4,53.990841,-0.913876,England,East Yorkshire
+YO41,53.990789,-0.914091,England,East Yorkshire
+YO42,53.925493,-0.801051,England,East Yorkshire
+YO43,53.864177,-0.665943,England,East Yorkshire
+YO5,53.862773,-1.19271,England,Selby and Ainsty
+YO51,54.09612,-1.396907,England,Harrogate and Knaresborough
+YO6,54.022094,-1.15727,England,Thirsk and Malton
+YO60,54.128238,-0.979227,England,Thirsk and Malton
+YO61,54.10165,-1.110376,England,Thirsk and Malton
+YO62,54.164805,-0.933036,England,Thirsk and Malton
+YO7,54.233506,-1.342301,England,Thirsk and Malton
+YO8,53.781609,-1.065072,England,Selby and Ainsty
+YO90,53.958918,-1.088376,England,York Central
+YO91,53.97471,-1.075422,England,York Central
+YO95,53.926666,-0.815105,England,East Yorkshire
+ZE1,60.153223,-1.141595,Scotland,Orkney and Shetland
+ZE2,60.340021,-1.022497,Scotland,Orkney and Shetland
+ZE3,59.887105,-1.307578,Scotland,Orkney and Shetland

@@ -22,8 +22,13 @@
 
 namespace Nircbot.Modules.Weather
 {
+    using System.Collections.Generic;
+
+    using Nircbot.Core.Entities;
     using Nircbot.Core.Irc;
+    using Nircbot.Core.Irc.Messages;
     using Nircbot.Core.Module;
+    using Nircbot.Modules.Weather.Service;
 
     /// <summary>
     /// The weather module.
@@ -31,11 +36,71 @@ namespace Nircbot.Modules.Weather
     public class WeatherModule : BaseModule
     {
         /// <summary>
+        /// The weather provider
+        /// </summary>
+        private readonly IWeatherProvider weatherProvider;
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="WeatherModule" /> class.
         /// </summary>
         /// <param name="ircClient">The irc client.</param>
-        protected WeatherModule(IIrcClient ircClient) : base(ircClient)
+        /// <param name="weatherProvider">The weather provider.</param>
+        public WeatherModule(IIrcClient ircClient, IWeatherProvider weatherProvider) : base(ircClient)
         {
+            this.weatherProvider = weatherProvider;
+        }
+
+        /// <summary>
+        /// Registers the commands.
+        /// </summary>
+        /// <returns>
+        /// The <see cref="IEnumerable{Command}" />.
+        /// </returns>
+        public override IEnumerable<Command> RegisterCommands()
+        {
+            var weatherCommand = new Command("!weather", GetWeather)
+            {
+                LevelRequired = AccessLevel.None,
+                Description = "Provides access to detailed up to date weather information",
+                Accepts = MessageType.Both,
+                Examples = new []
+                {
+                    "!weather --forecast --conditions --zipcode 310310 --country UK --City London",
+                    "!weather --conditions --postcode sm5 2ht",
+                    "!weather sm5 2ht",
+                    "!weather --lang FR --postcode sm5 2ht",
+                }
+            };
+
+            weatherCommand.CreateArgument("forecast");
+            weatherCommand.CreateArgument("conditions");
+            weatherCommand.CreateArgument("postcode");
+            weatherCommand.CreateArgument("country");
+            weatherCommand.CreateArgument("city");
+            weatherCommand.CreateArgument("webcams");
+            weatherCommand.CreateArgument("lang");
+
+            return new[] { weatherCommand };
+        }
+
+        /// <summary>
+        /// Gets the weather.
+        /// </summary>
+        /// <param name="user">The user.</param>
+        /// <param name="channel">The channel.</param>
+        /// <param name="messageType">Type of the message.</param>
+        /// <param name="messageFormat">The message format.</param>
+        /// <param name="message">The message.</param>
+        /// <param name="arguments">The arguments.</param>
+        private void GetWeather(User user, string channel, MessageType messageType, MessageFormat messageFormat, string message, Dictionary<string, string> arguments)
+        {
+            var targets = new[] { channel ?? user.Nick };
+            IEnumerable<IResponse> weatherResponses = this.weatherProvider.GetWeather(targets, messageFormat, messageType, message, arguments);
+
+            foreach (var weatherResponse in weatherResponses)
+            {
+                this.SendResponse(weatherResponse);
+            }
         }
     }
 }

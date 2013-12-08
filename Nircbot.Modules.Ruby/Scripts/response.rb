@@ -7,15 +7,14 @@
 	attr_accessor :message
 	attr_accessor :message_type
 	attr_accessor :message_format
-	attr_accessor :targets
-	
-	@targets = System::Collections::Generic::List.of(String).new
+	attr_accessor :targets	
 	
 	def initialize(message, targets, message_format, message_type)
 		@targets = targets
 		@message = message
 		@message_type = message_type
 		@message_format = message_format
+		@targets = targets
 	end	
 	
 	def initialize

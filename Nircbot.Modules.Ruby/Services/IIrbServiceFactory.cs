@@ -23,7 +23,6 @@
 namespace Nircbot.Modules.Ruby.Services
 {
     using Nircbot.Core.Irc;
-    using Nircbot.Core.Module;
 
     /// <summary>
     /// The IrbServiceFactory interface.
@@ -34,7 +33,7 @@ namespace Nircbot.Modules.Ruby.Services
         /// Creates the specified IIrbService with the given module
         /// </summary>
         /// <param name="ircClient">The irc client.</param>
-        /// <returns></returns>
+        /// <returns>The Interactive service for a client.</returns>
         IIrbService Create(IIrcClient ircClient);
     }
 }

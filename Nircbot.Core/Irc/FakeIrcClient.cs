@@ -148,6 +148,7 @@ namespace Nircbot.Core.Irc
         public override void Dispose()
         {
             Console.WriteLine("Disposed underlying ircClient and all resources.");
+            
         }
 
         /// <summary>
