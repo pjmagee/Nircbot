@@ -685,8 +685,30 @@ namespace Nircbot.Core.Irc
         /// </param>
         private void LocalUserOnJoinedChannel(object sender, IrcChannelEventArgs e)
         {
+            e.Channel.UserLeft += this.ChannelOnUserLeft;
+            e.Channel.UserJoined += this.ChannelOnUserJoined;
             e.Channel.MessageReceived += this.ChannelOnMessageReceived;
             e.Channel.TopicChanged += this.ChannelOnTopicChanged;
+        }
+
+        private void ChannelOnUserLeft(object sender, IrcChannelUserEventArgs e)
+        {
+            var channel = (IrcChannel)sender;
+            var ircUser = e.ChannelUser.User;
+
+            User user = this.GetOrCreateGuestUser(ircUser);
+
+            Parallel.ForEach(this.Modules, module => module.OnUserLeft(user, channel.Name));
+        }
+
+        private void ChannelOnUserJoined(object sender, IrcChannelUserEventArgs e)
+        {
+            var channel = (IrcChannel)sender;
+            var ircUser = e.ChannelUser.User;
+
+            User user = this.GetOrCreateGuestUser(ircUser);
+
+            Parallel.ForEach(this.Modules, module => module.OnUserJoined(user, channel.Name));
         }
 
         /// <summary>
@@ -702,6 +724,8 @@ namespace Nircbot.Core.Irc
         {
             e.Channel.MessageReceived -= this.ChannelOnMessageReceived;
             e.Channel.TopicChanged -= this.ChannelOnTopicChanged;
+            e.Channel.UserLeft  -= this.ChannelOnUserLeft;
+            e.Channel.UserJoined -= this.ChannelOnUserJoined;
         }
 
         /// <summary>
