@@ -94,7 +94,9 @@ namespace Nircbot.Modules.Dice
             yield return new Command(DiceRegex, this.OnRoll)
                              {
                                  LevelRequired = AccessLevel.None,
-                                 Description = "Rolls a die"
+                                 Description = "Rolls a die",
+                                 Examples = new[] {  "!roll", "To roll the die 10 times, !roll 10"},
+                                 Accepts = MessageType.Both,
                              };
         }
 
