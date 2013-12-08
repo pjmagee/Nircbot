@@ -54,7 +54,7 @@ namespace Nircbot.Modules
         /// </returns>
         public override IEnumerable<Command> RegisterCommands()
         {
-            var listModules = new Command("!modules", this.Modules)
+            var listModules = new Command("!modules", this.ListModules)
                                       {
                                           Description = "Provides information about the modules of the bot.",
                                           Examples = new [] { "!modules --list", "!modules --root", "!modules --examples" },
@@ -106,32 +106,6 @@ namespace Nircbot.Modules
         }
 
         /// <summary>
-        /// Sends the module commands.
-        /// </summary>
-        /// <param name="user">The user.</param>
-        /// <param name="messageType">Type of the message.</param>
-        /// <param name="module">The module.</param>
-        /// <param name="targets">The targets.</param>
-        private void SendModuleCommands(User user, MessageType messageType, IModule module, string[] targets)
-        {
-            // For each possible command where the command is accessible
-            foreach (var command in module.Commands.Where(c => c.LevelRequired <= user.AccessLevel))
-            {
-                var response = new Response("{0}: {1}".FormatWith(command.Trigger, command.Description), targets, MessageFormat.Notice,messageType);
-                this.SendResponse(response);
-
-                response.Message = string.Empty;
-
-                foreach (var argument in command.KnownArguments)
-                {
-                    response.Message += "{0}{1} {2}".FormatWith(command.ArgumentSplitter, argument.Key, argument.Value);
-                }
-
-                this.SendResponse(response);
-            }
-        }
-
-        /// <summary>
         /// Lists the modules.
         /// </summary>
         /// <param name="user">The user.</param>
@@ -140,14 +114,27 @@ namespace Nircbot.Modules
         /// <param name="messageFormat">The message format.</param>
         /// <param name="message">The message.</param>
         /// <param name="arguments">The arguments.</param>
-        private void Modules(User user, string channel, MessageType messageType, MessageFormat messageFormat, string message, Dictionary<string, string> arguments)
+        private void ListModules(User user, string channel, MessageType messageType, MessageFormat messageFormat, string message, Dictionary<string, string> arguments)
         {
             var targets = new[] { user.Nick };
 
             if (arguments.None())
             {
                 this.SendCommandUsageExamples(this, targets, messageType, messageFormat);
-                return;
+            }
+
+            foreach (var key in arguments.Keys)
+            {
+                AccessLevel level;
+
+                if (Enum.TryParse(key, ignoreCase: true, result: out level))
+                {
+                    foreach (var module in this.IrcClient.Modules.Where(m => m.Commands.Any(c => c.LevelRequired <= level && c.LevelRequired <= user.AccessLevel)))
+                    {
+                        var moduleInfoResponse = new Response("{0}: {1}".FormatWith(module.Name, module.Description), targets, MessageFormat.Notice, messageType);
+                        this.SendResponse(moduleInfoResponse);
+                    }
+                }
             }
 
             if (arguments.ContainsKey("list"))
@@ -160,6 +147,17 @@ namespace Nircbot.Modules
                 }
 
                 this.GetMoreInformation(messageType, targets);
+            }
+
+            if (arguments.ContainsKey("examples"))
+            {
+                // For each module where the module has a command that is accessible by this user
+                foreach (var module in this.IrcClient.Modules.Where(m => m.Commands.Any(c => c.LevelRequired <= user.AccessLevel)))
+                {
+                    var response = new Response("{0}: {1}".FormatWith(module.Name, module.Description), targets, MessageFormat.Notice, messageType);
+                    this.SendResponse(response);
+                    this.SendCommandUsageExamples(module, targets, messageType, messageFormat);
+                }
             }
         }
 
@@ -181,6 +179,32 @@ namespace Nircbot.Modules
                     response.Message = "{0}".FormatWith(example);
                     this.SendResponse(response);
                 }
+            }
+        }
+
+        /// <summary>
+        /// Sends the module commands.
+        /// </summary>
+        /// <param name="user">The user.</param>
+        /// <param name="messageType">Type of the message.</param>
+        /// <param name="module">The module.</param>
+        /// <param name="targets">The targets.</param>
+        private void SendModuleCommands(User user, MessageType messageType, IModule module, string[] targets)
+        {
+            // For each possible command where the command is accessible
+            foreach (var command in module.Commands.Where(c => c.LevelRequired <= user.AccessLevel))
+            {
+                var response = new Response("{0}: {1}".FormatWith(command.Trigger, command.Description), targets, MessageFormat.Notice, messageType);
+                this.SendResponse(response);
+
+                response.Message = string.Empty;
+
+                foreach (var argument in command.KnownArguments)
+                {
+                    response.Message += "{0}{1} {2}".FormatWith(command.ArgumentSplitter, argument.Key, argument.Value);
+                }
+
+                this.SendResponse(response);
             }
         }
 

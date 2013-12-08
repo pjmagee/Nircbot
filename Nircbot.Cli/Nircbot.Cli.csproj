@@ -72,6 +72,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Xml.Linq" />
@@ -127,6 +128,10 @@
     <ProjectReference Include="..\Nircbot.Modules.Ruby\Nircbot.Modules.Ruby.csproj">
       <Project>{6CD3E542-11F9-4153-A604-80CC5F3D37C3}</Project>
       <Name>Nircbot.Modules.Ruby</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nircbot.Modules.UrbanDictionary\Nircbot.Modules.UrbanDictionary.csproj">
+      <Project>{00C16BF5-496D-424F-A7C2-13062A66A0B4}</Project>
+      <Name>Nircbot.Modules.UrbanDictionary</Name>
     </ProjectReference>
     <ProjectReference Include="..\Nircbot.Modules\Nircbot.Modules.ModuleInfo.csproj">
       <Project>{4de4693f-e428-4fd8-b1cc-96608498dd69}</Project>

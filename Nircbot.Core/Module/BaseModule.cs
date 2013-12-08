@@ -41,7 +41,7 @@ namespace Nircbot.Core.Module
     /// <summary>
     /// The base module.
     /// </summary>
-    public class BaseModule : IModule, IStartable
+    public abstract class BaseModule : IModule, IStartable
     {
         #region Fields
 
@@ -295,7 +295,7 @@ namespace Nircbot.Core.Module
         /// Sends the response.
         /// </summary>
         /// <param name="response">The response.</param>
-        protected void SendResponse(IResponse response)
+        public void SendResponse(IResponse response)
         {
             this.ircClient.SendResponse(response);
         }

@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.Weather", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.Dice", "Nircbot.Modules.Dice\Nircbot.Modules.Dice.csproj", "{DE312583-1034-4073-933D-39CA19B41A9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.UrbanDictionary", "Nircbot.Modules.UrbanDictionary\Nircbot.Modules.UrbanDictionary.csproj", "{00C16BF5-496D-424F-A7C2-13062A66A0B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nircbot.Modules.UrbanDictionary.Tests", "Nircbot.Modules.UrbanDictionary.Tests\Nircbot.Modules.UrbanDictionary.Tests.csproj", "{F7B8A327-1D59-428A-A72A-9AC317F9B270}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{DE312583-1034-4073-933D-39CA19B41A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE312583-1034-4073-933D-39CA19B41A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE312583-1034-4073-933D-39CA19B41A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C16BF5-496D-424F-A7C2-13062A66A0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C16BF5-496D-424F-A7C2-13062A66A0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C16BF5-496D-424F-A7C2-13062A66A0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C16BF5-496D-424F-A7C2-13062A66A0B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B8A327-1D59-428A-A72A-9AC317F9B270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B8A327-1D59-428A-A72A-9AC317F9B270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B8A327-1D59-428A-A72A-9AC317F9B270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B8A327-1D59-428A-A72A-9AC317F9B270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

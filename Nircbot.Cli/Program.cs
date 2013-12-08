@@ -25,6 +25,7 @@ namespace Nircbot.Cli
     #region
 
     using System;
+    using System.Configuration;
     using System.Diagnostics;
 
     using Ninject;
@@ -39,6 +40,9 @@ namespace Nircbot.Cli
     using Nircbot.Modules.Admin;
     using Nircbot.Modules.Dice;
     using Nircbot.Modules.Ruby;
+    using Nircbot.Modules.Ruby.Services;
+    using Nircbot.Modules.UrbanDictionary;
+    using Nircbot.Modules.UrbanDictionary.Service;
 
     #endregion
 
@@ -66,30 +70,42 @@ namespace Nircbot.Cli
 
                 kernel.Bind<IUserService>().To<UserService>().InSingletonScope();
                 kernel.Bind<IIrcClient>().To<DefaultIrcClient>();
-                kernel.Bind<IIrcClientFactory>().ToFactory();
+
+                kernel.Bind<IUrbanService>()
+                    .To<UrbanService>()
+                    .WithConstructorArgument("apiKey", ConfigurationManager.AppSettings.Get("Mashape.Api.Key"));
+
+                kernel.Bind<IIrbService>().To<IrbService>();
+
+                kernel.Bind<IModule>()
+                    .To<UrbanDictionaryModule>()
+                    .WithPropertyValue("Name", "Urban")
+                    .WithPropertyValue("Description", "Provides results from UrbanDictionary with a given term.");
 
                 kernel.Bind<IModule>()
                     .To<ModuleInfoModule>()
-                    .WithPropertyValue("Name", "InfoModule")
+                    .WithPropertyValue("Name", "Information")
                     .WithPropertyValue("Description", "Module that provides information about modules.");
 
                 kernel.Bind<IModule>()
                     .To<DiceModule>()
-                    .WithPropertyValue("Name", "Dice Module")
+                    .WithPropertyValue("Name", "Dice")
                     .WithPropertyValue("Description", "Module for rolling a dice.");
                 
                 kernel.Bind<IModule>()
                     .To<RubyModule>()
-                    .WithPropertyValue("Name", "Ruby Module")
+                    .WithPropertyValue("Name", "Ruby")
                     .WithPropertyValue("Description", "Supports executing ruby scripts and an interactive ruby session.");
 
                 kernel.Bind<IModule>()
                     .To<AdminModule>()
-                    .WithPropertyValue("Name", "Admin Module")
+                    .WithPropertyValue("Name", "Admin")
                     .WithPropertyValue("Description", "Administers the bot.");
 
+                kernel.Bind<IIrbServiceFactory>().ToFactory();
                 kernel.Bind<IModuleFactory>().ToFactory();
-
+                kernel.Bind<IIrcClientFactory>().ToFactory();
+                
                 kernel.Bind<Bot>().ToSelf().InSingletonScope();
 
                 var nircbot = kernel.Get<Bot>();
