@@ -62,6 +62,8 @@ namespace Nircbot.Modules.Blackjack
             {
                 throw new ArgumentNullException("blackjackService");
             }
+
+            this.blackjackServiceFactory = blackjackServiceFactory;
         }
 
         /// <summary>
