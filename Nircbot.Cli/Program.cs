@@ -38,6 +38,7 @@ namespace Nircbot.Cli
     using Nircbot.Core.Services;
     using Nircbot.Modules;
     using Nircbot.Modules.Admin;
+    using Nircbot.Modules.Blackjack.Services;
     using Nircbot.Modules.Dice;
     using Nircbot.Modules.Ruby;
     using Nircbot.Modules.Ruby.Services;
@@ -153,6 +154,7 @@ namespace Nircbot.Cli
                 kernel.Bind<IIrbServiceFactory>().ToFactory();
                 kernel.Bind<IModuleFactory>().ToFactory();
                 kernel.Bind<IIrcClientFactory>().ToFactory();
+                kernel.Bind<IBlackjackServiceFactory>().ToFactory();
 
                 #endregion
 
